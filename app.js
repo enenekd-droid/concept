@@ -154,10 +154,16 @@ function renderHome() {
         <p class="home-kicker">국어 · 사회 · 과학</p>
         <h1><span>도전! 초등</span><br />개념어 마스터</h1>
         <p class="home-subtitle">교과서 속 중요 개념어를 학습하고<br /><span>퀴즈로 실력을 확인해요.</span></p>
-        <div class="home-guide">학년을 선택해 주세요.</div>
+        <div class="home-guide"><span>학년</span>을 <span>선택</span>해 주세요.</div>
         <div class="grade-grid" aria-label="학년 선택">
-          ${[3, 4, 5, 6].map((grade) => `
+          ${[
+            { grade: 3, emoji: "👧🏻" },
+            { grade: 4, emoji: "👦🏻" },
+            { grade: 5, emoji: "👧🏽" },
+            { grade: 6, emoji: "👦🏽" },
+          ].map(({ grade, emoji }) => `
             <button class="grade-card" data-grade="${grade}" type="button">
+              <span class="grade-emoji" aria-hidden="true">${emoji}</span>
               <span>초등</span>
               <strong>${grade}학년</strong>
             </button>

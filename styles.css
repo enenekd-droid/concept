@@ -23,7 +23,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  font-family: "Arial Rounded MT Bold", "NanumSquareRound", "Jua", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   color: var(--ink);
   background:
     radial-gradient(circle at 18% 12%, rgba(255, 240, 74, 0.18), transparent 18rem),
@@ -42,9 +42,9 @@ button {
 }
 
 .app-shell {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1120px, calc(100% - 24px));
   margin: 0 auto;
-  padding: 28px 0;
+  padding: 14px 0;
 }
 
 .loading {
@@ -202,9 +202,9 @@ button {
 }
 
 .home-screen {
-  min-height: calc(100vh - 56px);
+  min-height: calc(100vh - 28px);
   display: block;
-  padding: 32px 0;
+  padding: 0;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -214,7 +214,7 @@ button {
 }
 
 .window-bar {
-  height: 48px;
+  height: 42px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -224,8 +224,8 @@ button {
 }
 
 .window-bar span {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border: 3px solid var(--line);
   border-radius: 50%;
   background: #20df98;
@@ -234,23 +234,23 @@ button {
 .home-inner {
   width: min(980px, 100%);
   margin: 0 auto;
-  padding: clamp(36px, 6vw, 78px) clamp(20px, 5vw, 64px);
+  padding: clamp(22px, 4vw, 44px) clamp(18px, 5vw, 54px) 30px;
   text-align: center;
   position: relative;
   z-index: 1;
 }
 
 .home-kicker {
-  margin: 0 0 14px;
+  margin: 0 0 8px;
   color: var(--mint-dark);
-  font-size: clamp(26px, 4vw, 40px);
+  font-size: clamp(22px, 3vw, 32px);
   font-weight: 900;
 }
 
 .home-inner h1 {
   margin: 0;
   color: var(--mint-dark);
-  font-size: clamp(48px, 8vw, 88px);
+  font-size: clamp(42px, 6.8vw, 72px);
   line-height: 1.08;
   letter-spacing: 0;
 }
@@ -261,10 +261,10 @@ button {
 }
 
 .home-subtitle {
-  margin: 18px auto 0;
+  margin: 12px auto 0;
   max-width: 680px;
   color: var(--muted);
-  font-size: clamp(20px, 3vw, 30px);
+  font-size: clamp(18px, 2.4vw, 25px);
   font-weight: 800;
   line-height: 1.55;
 }
@@ -280,10 +280,10 @@ button {
 
 .home-guide {
   width: min(560px, 100%);
-  min-height: 58px;
+  min-height: 52px;
   display: grid;
   place-items: center;
-  margin: 34px auto 44px;
+  margin: 22px auto 26px;
   border-radius: 999px;
   border: 3px solid rgba(0, 0, 0, 0.08);
   background: linear-gradient(180deg, #26c985 0%, #1cad6f 100%);
@@ -293,17 +293,21 @@ button {
   box-shadow: 0 6px 0 rgba(8, 148, 87, 0.34);
 }
 
+.home-guide span {
+  color: var(--yellow);
+}
+
 .grade-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: clamp(14px, 3vw, 30px);
+  gap: clamp(12px, 2.2vw, 24px);
   width: min(880px, 100%);
   margin: 0 auto;
 }
 
 .grade-card {
-  min-height: 150px;
-  padding: 20px 12px;
+  min-height: 132px;
+  padding: 12px 10px 16px;
   border: 3px solid var(--mint-dark);
   border-radius: 16px;
   background: #fbffec;
@@ -323,13 +327,19 @@ button {
 }
 
 .grade-card span {
-  margin-bottom: 8px;
-  font-size: 24px;
+  margin-bottom: 4px;
+  font-size: 21px;
   font-weight: 900;
 }
 
+.grade-card .grade-emoji {
+  margin-bottom: 4px;
+  font-size: clamp(34px, 4vw, 46px);
+  line-height: 1;
+}
+
 .grade-card strong {
-  font-size: clamp(30px, 4vw, 40px);
+  font-size: clamp(28px, 3.5vw, 36px);
   line-height: 1.15;
   font-weight: 900;
 }
