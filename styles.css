@@ -281,14 +281,17 @@ button {
 .home-guide {
   width: min(560px, 100%);
   min-height: 52px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1em;
   margin: 22px auto 26px;
+  padding: 0 18px;
   border-radius: 999px;
   border: 3px solid rgba(0, 0, 0, 0.08);
   background: linear-gradient(180deg, #26c985 0%, #1cad6f 100%);
   color: #ffffff;
-  font-size: clamp(18px, 3vw, 28px);
+  font-size: clamp(18px, 2.4vw, 28px);
   font-weight: 900;
   white-space: nowrap;
   box-shadow: 0 6px 0 rgba(8, 148, 87, 0.34);
@@ -608,7 +611,8 @@ button {
 
   .home-guide {
     margin-bottom: 24px;
-    font-size: clamp(16px, 5vw, 22px);
+    width: min(100%, 360px);
+    font-size: clamp(15px, 4.4vw, 20px);
   }
 
   .grade-card {
