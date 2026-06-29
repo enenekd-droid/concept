@@ -159,8 +159,8 @@ function renderHome() {
           ${[
             { grade: 3, emoji: "👧🏻" },
             { grade: 4, emoji: "👦🏻" },
-            { grade: 5, emoji: "👧🏽" },
-            { grade: 6, emoji: "👦🏽" },
+            { grade: 5, emoji: "🧒🏻" },
+            { grade: 6, emoji: "👩🏻" },
           ].map(({ grade, emoji }) => `
             <button class="grade-card" data-grade="${grade}" type="button">
               <span class="grade-emoji" aria-hidden="true">${emoji}</span>

@@ -290,6 +290,7 @@ button {
   color: #ffffff;
   font-size: clamp(18px, 3vw, 28px);
   font-weight: 900;
+  white-space: nowrap;
   box-shadow: 0 6px 0 rgba(8, 148, 87, 0.34);
 }
 
@@ -607,6 +608,7 @@ button {
 
   .home-guide {
     margin-bottom: 24px;
+    font-size: clamp(16px, 5vw, 22px);
   }
 
   .grade-card {
