@@ -1,0 +1,359 @@
+{
+  "subject": "국어",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 2,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_kor_021",
+      "term": "시점",
+      "hanja": {
+        "word": "視點",
+        "breakdown": "볼 시, 점 점"
+      },
+      "meaning": "이야기를 누가 어떤 위치에서 전달하는지의 방식",
+      "easy_explanation": "이야기를 말하는 사람이 누구인지, 어디에서 보고 말하는지를 뜻해요.",
+      "example_sentence": "시점이 바뀌면 같은 사건도 다르게 느껴집니다.",
+      "related_terms": [
+        "서술자",
+        "관점",
+        "인물",
+        "이야기"
+      ]
+    },
+    {
+      "id": "g6_kor_022",
+      "term": "서술자",
+      "hanja": {
+        "word": "敍述者",
+        "breakdown": "펼 서, 지을 술, 사람 자"
+      },
+      "meaning": "이야기를 들려주는 사람",
+      "easy_explanation": "작품 속에서 사건과 인물을 독자에게 말해 주는 존재예요.",
+      "example_sentence": "서술자가 주인공이면 인물의 마음을 자세히 알 수 있습니다.",
+      "related_terms": [
+        "시점",
+        "화자",
+        "이야기",
+        "관점"
+      ]
+    },
+    {
+      "id": "g6_kor_023",
+      "term": "화자",
+      "hanja": {
+        "word": "話者",
+        "breakdown": "말씀 화, 사람 자"
+      },
+      "meaning": "시나 글에서 말하는 사람",
+      "easy_explanation": "시 속에서 생각이나 느낌을 말하는 목소리예요.",
+      "example_sentence": "시의 화자는 그리운 마음을 표현하고 있습니다.",
+      "related_terms": [
+        "시",
+        "서술자",
+        "정서",
+        "표현"
+      ]
+    },
+    {
+      "id": "g6_kor_024",
+      "term": "정서",
+      "hanja": {
+        "word": "情緖",
+        "breakdown": "뜻 정, 실마리 서"
+      },
+      "meaning": "작품에 드러나는 감정이나 분위기",
+      "easy_explanation": "글이나 시를 읽을 때 느껴지는 마음의 느낌이에요.",
+      "example_sentence": "이 시에는 쓸쓸한 정서가 잘 드러납니다.",
+      "related_terms": [
+        "분위기",
+        "감정",
+        "화자",
+        "시"
+      ]
+    },
+    {
+      "id": "g6_kor_025",
+      "term": "운율",
+      "hanja": {
+        "word": "韻律",
+        "breakdown": "운 운, 법칙 율"
+      },
+      "meaning": "시에서 말소리의 반복이나 리듬으로 느껴지는 가락",
+      "easy_explanation": "시를 읽을 때 느껴지는 리듬감이나 음악 같은 느낌이에요.",
+      "example_sentence": "반복되는 말 때문에 시의 운율이 살아납니다.",
+      "related_terms": [
+        "반복",
+        "리듬",
+        "시",
+        "낭송"
+      ]
+    },
+    {
+      "id": "g6_kor_026",
+      "term": "비유",
+      "hanja": {
+        "word": "比喩",
+        "breakdown": "견줄 비, 깨우칠 유"
+      },
+      "meaning": "어떤 대상을 다른 대상에 빗대어 표현하는 방법",
+      "easy_explanation": "비슷한 점이 있는 다른 것에 빗대어 더 생생하게 나타내는 표현이에요.",
+      "example_sentence": "시인은 구름을 솜사탕에 비유했습니다.",
+      "related_terms": [
+        "직유",
+        "은유",
+        "표현",
+        "상징"
+      ]
+    },
+    {
+      "id": "g6_kor_027",
+      "term": "직유",
+      "hanja": {
+        "word": "直喩",
+        "breakdown": "곧을 직, 깨우칠 유"
+      },
+      "meaning": "'~처럼', '~같이' 등을 사용하여 직접 빗대는 표현",
+      "easy_explanation": "두 대상을 직접 비교해 생생하게 나타내는 비유예요.",
+      "example_sentence": "아이의 웃음은 햇살처럼 밝았습니다.",
+      "related_terms": [
+        "비유",
+        "은유",
+        "표현",
+        "시"
+      ]
+    },
+    {
+      "id": "g6_kor_028",
+      "term": "은유",
+      "hanja": {
+        "word": "隱喩",
+        "breakdown": "숨을 은, 깨우칠 유"
+      },
+      "meaning": "비교하는 말을 쓰지 않고 어떤 대상을 다른 대상처럼 표현하는 방법",
+      "easy_explanation": "'A는 B이다'처럼 직접 바꾸어 말하는 비유예요.",
+      "example_sentence": "우리 반은 하나의 작은 숲입니다.",
+      "related_terms": [
+        "비유",
+        "직유",
+        "상징",
+        "표현"
+      ]
+    },
+    {
+      "id": "g6_kor_029",
+      "term": "상징",
+      "hanja": {
+        "word": "象徵",
+        "breakdown": "코끼리 상, 부를 징"
+      },
+      "meaning": "어떤 사물이나 표현이 다른 뜻을 나타내는 것",
+      "easy_explanation": "겉으로 보이는 것보다 더 깊은 의미를 담아 나타내는 표현이에요.",
+      "example_sentence": "비둘기는 평화를 상징하기도 합니다.",
+      "related_terms": [
+        "비유",
+        "의미",
+        "표현",
+        "문학"
+      ]
+    },
+    {
+      "id": "g6_kor_030",
+      "term": "반복",
+      "hanja": {
+        "word": "反復",
+        "breakdown": "돌이킬 반, 다시 복"
+      },
+      "meaning": "같거나 비슷한 말, 문장, 구조를 되풀이하는 표현",
+      "easy_explanation": "중요한 느낌이나 리듬을 살리려고 같은 표현을 다시 쓰는 거예요.",
+      "example_sentence": "같은 구절을 반복해 시의 느낌을 강조했습니다.",
+      "related_terms": [
+        "운율",
+        "강조",
+        "표현",
+        "시"
+      ]
+    },
+    {
+      "id": "g6_kor_031",
+      "term": "강조",
+      "hanja": {
+        "word": "强調",
+        "breakdown": "강할 강, 고를 조"
+      },
+      "meaning": "어떤 내용을 두드러지게 나타내는 것",
+      "easy_explanation": "중요한 내용을 더 눈에 띄고 잘 느껴지게 만드는 일이에요.",
+      "example_sentence": "글쓴이는 반복 표현으로 주제를 강조했습니다.",
+      "related_terms": [
+        "반복",
+        "표현",
+        "주제",
+        "효과"
+      ]
+    },
+    {
+      "id": "g6_kor_032",
+      "term": "묘사",
+      "hanja": {
+        "word": "描寫",
+        "breakdown": "그릴 묘, 베낄 사"
+      },
+      "meaning": "대상의 모습이나 느낌을 자세하고 생생하게 표현하는 것",
+      "easy_explanation": "눈앞에 보이는 것처럼 자세히 그려 내는 표현이에요.",
+      "example_sentence": "작가는 바닷가 풍경을 생생하게 묘사했습니다.",
+      "related_terms": [
+        "표현",
+        "풍경",
+        "인물",
+        "감각적 표현"
+      ]
+    },
+    {
+      "id": "g6_kor_033",
+      "term": "감각적 표현",
+      "hanja": {
+        "word": "感覺的表現",
+        "breakdown": "느낄 감, 깨달을 각, 과녁 적, 겉 표, 나타날 현"
+      },
+      "meaning": "보고 듣고 맡고 맛보고 만지는 느낌을 살려 나타내는 표현",
+      "easy_explanation": "오감으로 느껴지는 모습을 생생하게 표현하는 방법이에요.",
+      "example_sentence": "감각적 표현을 사용하니 장면이 더 실감 나게 느껴졌습니다.",
+      "related_terms": [
+        "묘사",
+        "오감",
+        "표현",
+        "분위기"
+      ]
+    },
+    {
+      "id": "g6_kor_034",
+      "term": "분위기",
+      "hanja": {
+        "word": "雰圍氣",
+        "breakdown": "눈 날릴 분, 에워쌀 위, 기운 기"
+      },
+      "meaning": "글이나 장면에서 느껴지는 전체적인 느낌",
+      "easy_explanation": "밝다, 어둡다, 조용하다처럼 글 전체에서 느껴지는 느낌이에요.",
+      "example_sentence": "배경 묘사를 통해 무서운 분위기가 만들어졌습니다.",
+      "related_terms": [
+        "정서",
+        "배경",
+        "묘사",
+        "감정"
+      ]
+    },
+    {
+      "id": "g6_kor_035",
+      "term": "감상",
+      "hanja": {
+        "word": "鑑賞",
+        "breakdown": "거울 감, 상줄 상"
+      },
+      "meaning": "작품을 읽거나 보고 느낀 점과 생각을 표현하는 것",
+      "easy_explanation": "작품을 보고 마음에 든 점, 느낀 점, 생각한 점을 말하는 일이에요.",
+      "example_sentence": "시를 읽고 인상 깊은 표현을 중심으로 감상을 나누었습니다.",
+      "related_terms": [
+        "느낌",
+        "해석",
+        "작품",
+        "문학"
+      ]
+    },
+    {
+      "id": "g6_kor_036",
+      "term": "해석",
+      "hanja": {
+        "word": "解釋",
+        "breakdown": "풀 해, 풀 석"
+      },
+      "meaning": "글이나 표현의 뜻을 자기 생각으로 풀어 이해하는 것",
+      "easy_explanation": "작품이나 문장의 의미를 생각해 보고 설명하는 일이에요.",
+      "example_sentence": "친구마다 시를 해석하는 방법이 조금씩 달랐습니다.",
+      "related_terms": [
+        "감상",
+        "의미",
+        "관점",
+        "추론"
+      ]
+    },
+    {
+      "id": "g6_kor_037",
+      "term": "인상 깊은 장면",
+      "hanja": {
+        "word": "印象",
+        "breakdown": "도장 인, 모양 상"
+      },
+      "meaning": "작품에서 마음에 오래 남는 장면",
+      "easy_explanation": "읽고 난 뒤에도 기억에 남는 특별한 부분이에요.",
+      "example_sentence": "나는 주인공이 친구를 도와주는 장면이 가장 인상 깊었습니다.",
+      "related_terms": [
+        "감상",
+        "장면",
+        "느낌",
+        "작품"
+      ]
+    },
+    {
+      "id": "g6_kor_038",
+      "term": "장면",
+      "hanja": {
+        "word": "場面",
+        "breakdown": "마당 장, 낯 면"
+      },
+      "meaning": "이야기에서 특정한 시간과 장소에 벌어지는 모습",
+      "easy_explanation": "이야기 속에서 한 부분을 이루는 상황이나 모습이에요.",
+      "example_sentence": "대화가 많은 장면은 인물의 성격을 잘 보여 줍니다.",
+      "related_terms": [
+        "사건",
+        "배경",
+        "인물",
+        "줄거리"
+      ]
+    },
+    {
+      "id": "g6_kor_039",
+      "term": "낭송",
+      "hanja": {
+        "word": "朗誦",
+        "breakdown": "밝을 낭, 욀 송"
+      },
+      "meaning": "시나 글을 느낌을 살려 소리 내어 읽는 것",
+      "easy_explanation": "작품의 분위기와 리듬을 살려 읽는 활동이에요.",
+      "example_sentence": "친구들 앞에서 시를 낭송했습니다.",
+      "related_terms": [
+        "시",
+        "운율",
+        "목소리",
+        "표현"
+      ]
+    },
+    {
+      "id": "g6_kor_040",
+      "term": "독후감",
+      "hanja": {
+        "word": "讀後感",
+        "breakdown": "읽을 독, 뒤 후, 느낄 감"
+      },
+      "meaning": "책을 읽고 난 뒤의 생각과 느낌을 쓴 글",
+      "easy_explanation": "책을 읽은 후 기억에 남는 내용과 내 생각을 정리한 글이에요.",
+      "example_sentence": "독후감에는 줄거리뿐 아니라 자신의 생각도 써야 합니다.",
+      "related_terms": [
+        "감상",
+        "느낌",
+        "독서",
+        "서평"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "subject": "국어",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 3,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_kor_041",
+      "term": "주장",
+      "hanja": {
+        "word": "主張",
+        "breakdown": "주인 주, 베풀 장"
+      },
+      "meaning": "어떤 문제에 대해 내세우는 자신의 생각이나 의견",
+      "easy_explanation": "내가 옳다고 생각하여 다른 사람에게 말하고 싶은 의견이에요.",
+      "example_sentence": "환경을 보호하기 위해 일회용품 사용을 줄여야 한다는 주장을 했습니다.",
+      "related_terms": [
+        "근거",
+        "의견",
+        "논설문",
+        "설득"
+      ]
+    },
+    {
+      "id": "g6_kor_042",
+      "term": "논설문",
+      "hanja": {
+        "word": "論說文",
+        "breakdown": "논할 논, 말씀 설, 글월 문"
+      },
+      "meaning": "주장과 근거를 들어 독자를 설득하는 글",
+      "easy_explanation": "내 생각이 맞다는 것을 이유와 자료로 설명하는 글이에요.",
+      "example_sentence": "논설문을 쓸 때에는 주장과 근거가 분명해야 합니다.",
+      "related_terms": [
+        "주장",
+        "근거",
+        "설득",
+        "타당성"
+      ]
+    },
+    {
+      "id": "g6_kor_043",
+      "term": "설득",
+      "hanja": {
+        "word": "說得",
+        "breakdown": "말씀 설, 얻을 득"
+      },
+      "meaning": "상대가 내 생각이나 의견을 받아들이도록 말하거나 쓰는 것",
+      "easy_explanation": "상대방이 내 의견을 이해하고 받아들이게 하는 일이에요.",
+      "example_sentence": "알맞은 근거를 제시하면 독자를 설득하기 쉽습니다.",
+      "related_terms": [
+        "주장",
+        "근거",
+        "논설문",
+        "광고"
+      ]
+    },
+    {
+      "id": "g6_kor_044",
+      "term": "의견",
+      "hanja": {
+        "word": "意見",
+        "breakdown": "뜻 의, 볼 견"
+      },
+      "meaning": "어떤 일이나 문제에 대한 생각",
+      "easy_explanation": "내가 어떤 문제를 어떻게 생각하는지 나타낸 말이에요.",
+      "example_sentence": "토의에서 친구들의 의견을 주의 깊게 들었습니다.",
+      "related_terms": [
+        "주장",
+        "근거",
+        "토의",
+        "생각"
+      ]
+    },
+    {
+      "id": "g6_kor_045",
+      "term": "이유",
+      "hanja": {
+        "word": "理由",
+        "breakdown": "이치 리, 말미암을 유"
+      },
+      "meaning": "어떤 생각이나 행동을 하게 된 까닭",
+      "easy_explanation": "왜 그렇게 생각하는지 설명해 주는 말이에요.",
+      "example_sentence": "나는 그 의견에 찬성하는 이유를 세 가지 말했습니다.",
+      "related_terms": [
+        "근거",
+        "주장",
+        "까닭",
+        "설명"
+      ]
+    },
+    {
+      "id": "g6_kor_046",
+      "term": "자료",
+      "hanja": {
+        "word": "資料",
+        "breakdown": "재물 자, 헤아릴 료"
+      },
+      "meaning": "생각이나 주장을 뒷받침하는 데 사용하는 정보",
+      "easy_explanation": "글을 쓰거나 발표할 때 필요한 정보나 내용이에요.",
+      "example_sentence": "통계 자료를 이용해 주장을 뒷받침했습니다.",
+      "related_terms": [
+        "정보",
+        "근거",
+        "통계",
+        "출처"
+      ]
+    },
+    {
+      "id": "g6_kor_047",
+      "term": "출처",
+      "hanja": {
+        "word": "出處",
+        "breakdown": "날 출, 곳 처"
+      },
+      "meaning": "자료나 정보가 나온 곳",
+      "easy_explanation": "정보를 어디에서 얻었는지 알려 주는 표시예요.",
+      "example_sentence": "인터넷 자료를 사용할 때에는 출처를 밝혀야 합니다.",
+      "related_terms": [
+        "자료",
+        "정보",
+        "저작권",
+        "신뢰성"
+      ]
+    },
+    {
+      "id": "g6_kor_048",
+      "term": "신뢰성",
+      "hanja": {
+        "word": "信賴性",
+        "breakdown": "믿을 신, 의뢰할 뢰, 성품 성"
+      },
+      "meaning": "정보나 자료를 믿을 수 있는 정도",
+      "easy_explanation": "자료가 정확하고 믿을 만한지의 정도예요.",
+      "example_sentence": "자료의 신뢰성을 확인한 뒤 글에 활용했습니다.",
+      "related_terms": [
+        "출처",
+        "자료",
+        "정보",
+        "비판적 읽기"
+      ]
+    },
+    {
+      "id": "g6_kor_049",
+      "term": "개요",
+      "hanja": {
+        "word": "槪要",
+        "breakdown": "대개 개, 중요할 요"
+      },
+      "meaning": "글을 쓰기 전에 전체 내용을 간단히 정리한 틀",
+      "easy_explanation": "글을 어떤 순서와 내용으로 쓸지 미리 짜 놓은 계획이에요.",
+      "example_sentence": "개요를 먼저 작성하니 글의 흐름이 분명해졌습니다.",
+      "related_terms": [
+        "계획",
+        "문단",
+        "구성",
+        "쓰기"
+      ]
+    },
+    {
+      "id": "g6_kor_050",
+      "term": "구성",
+      "hanja": {
+        "word": "構成",
+        "breakdown": "얽을 구, 이룰 성"
+      },
+      "meaning": "글의 내용을 일정한 순서와 짜임에 맞게 배열하는 것",
+      "easy_explanation": "글의 처음, 가운데, 끝을 어떻게 짜는지 정하는 일이에요.",
+      "example_sentence": "설명문은 처음, 가운데, 끝의 구성이 분명해야 합니다.",
+      "related_terms": [
+        "개요",
+        "문단",
+        "짜임",
+        "전개"
+      ]
+    },
+    {
+      "id": "g6_kor_051",
+      "term": "서론",
+      "hanja": {
+        "word": "序論",
+        "breakdown": "차례 서, 논할 론"
+      },
+      "meaning": "글의 처음 부분으로 문제나 주제를 소개하는 부분",
+      "easy_explanation": "글을 시작하며 무엇에 대해 쓸지 알려 주는 부분이에요.",
+      "example_sentence": "서론에서는 환경 문제의 심각성을 제시했습니다.",
+      "related_terms": [
+        "본론",
+        "결론",
+        "논설문",
+        "구성"
+      ]
+    },
+    {
+      "id": "g6_kor_052",
+      "term": "본론",
+      "hanja": {
+        "word": "本論",
+        "breakdown": "근본 본, 논할 론"
+      },
+      "meaning": "글의 가운데 부분으로 주된 내용을 자세히 펼치는 부분",
+      "easy_explanation": "주장과 근거, 설명이 가장 자세히 나오는 부분이에요.",
+      "example_sentence": "본론에는 주장을 뒷받침하는 근거를 제시했습니다.",
+      "related_terms": [
+        "서론",
+        "결론",
+        "근거",
+        "구성"
+      ]
+    },
+    {
+      "id": "g6_kor_053",
+      "term": "결론",
+      "hanja": {
+        "word": "結論",
+        "breakdown": "맺을 결, 논할 론"
+      },
+      "meaning": "글의 끝 부분으로 내용을 정리하고 마무리하는 부분",
+      "easy_explanation": "글에서 말한 내용을 정리하고 생각을 마무리하는 부분이에요.",
+      "example_sentence": "결론에서는 주장을 다시 한 번 강조했습니다.",
+      "related_terms": [
+        "서론",
+        "본론",
+        "마무리",
+        "주장"
+      ]
+    },
+    {
+      "id": "g6_kor_054",
+      "term": "설명문",
+      "hanja": {
+        "word": "說明文",
+        "breakdown": "말씀 설, 밝을 명, 글월 문"
+      },
+      "meaning": "어떤 대상이나 사실을 알기 쉽게 풀어 알려 주는 글",
+      "easy_explanation": "독자가 잘 모르는 내용을 이해하기 쉽게 설명하는 글이에요.",
+      "example_sentence": "태양계에 대해 설명문을 썼습니다.",
+      "related_terms": [
+        "설명",
+        "정보",
+        "정의",
+        "예시"
+      ]
+    },
+    {
+      "id": "g6_kor_055",
+      "term": "정의",
+      "hanja": {
+        "word": "定義",
+        "breakdown": "정할 정, 옳을 의"
+      },
+      "meaning": "어떤 말이나 대상의 뜻을 분명하게 밝히는 것",
+      "easy_explanation": "개념이 무엇인지 정확히 설명하는 방법이에요.",
+      "example_sentence": "설명문에서 먼저 '생태계'의 정의를 제시했습니다.",
+      "related_terms": [
+        "설명문",
+        "개념",
+        "뜻",
+        "분류"
+      ]
+    },
+    {
+      "id": "g6_kor_056",
+      "term": "예시",
+      "hanja": {
+        "word": "例示",
+        "breakdown": "법식 예, 보일 시"
+      },
+      "meaning": "내용을 쉽게 이해하도록 구체적인 예를 드는 것",
+      "easy_explanation": "설명을 더 쉽게 하려고 실제 예를 보여 주는 방법이에요.",
+      "example_sentence": "글쓴이는 재활용의 예시로 종이 분리배출을 들었습니다.",
+      "related_terms": [
+        "설명",
+        "근거",
+        "자료",
+        "설명문"
+      ]
+    },
+    {
+      "id": "g6_kor_057",
+      "term": "비교",
+      "hanja": {
+        "word": "比較",
+        "breakdown": "견줄 비, 견줄 교"
+      },
+      "meaning": "둘 이상의 대상을 견주어 같은 점과 다른 점을 살피는 것",
+      "easy_explanation": "두 대상을 나란히 놓고 비슷한 점과 다른 점을 찾는 일이에요.",
+      "example_sentence": "두 인물의 성격을 비교하며 읽었습니다.",
+      "related_terms": [
+        "대조",
+        "공통점",
+        "차이점",
+        "분석"
+      ]
+    },
+    {
+      "id": "g6_kor_058",
+      "term": "대조",
+      "hanja": {
+        "word": "對照",
+        "breakdown": "대할 대, 비출 조"
+      },
+      "meaning": "둘 이상의 대상을 견주어 차이점을 뚜렷하게 드러내는 것",
+      "easy_explanation": "서로 다른 점을 잘 보이게 비교하는 방법이에요.",
+      "example_sentence": "도시와 농촌의 생활 모습을 대조해 보았습니다.",
+      "related_terms": [
+        "비교",
+        "차이점",
+        "설명",
+        "분석"
+      ]
+    },
+    {
+      "id": "g6_kor_059",
+      "term": "분류",
+      "hanja": {
+        "word": "分類",
+        "breakdown": "나눌 분, 무리 류"
+      },
+      "meaning": "대상을 기준에 따라 나누어 정리하는 것",
+      "easy_explanation": "비슷한 것끼리 묶어 나누는 방법이에요.",
+      "example_sentence": "동물을 사는 곳에 따라 분류했습니다.",
+      "related_terms": [
+        "기준",
+        "설명문",
+        "정리",
+        "분석"
+      ]
+    },
+    {
+      "id": "g6_kor_060",
+      "term": "매체",
+      "hanja": {
+        "word": "媒體",
+        "breakdown": "중매 매, 몸 체"
+      },
+      "meaning": "정보나 생각을 전달하는 수단",
+      "easy_explanation": "책, 신문, 방송, 인터넷처럼 정보를 전하는 도구예요.",
+      "example_sentence": "매체의 특성에 따라 정보를 전달하는 방법이 달라집니다.",
+      "related_terms": [
+        "정보",
+        "뉴스",
+        "광고",
+        "영상"
+      ]
+    }
+  ]
+}

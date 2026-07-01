@@ -1,0 +1,350 @@
+{
+  "subject": "사회",
+  "grade": 5,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 2,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g5_soc_021",
+      "term": "기후",
+      "hanja": {
+        "word": "氣候",
+        "breakdown": "기운 기, 기후 후"
+      },
+      "meaning": "어떤 지역에서 오랜 기간 나타나는 평균적인 날씨의 특징",
+      "easy_explanation": "날씨가 오랫동안 반복되어 나타나는 지역의 특징이에요.",
+      "example_sentence": "우리나라는 계절에 따라 기후의 차이가 큽니다.",
+      "related_terms": [
+        "날씨",
+        "계절",
+        "기온",
+        "강수량"
+      ]
+    },
+    {
+      "id": "g5_soc_022",
+      "term": "날씨",
+      "hanja": null,
+      "meaning": "하루하루 나타나는 기온, 비, 바람 등의 상태",
+      "easy_explanation": "오늘 덥거나 춥고, 비가 오거나 맑은 상태를 말해요.",
+      "example_sentence": "오늘 날씨는 맑고 바람이 조금 붑니다.",
+      "related_terms": [
+        "기후",
+        "기온",
+        "강수량",
+        "바람"
+      ]
+    },
+    {
+      "id": "g5_soc_023",
+      "term": "기온",
+      "hanja": {
+        "word": "氣溫",
+        "breakdown": "기운 기, 따뜻할 온"
+      },
+      "meaning": "공기의 온도",
+      "easy_explanation": "공기가 얼마나 따뜻하거나 차가운지를 나타내요.",
+      "example_sentence": "여름에는 기온이 높고 겨울에는 기온이 낮습니다.",
+      "related_terms": [
+        "날씨",
+        "기후",
+        "온도",
+        "계절"
+      ]
+    },
+    {
+      "id": "g5_soc_024",
+      "term": "강수량",
+      "hanja": {
+        "word": "降水量",
+        "breakdown": "내릴 강, 물 수, 헤아릴 량"
+      },
+      "meaning": "일정한 기간 동안 내린 비나 눈의 양",
+      "easy_explanation": "비나 눈이 얼마나 많이 내렸는지를 나타내는 양이에요.",
+      "example_sentence": "여름철에는 장마로 강수량이 많아집니다.",
+      "related_terms": [
+        "비",
+        "눈",
+        "장마",
+        "기후"
+      ]
+    },
+    {
+      "id": "g5_soc_025",
+      "term": "계절풍",
+      "hanja": {
+        "word": "季節風",
+        "breakdown": "철 계, 마디 절, 바람 풍"
+      },
+      "meaning": "계절에 따라 방향이 달라지는 바람",
+      "easy_explanation": "여름과 겨울에 부는 방향이 달라지는 바람이에요.",
+      "example_sentence": "계절풍은 우리나라의 기후에 영향을 줍니다.",
+      "related_terms": [
+        "바람",
+        "계절",
+        "기후",
+        "장마"
+      ]
+    },
+    {
+      "id": "g5_soc_026",
+      "term": "장마",
+      "hanja": null,
+      "meaning": "여름철에 여러 날 동안 비가 자주 많이 내리는 현상",
+      "easy_explanation": "여름에 비가 오래 계속 오는 시기를 말해요.",
+      "example_sentence": "장마철에는 하천이 불어날 수 있어 주의해야 합니다.",
+      "related_terms": [
+        "강수량",
+        "여름",
+        "기후",
+        "비"
+      ]
+    },
+    {
+      "id": "g5_soc_027",
+      "term": "지역",
+      "hanja": {
+        "word": "地域",
+        "breakdown": "땅 지, 지경 역"
+      },
+      "meaning": "일정한 기준에 따라 나눈 땅의 범위",
+      "easy_explanation": "비슷한 특징을 가진 곳을 묶어 부르는 말이에요.",
+      "example_sentence": "우리 지역은 교통이 편리하고 상점이 많습니다.",
+      "related_terms": [
+        "고장",
+        "도시",
+        "촌락",
+        "생활권"
+      ]
+    },
+    {
+      "id": "g5_soc_028",
+      "term": "고장",
+      "hanja": null,
+      "meaning": "사람들이 살고 있는 일정한 지역",
+      "easy_explanation": "내가 살거나 잘 알고 있는 마을이나 지역을 말해요.",
+      "example_sentence": "우리 고장의 자연환경과 생활 모습을 조사했습니다.",
+      "related_terms": [
+        "지역",
+        "마을",
+        "생활 모습",
+        "자연환경"
+      ]
+    },
+    {
+      "id": "g5_soc_029",
+      "term": "도시",
+      "hanja": {
+        "word": "都市",
+        "breakdown": "도읍 도, 저자 시"
+      },
+      "meaning": "인구가 많고 교통, 산업, 문화 시설이 발달한 지역",
+      "easy_explanation": "사람과 건물, 여러 시설이 많이 모여 있는 곳이에요.",
+      "example_sentence": "서울은 우리나라의 대표적인 도시입니다.",
+      "related_terms": [
+        "인구",
+        "교통",
+        "상업",
+        "생활권"
+      ]
+    },
+    {
+      "id": "g5_soc_030",
+      "term": "촌락",
+      "hanja": {
+        "word": "村落",
+        "breakdown": "마을 촌, 떨어질 락"
+      },
+      "meaning": "농업, 어업, 임업 등이 주로 이루어지는 마을",
+      "easy_explanation": "농촌, 어촌, 산촌처럼 자연환경을 이용해 살아가는 마을이에요.",
+      "example_sentence": "촌락에서는 자연환경을 이용한 산업이 발달합니다.",
+      "related_terms": [
+        "농촌",
+        "어촌",
+        "산촌",
+        "자연환경"
+      ]
+    },
+    {
+      "id": "g5_soc_031",
+      "term": "농촌",
+      "hanja": {
+        "word": "農村",
+        "breakdown": "농사 농, 마을 촌"
+      },
+      "meaning": "농업을 중심으로 생활하는 마을",
+      "easy_explanation": "논과 밭에서 농사를 지으며 살아가는 마을이에요.",
+      "example_sentence": "농촌에서는 벼, 채소, 과일 등을 재배합니다.",
+      "related_terms": [
+        "농업",
+        "촌락",
+        "평야",
+        "작물"
+      ]
+    },
+    {
+      "id": "g5_soc_032",
+      "term": "어촌",
+      "hanja": {
+        "word": "漁村",
+        "breakdown": "고기잡을 어, 마을 촌"
+      },
+      "meaning": "어업을 중심으로 생활하는 마을",
+      "easy_explanation": "바다나 강에서 물고기를 잡거나 기르며 살아가는 마을이에요.",
+      "example_sentence": "어촌에서는 물고기 잡기와 양식업이 이루어집니다.",
+      "related_terms": [
+        "어업",
+        "해안",
+        "항구",
+        "촌락"
+      ]
+    },
+    {
+      "id": "g5_soc_033",
+      "term": "산촌",
+      "hanja": {
+        "word": "山村",
+        "breakdown": "뫼 산, 마을 촌"
+      },
+      "meaning": "산지에서 임업이나 밭농사 등을 하며 생활하는 마을",
+      "easy_explanation": "산이 많은 곳에서 산림 자원을 이용하며 살아가는 마을이에요.",
+      "example_sentence": "산촌에서는 버섯, 약초, 목재 등을 얻기도 합니다.",
+      "related_terms": [
+        "산지",
+        "임업",
+        "촌락",
+        "자연환경"
+      ]
+    },
+    {
+      "id": "g5_soc_034",
+      "term": "산업",
+      "hanja": {
+        "word": "産業",
+        "breakdown": "낳을 산, 업 업"
+      },
+      "meaning": "사람들이 생활에 필요한 물건이나 서비스를 생산하는 활동",
+      "easy_explanation": "사람들이 물건을 만들거나 서비스를 제공하는 여러 일들을 말해요.",
+      "example_sentence": "지역의 자연환경에 따라 발달하는 산업이 달라집니다.",
+      "related_terms": [
+        "농업",
+        "어업",
+        "공업",
+        "서비스업"
+      ]
+    },
+    {
+      "id": "g5_soc_035",
+      "term": "농업",
+      "hanja": {
+        "word": "農業",
+        "breakdown": "농사 농, 업 업"
+      },
+      "meaning": "땅을 이용하여 곡식, 채소, 과일 등을 기르는 산업",
+      "easy_explanation": "논과 밭에서 작물을 기르는 일이에요.",
+      "example_sentence": "평야가 넓은 지역에서는 농업이 발달하기 쉽습니다.",
+      "related_terms": [
+        "농촌",
+        "작물",
+        "평야",
+        "산업"
+      ]
+    },
+    {
+      "id": "g5_soc_036",
+      "term": "어업",
+      "hanja": {
+        "word": "漁業",
+        "breakdown": "고기잡을 어, 업 업"
+      },
+      "meaning": "물고기나 해산물을 잡거나 기르는 산업",
+      "easy_explanation": "바다, 강, 호수에서 수산물을 얻는 일이에요.",
+      "example_sentence": "해안 지역에서는 어업이 발달합니다.",
+      "related_terms": [
+        "어촌",
+        "수산업",
+        "해안",
+        "산업"
+      ]
+    },
+    {
+      "id": "g5_soc_037",
+      "term": "공업",
+      "hanja": {
+        "word": "工業",
+        "breakdown": "장인 공, 업 업"
+      },
+      "meaning": "원료를 가공하여 물건을 만드는 산업",
+      "easy_explanation": "공장에서 재료를 이용해 여러 제품을 만드는 일이에요.",
+      "example_sentence": "공업이 발달한 지역에는 공장이 많이 모여 있습니다.",
+      "related_terms": [
+        "공장",
+        "원료",
+        "제품",
+        "산업"
+      ]
+    },
+    {
+      "id": "g5_soc_038",
+      "term": "서비스업",
+      "hanja": {
+        "word": "service業",
+        "breakdown": "서비스, 업 업"
+      },
+      "meaning": "사람들에게 편리함이나 도움을 제공하는 산업",
+      "easy_explanation": "가게, 병원, 학교, 운송처럼 사람에게 도움을 주는 일이에요.",
+      "example_sentence": "도시에서는 상업과 서비스업이 많이 발달합니다.",
+      "related_terms": [
+        "상업",
+        "교통",
+        "관광업",
+        "산업"
+      ]
+    },
+    {
+      "id": "g5_soc_039",
+      "term": "교통",
+      "hanja": {
+        "word": "交通",
+        "breakdown": "사귈 교, 통할 통"
+      },
+      "meaning": "사람이나 물건이 오고 가는 일",
+      "easy_explanation": "버스, 지하철, 기차, 배, 비행기 등을 이용해 이동하는 일이에요.",
+      "example_sentence": "교통이 편리한 곳에는 사람들이 많이 모입니다.",
+      "related_terms": [
+        "도로",
+        "철도",
+        "항구",
+        "공항"
+      ]
+    },
+    {
+      "id": "g5_soc_040",
+      "term": "생활권",
+      "hanja": {
+        "word": "生活圈",
+        "breakdown": "살 생, 살 활, 우리 권"
+      },
+      "meaning": "사람들이 일상생활을 하며 오가는 범위",
+      "easy_explanation": "학교, 병원, 시장, 직장 등을 이용하며 생활하는 공간이에요.",
+      "example_sentence": "교통이 발달하면서 사람들의 생활권이 넓어졌습니다.",
+      "related_terms": [
+        "지역",
+        "도시",
+        "교통",
+        "생활 모습"
+      ]
+    }
+  ]
+}

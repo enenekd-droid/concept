@@ -1,0 +1,348 @@
+{
+  "subject": "과학",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 2,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_sci_021",
+      "term": "전기",
+      "hanja": {
+        "word": "電氣",
+        "breakdown": "번개 전, 기운 기"
+      },
+      "meaning": "전하의 이동이나 작용으로 나타나는 에너지의 한 형태",
+      "easy_explanation": "전등을 켜고 기계를 움직이게 하는 에너지예요.",
+      "example_sentence": "전기는 우리 생활에서 매우 많이 사용됩니다.",
+      "related_terms": [
+        "전류",
+        "전지",
+        "전기 회로",
+        "에너지"
+      ]
+    },
+    {
+      "id": "g6_sci_022",
+      "term": "전류",
+      "hanja": {
+        "word": "電流",
+        "breakdown": "번개 전, 흐를 류"
+      },
+      "meaning": "전기가 회로를 따라 흐르는 것",
+      "easy_explanation": "전선 속을 전기가 흐르는 것을 말해요.",
+      "example_sentence": "스위치를 닫으면 전류가 흘러 전구에 불이 켜집니다.",
+      "related_terms": [
+        "전기",
+        "전기 회로",
+        "전선",
+        "스위치"
+      ]
+    },
+    {
+      "id": "g6_sci_023",
+      "term": "전기 회로",
+      "hanja": {
+        "word": "電氣回路",
+        "breakdown": "번개 전, 기운 기, 돌아올 회, 길 로"
+      },
+      "meaning": "전류가 흐를 수 있도록 전기 부품을 연결한 길",
+      "easy_explanation": "전지, 전선, 전구, 스위치를 이어 전기가 흐르게 만든 길이에요.",
+      "example_sentence": "전기 회로가 끊어지면 전구에 불이 켜지지 않습니다.",
+      "related_terms": [
+        "전류",
+        "전지",
+        "전구",
+        "스위치"
+      ]
+    },
+    {
+      "id": "g6_sci_024",
+      "term": "전지",
+      "hanja": {
+        "word": "電池",
+        "breakdown": "번개 전, 못 지"
+      },
+      "meaning": "화학 에너지를 전기 에너지로 바꾸어 전류가 흐르게 하는 장치",
+      "easy_explanation": "전구나 장난감에 전기를 공급해 주는 물건이에요.",
+      "example_sentence": "전지를 바르게 연결해야 전기 회로에 전류가 흐릅니다.",
+      "related_terms": [
+        "전기",
+        "전류",
+        "전기 회로",
+        "에너지"
+      ]
+    },
+    {
+      "id": "g6_sci_025",
+      "term": "전구",
+      "hanja": {
+        "word": "電球",
+        "breakdown": "번개 전, 공 구"
+      },
+      "meaning": "전류가 흐르면 빛을 내는 전기 부품",
+      "easy_explanation": "전기가 흐르면 불이 켜지는 작은 조명 장치예요.",
+      "example_sentence": "전구가 켜지는지 확인하며 회로를 만들었습니다.",
+      "related_terms": [
+        "전류",
+        "전기 회로",
+        "빛",
+        "전기 에너지"
+      ]
+    },
+    {
+      "id": "g6_sci_026",
+      "term": "스위치",
+      "hanja": null,
+      "meaning": "전기 회로를 연결하거나 끊어 전류의 흐름을 조절하는 장치",
+      "easy_explanation": "전등을 켜고 끄는 단추처럼 전기의 길을 열고 닫는 장치예요.",
+      "example_sentence": "스위치를 열면 전류가 흐르지 않아 전구가 꺼집니다.",
+      "related_terms": [
+        "전기 회로",
+        "전류",
+        "전구",
+        "도체"
+      ]
+    },
+    {
+      "id": "g6_sci_027",
+      "term": "도체",
+      "hanja": {
+        "word": "導體",
+        "breakdown": "이끌 도, 몸 체"
+      },
+      "meaning": "전류가 잘 흐르는 물질",
+      "easy_explanation": "금속처럼 전기가 잘 통하는 물질이에요.",
+      "example_sentence": "구리선은 전류가 잘 흐르는 도체입니다.",
+      "related_terms": [
+        "부도체",
+        "전류",
+        "금속",
+        "전기"
+      ]
+    },
+    {
+      "id": "g6_sci_028",
+      "term": "부도체",
+      "hanja": {
+        "word": "不導體",
+        "breakdown": "아닐 부, 이끌 도, 몸 체"
+      },
+      "meaning": "전류가 잘 흐르지 않는 물질",
+      "easy_explanation": "고무나 플라스틱처럼 전기가 잘 통하지 않는 물질이에요.",
+      "example_sentence": "전선의 겉부분은 부도체로 감싸져 있어 안전합니다.",
+      "related_terms": [
+        "도체",
+        "전류",
+        "전기 안전",
+        "플라스틱"
+      ]
+    },
+    {
+      "id": "g6_sci_029",
+      "term": "직렬연결",
+      "hanja": {
+        "word": "直列連結",
+        "breakdown": "곧을 직, 벌일 렬, 이을 연, 맺을 결"
+      },
+      "meaning": "전기 부품을 한 줄로 이어 연결하는 방법",
+      "easy_explanation": "전지나 전구를 하나의 길로 차례차례 연결하는 방식이에요.",
+      "example_sentence": "전지를 직렬연결하면 전구가 더 밝아질 수 있습니다.",
+      "related_terms": [
+        "병렬연결",
+        "전기 회로",
+        "전지",
+        "전구"
+      ]
+    },
+    {
+      "id": "g6_sci_030",
+      "term": "병렬연결",
+      "hanja": {
+        "word": "竝列連結",
+        "breakdown": "나란할 병, 벌일 렬, 이을 연, 맺을 결"
+      },
+      "meaning": "전기 부품을 여러 갈래의 길로 나누어 연결하는 방법",
+      "easy_explanation": "전구나 전지를 나란히 여러 길로 연결하는 방식이에요.",
+      "example_sentence": "전구를 병렬연결하면 하나가 꺼져도 다른 전구는 켜질 수 있습니다.",
+      "related_terms": [
+        "직렬연결",
+        "전기 회로",
+        "전구",
+        "전류"
+      ]
+    },
+    {
+      "id": "g6_sci_031",
+      "term": "자석",
+      "hanja": {
+        "word": "磁石",
+        "breakdown": "자석 자, 돌 석"
+      },
+      "meaning": "철을 끌어당기고 일정한 방향을 가리키는 성질을 가진 물체",
+      "easy_explanation": "철로 된 물체를 끌어당기는 힘이 있는 물체예요.",
+      "example_sentence": "자석은 철 클립을 끌어당깁니다.",
+      "related_terms": [
+        "자기력",
+        "자기장",
+        "극",
+        "나침반"
+      ]
+    },
+    {
+      "id": "g6_sci_032",
+      "term": "자기력",
+      "hanja": {
+        "word": "磁氣力",
+        "breakdown": "자석 자, 기운 기, 힘 력"
+      },
+      "meaning": "자석이 다른 자석이나 철로 된 물체에 작용하는 힘",
+      "easy_explanation": "자석이 끌어당기거나 밀어내는 힘이에요.",
+      "example_sentence": "자석의 같은 극끼리는 자기력 때문에 서로 밀어냅니다.",
+      "related_terms": [
+        "자석",
+        "극",
+        "자기장",
+        "철"
+      ]
+    },
+    {
+      "id": "g6_sci_033",
+      "term": "극",
+      "hanja": {
+        "word": "極",
+        "breakdown": "다할 극"
+      },
+      "meaning": "자석에서 자기력이 가장 세게 작용하는 부분",
+      "easy_explanation": "자석의 양 끝부분으로 N극과 S극이 있어요.",
+      "example_sentence": "자석의 극 부분에 클립이 가장 많이 붙었습니다.",
+      "related_terms": [
+        "N극",
+        "S극",
+        "자석",
+        "자기력"
+      ]
+    },
+    {
+      "id": "g6_sci_034",
+      "term": "나침반",
+      "hanja": {
+        "word": "羅針盤",
+        "breakdown": "벌일 나, 바늘 침, 소반 반"
+      },
+      "meaning": "자석의 성질을 이용해 방향을 알려 주는 도구",
+      "easy_explanation": "바늘이 남북 방향을 가리켜 길을 찾는 데 도움을 주는 도구예요.",
+      "example_sentence": "나침반의 바늘은 지구의 자기장 때문에 일정한 방향을 가리킵니다.",
+      "related_terms": [
+        "자석",
+        "방향",
+        "자기장",
+        "북쪽"
+      ]
+    },
+    {
+      "id": "g6_sci_035",
+      "term": "전자석",
+      "hanja": {
+        "word": "電磁石",
+        "breakdown": "번개 전, 자석 자, 돌 석"
+      },
+      "meaning": "전류가 흐를 때 자석의 성질을 띠는 장치",
+      "easy_explanation": "전기가 흐르면 자석처럼 되고 전기가 끊기면 자석 성질이 약해지는 장치예요.",
+      "example_sentence": "전자석은 고철을 들어 올리는 장치에 이용됩니다.",
+      "related_terms": [
+        "전류",
+        "자석",
+        "코일",
+        "전기"
+      ]
+    },
+    {
+      "id": "g6_sci_036",
+      "term": "코일",
+      "hanja": null,
+      "meaning": "전선을 여러 번 감아 놓은 것",
+      "easy_explanation": "전선을 둥글게 여러 번 감아 만든 모양이에요.",
+      "example_sentence": "코일에 전류가 흐르면 전자석을 만들 수 있습니다.",
+      "related_terms": [
+        "전자석",
+        "전류",
+        "전선",
+        "자기력"
+      ]
+    },
+    {
+      "id": "g6_sci_037",
+      "term": "빛",
+      "hanja": null,
+      "meaning": "물체를 볼 수 있게 해 주는 에너지",
+      "easy_explanation": "눈으로 물체를 볼 수 있게 해 주는 것이에요.",
+      "example_sentence": "빛이 물체에 반사되어 우리 눈에 들어오면 물체를 볼 수 있습니다.",
+      "related_terms": [
+        "반사",
+        "굴절",
+        "렌즈",
+        "그림자"
+      ]
+    },
+    {
+      "id": "g6_sci_038",
+      "term": "반사",
+      "hanja": {
+        "word": "反射",
+        "breakdown": "돌이킬 반, 쏠 사"
+      },
+      "meaning": "빛이 물체의 표면에 부딪쳐 되돌아 나오는 현상",
+      "easy_explanation": "거울에 빛이 닿아 다시 튕겨 나오는 것처럼 빛이 되돌아오는 현상이에요.",
+      "example_sentence": "거울은 빛을 잘 반사합니다.",
+      "related_terms": [
+        "빛",
+        "거울",
+        "반사각",
+        "입사각"
+      ]
+    },
+    {
+      "id": "g6_sci_039",
+      "term": "굴절",
+      "hanja": {
+        "word": "屈折",
+        "breakdown": "굽을 굴, 꺾을 절"
+      },
+      "meaning": "빛이 다른 물질로 들어갈 때 나아가는 방향이 꺾이는 현상",
+      "easy_explanation": "빛이 공기에서 물이나 유리로 들어갈 때 방향이 바뀌는 일이에요.",
+      "example_sentence": "물속의 빨대가 꺾여 보이는 것은 빛의 굴절 때문입니다.",
+      "related_terms": [
+        "빛",
+        "렌즈",
+        "프리즘",
+        "물"
+      ]
+    },
+    {
+      "id": "g6_sci_040",
+      "term": "렌즈",
+      "hanja": null,
+      "meaning": "빛을 굴절시켜 물체가 다르게 보이게 하는 투명한 물체",
+      "easy_explanation": "돋보기처럼 빛을 꺾어 물체를 크게 보이게 할 수 있는 물체예요.",
+      "example_sentence": "볼록 렌즈는 작은 글씨를 크게 보이게 합니다.",
+      "related_terms": [
+        "굴절",
+        "볼록 렌즈",
+        "빛",
+        "돋보기"
+      ]
+    }
+  ]
+}

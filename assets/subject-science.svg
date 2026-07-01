@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" role="img" aria-label="Lab tools">
+  <rect width="220" height="150" rx="18" fill="#eef0ff"/>
+  <path d="M86 29h48M101 34v34l-38 52c-7 10 0 23 12 23h70c12 0 19-13 12-23l-38-52V34" fill="#ffffff" stroke="#1f2c27" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 113h68l11 16c3 5 0 9-5 9H70c-5 0-8-4-5-9z" fill="#7b6ee6"/>
+  <path d="M76 113h68" stroke="#1f2c27" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="93" cy="99" r="8" fill="#fff04a" stroke="#1f2c27" stroke-width="4"/>
+  <circle cx="126" cy="120" r="9" fill="#fff04a" stroke="#1f2c27" stroke-width="4"/>
+  <path d="M158 35l10-12M170 51l16-4M158 67l12 12" stroke="#ff7a00" stroke-width="6" stroke-linecap="round"/>
+</svg>

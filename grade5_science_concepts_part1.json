@@ -1,0 +1,559 @@
+{
+  "metadata": {
+    "title": "초등 5학년 과학 개념어 DB PART 1",
+    "subject": "과학",
+    "grade": 5,
+    "count": 20,
+    "schema_version": "2026-07-01"
+  },
+  "concepts": [
+    {
+      "id": "SCI5-001",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "온도",
+      "hanja": "溫度",
+      "hanja_breakdown": [
+        {
+          "hanja": "溫",
+          "meaning": "따뜻할 온"
+        },
+        {
+          "hanja": "度",
+          "meaning": "법도 도"
+        }
+      ],
+      "definition": "물체의 차갑고 따뜻한 정도를 수로 나타낸 것",
+      "student_friendly_explanation": "온도계로 재는 차갑거나 따뜻한 정도예요.",
+      "example_sentence": "물의 온도는 25℃입니다.",
+      "related_concepts": [
+        "열",
+        "온도계",
+        "섭씨"
+      ],
+      "misconception_tip": "온도와 열은 같은 말이 아니에요."
+    },
+    {
+      "id": "SCI5-002",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "열",
+      "hanja": "熱",
+      "hanja_breakdown": [
+        {
+          "hanja": "熱",
+          "meaning": "더울 열"
+        }
+      ],
+      "definition": "온도가 높은 물체에서 낮은 물체로 이동하는 에너지",
+      "student_friendly_explanation": "따뜻한 물체가 차가운 물체를 데울 때 이동하는 것이 열이에요.",
+      "example_sentence": "뜨거운 컵에서 손으로 열이 이동합니다.",
+      "related_concepts": [
+        "온도",
+        "열의 이동",
+        "전도"
+      ],
+      "misconception_tip": "열은 물질이 아니라 이동하는 에너지예요."
+    },
+    {
+      "id": "SCI5-003",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "열의 이동",
+      "hanja": "熱移動",
+      "hanja_breakdown": [
+        {
+          "hanja": "熱",
+          "meaning": "더울 열"
+        },
+        {
+          "hanja": "移",
+          "meaning": "옮길 이"
+        },
+        {
+          "hanja": "動",
+          "meaning": "움직일 동"
+        }
+      ],
+      "definition": "열이 온도가 높은 곳에서 낮은 곳으로 옮겨 가는 현상",
+      "student_friendly_explanation": "뜨거운 곳의 따뜻함이 차가운 곳으로 퍼지는 현상이에요.",
+      "example_sentence": "따뜻한 국에 숟가락을 넣으면 숟가락도 따뜻해집니다.",
+      "related_concepts": [
+        "전도",
+        "대류",
+        "복사"
+      ],
+      "misconception_tip": "온도가 낮은 곳에서 높은 곳으로 저절로 이동하지 않아요."
+    },
+    {
+      "id": "SCI5-004",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "전도",
+      "hanja": "傳導",
+      "hanja_breakdown": [
+        {
+          "hanja": "傳",
+          "meaning": "전할 전"
+        },
+        {
+          "hanja": "導",
+          "meaning": "이끌 도"
+        }
+      ],
+      "definition": "물체를 이루는 물질을 따라 열이 직접 이동하는 현상",
+      "student_friendly_explanation": "맞닿아 있는 물체를 통해 열이 전해지는 거예요.",
+      "example_sentence": "금속 숟가락 끝을 뜨거운 물에 넣으면 손잡이도 따뜻해집니다.",
+      "related_concepts": [
+        "열의 이동",
+        "금속",
+        "열전도"
+      ],
+      "misconception_tip": "주로 고체에서 잘 관찰되지만 고체에서만 일어나는 것은 아니에요."
+    },
+    {
+      "id": "SCI5-005",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "대류",
+      "hanja": "對流",
+      "hanja_breakdown": [
+        {
+          "hanja": "對",
+          "meaning": "대할 대"
+        },
+        {
+          "hanja": "流",
+          "meaning": "흐를 류"
+        }
+      ],
+      "definition": "액체나 기체가 움직이면서 열을 이동시키는 현상",
+      "student_friendly_explanation": "따뜻해진 물이나 공기가 움직이며 열을 옮기는 거예요.",
+      "example_sentence": "냄비 속 물을 데우면 따뜻한 물이 위로 올라갑니다.",
+      "related_concepts": [
+        "열의 이동",
+        "기체",
+        "액체"
+      ],
+      "misconception_tip": "대류는 물질 자체의 움직임이 함께 일어나요."
+    },
+    {
+      "id": "SCI5-006",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "복사",
+      "hanja": "輻射",
+      "hanja_breakdown": [
+        {
+          "hanja": "輻",
+          "meaning": "바퀴살 복"
+        },
+        {
+          "hanja": "射",
+          "meaning": "쏠 사"
+        }
+      ],
+      "definition": "물질을 직접 통하지 않고 열이 이동하는 현상",
+      "student_friendly_explanation": "햇빛처럼 떨어진 곳까지 열이 전해지는 현상이에요.",
+      "example_sentence": "태양의 열은 우주 공간을 지나 지구에 도달합니다.",
+      "related_concepts": [
+        "열의 이동",
+        "태양",
+        "햇빛"
+      ],
+      "misconception_tip": "복사는 공기가 없어도 일어날 수 있어요."
+    },
+    {
+      "id": "SCI5-007",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "단열",
+      "hanja": "斷熱",
+      "hanja_breakdown": [
+        {
+          "hanja": "斷",
+          "meaning": "끊을 단"
+        },
+        {
+          "hanja": "熱",
+          "meaning": "더울 열"
+        }
+      ],
+      "definition": "열의 이동을 줄이거나 막는 것",
+      "student_friendly_explanation": "따뜻함이나 차가움이 밖으로 잘 빠져나가지 않게 하는 거예요.",
+      "example_sentence": "보온병은 단열이 잘 되도록 만들어졌습니다.",
+      "related_concepts": [
+        "보온",
+        "열의 이동",
+        "단열재"
+      ],
+      "misconception_tip": "단열은 열을 완전히 없애는 것이 아니라 이동을 줄이는 것이에요."
+    },
+    {
+      "id": "SCI5-008",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "보온",
+      "hanja": "保溫",
+      "hanja_breakdown": [
+        {
+          "hanja": "保",
+          "meaning": "지킬 보"
+        },
+        {
+          "hanja": "溫",
+          "meaning": "따뜻할 온"
+        }
+      ],
+      "definition": "온도가 쉽게 변하지 않도록 따뜻한 상태를 유지하는 것",
+      "student_friendly_explanation": "따뜻한 것을 오래 따뜻하게 지키는 거예요.",
+      "example_sentence": "두꺼운 옷은 몸의 보온을 도와줍니다.",
+      "related_concepts": [
+        "단열",
+        "온도",
+        "열"
+      ],
+      "misconception_tip": "보온은 스스로 열을 계속 만들어 내는 뜻이 아니에요."
+    },
+    {
+      "id": "SCI5-009",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "온도계",
+      "hanja": "溫度計",
+      "hanja_breakdown": [
+        {
+          "hanja": "溫",
+          "meaning": "따뜻할 온"
+        },
+        {
+          "hanja": "度",
+          "meaning": "법도 도"
+        },
+        {
+          "hanja": "計",
+          "meaning": "셀 계"
+        }
+      ],
+      "definition": "온도를 재는 기구",
+      "student_friendly_explanation": "몇 도인지 숫자로 알려 주는 도구예요.",
+      "example_sentence": "온도계로 교실의 공기 온도를 쟀습니다.",
+      "related_concepts": [
+        "온도",
+        "섭씨",
+        "측정"
+      ],
+      "misconception_tip": "온도계를 만지거나 입김을 불면 정확한 값을 재기 어려워요."
+    },
+    {
+      "id": "SCI5-010",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "섭씨",
+      "hanja": "攝氏",
+      "hanja_breakdown": [
+        {
+          "hanja": "攝",
+          "meaning": "당길 섭"
+        },
+        {
+          "hanja": "氏",
+          "meaning": "성씨 씨"
+        }
+      ],
+      "definition": "물의 어는점과 끓는점을 기준으로 정한 온도의 단위",
+      "student_friendly_explanation": "우리나라에서 흔히 쓰는 ℃ 온도 단위예요.",
+      "example_sentence": "오늘 기온은 섭씨 28도입니다.",
+      "related_concepts": [
+        "온도",
+        "℃",
+        "온도계"
+      ],
+      "misconception_tip": "섭씨와 화씨는 서로 다른 온도 단위예요."
+    },
+    {
+      "id": "SCI5-011",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "태양계",
+      "hanja": "太陽系",
+      "hanja_breakdown": [
+        {
+          "hanja": "太",
+          "meaning": "클 태"
+        },
+        {
+          "hanja": "陽",
+          "meaning": "볕 양"
+        },
+        {
+          "hanja": "系",
+          "meaning": "이을 계"
+        }
+      ],
+      "definition": "태양과 태양의 영향을 받는 천체들로 이루어진 집단",
+      "student_friendly_explanation": "태양과 그 주변을 도는 행성, 위성 등이 모인 가족 같은 체계예요.",
+      "example_sentence": "지구는 태양계의 행성입니다.",
+      "related_concepts": [
+        "태양",
+        "행성",
+        "위성"
+      ],
+      "misconception_tip": "태양계에는 행성뿐 아니라 왜소행성, 소행성, 혜성도 있어요."
+    },
+    {
+      "id": "SCI5-012",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "태양",
+      "hanja": "太陽",
+      "hanja_breakdown": [
+        {
+          "hanja": "太",
+          "meaning": "클 태"
+        },
+        {
+          "hanja": "陽",
+          "meaning": "볕 양"
+        }
+      ],
+      "definition": "스스로 빛과 열을 내는 태양계의 중심 별",
+      "student_friendly_explanation": "지구에 빛과 열을 주는 아주 큰 별이에요.",
+      "example_sentence": "식물은 태양빛을 이용해 양분을 만듭니다.",
+      "related_concepts": [
+        "별",
+        "태양계",
+        "빛"
+      ],
+      "misconception_tip": "태양은 행성이 아니라 별이에요."
+    },
+    {
+      "id": "SCI5-013",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "행성",
+      "hanja": "行星",
+      "hanja_breakdown": [
+        {
+          "hanja": "行",
+          "meaning": "다닐 행"
+        },
+        {
+          "hanja": "星",
+          "meaning": "별 성"
+        }
+      ],
+      "definition": "별 주위를 일정한 길로 도는 비교적 큰 천체",
+      "student_friendly_explanation": "태양 주위를 도는 지구 같은 천체예요.",
+      "example_sentence": "화성은 태양 주위를 도는 행성입니다.",
+      "related_concepts": [
+        "태양계",
+        "공전",
+        "궤도"
+      ],
+      "misconception_tip": "행성은 스스로 빛을 내지 못해요."
+    },
+    {
+      "id": "SCI5-014",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "위성",
+      "hanja": "衛星",
+      "hanja_breakdown": [
+        {
+          "hanja": "衛",
+          "meaning": "지킬 위"
+        },
+        {
+          "hanja": "星",
+          "meaning": "별 성"
+        }
+      ],
+      "definition": "행성 주위를 도는 천체",
+      "student_friendly_explanation": "행성 곁을 돌고 있는 천체예요.",
+      "example_sentence": "달은 지구의 위성입니다.",
+      "related_concepts": [
+        "달",
+        "행성",
+        "공전"
+      ],
+      "misconception_tip": "위성은 모두 인공위성만을 뜻하지 않아요."
+    },
+    {
+      "id": "SCI5-015",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "별",
+      "hanja": "星",
+      "hanja_breakdown": [
+        {
+          "hanja": "星",
+          "meaning": "별 성"
+        }
+      ],
+      "definition": "스스로 빛을 내는 천체",
+      "student_friendly_explanation": "밤하늘에서 빛나며 스스로 빛을 내는 천체예요.",
+      "example_sentence": "태양은 지구에서 가장 가까운 별입니다.",
+      "related_concepts": [
+        "태양",
+        "별자리",
+        "천체"
+      ],
+      "misconception_tip": "행성도 밝게 보일 수 있지만 스스로 빛을 내는 별은 아니에요."
+    },
+    {
+      "id": "SCI5-016",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "별자리",
+      "hanja": "星座",
+      "hanja_breakdown": [
+        {
+          "hanja": "星",
+          "meaning": "별 성"
+        },
+        {
+          "hanja": "座",
+          "meaning": "자리 좌"
+        }
+      ],
+      "definition": "밤하늘의 별들을 이어 사람이나 동물, 물건의 모양으로 이름 붙인 것",
+      "student_friendly_explanation": "별들을 연결해 만든 하늘의 그림 이름이에요.",
+      "example_sentence": "북두칠성은 국자 모양으로 보입니다.",
+      "related_concepts": [
+        "별",
+        "북극성",
+        "밤하늘"
+      ],
+      "misconception_tip": "별자리는 실제 별들이 가까이 모여 있다는 뜻은 아니에요."
+    },
+    {
+      "id": "SCI5-017",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "북극성",
+      "hanja": "北極星",
+      "hanja_breakdown": [
+        {
+          "hanja": "北",
+          "meaning": "북녘 북"
+        },
+        {
+          "hanja": "極",
+          "meaning": "극진할 극"
+        },
+        {
+          "hanja": "星",
+          "meaning": "별 성"
+        }
+      ],
+      "definition": "북쪽 하늘에서 거의 움직이지 않는 것처럼 보이는 별",
+      "student_friendly_explanation": "방향을 찾을 때 북쪽을 알려 주는 별이에요.",
+      "example_sentence": "옛날 사람들은 북극성을 보고 방향을 찾았습니다.",
+      "related_concepts": [
+        "별",
+        "방향",
+        "별자리"
+      ],
+      "misconception_tip": "북극성은 가장 밝은 별은 아니에요."
+    },
+    {
+      "id": "SCI5-018",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "공전",
+      "hanja": "公轉",
+      "hanja_breakdown": [
+        {
+          "hanja": "公",
+          "meaning": "공평할 공"
+        },
+        {
+          "hanja": "轉",
+          "meaning": "구를 전"
+        }
+      ],
+      "definition": "천체가 다른 천체 주위를 도는 운동",
+      "student_friendly_explanation": "지구가 태양 주위를 한 바퀴 도는 것처럼 둘레를 도는 운동이에요.",
+      "example_sentence": "지구는 태양 주위를 공전합니다.",
+      "related_concepts": [
+        "자전",
+        "행성",
+        "궤도"
+      ],
+      "misconception_tip": "공전과 자전은 달라요. 자전은 스스로 도는 운동이에요."
+    },
+    {
+      "id": "SCI5-019",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "자전",
+      "hanja": "自轉",
+      "hanja_breakdown": [
+        {
+          "hanja": "自",
+          "meaning": "스스로 자"
+        },
+        {
+          "hanja": "轉",
+          "meaning": "구를 전"
+        }
+      ],
+      "definition": "천체가 자기 자신을 중심으로 도는 운동",
+      "student_friendly_explanation": "팽이처럼 스스로 도는 운동이에요.",
+      "example_sentence": "지구의 자전 때문에 낮과 밤이 생깁니다.",
+      "related_concepts": [
+        "공전",
+        "지구",
+        "낮과 밤"
+      ],
+      "misconception_tip": "자전은 태양 주위를 도는 운동이 아니에요."
+    },
+    {
+      "id": "SCI5-020",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 1",
+      "concept": "궤도",
+      "hanja": "軌道",
+      "hanja_breakdown": [
+        {
+          "hanja": "軌",
+          "meaning": "바퀴자국 궤"
+        },
+        {
+          "hanja": "道",
+          "meaning": "길 도"
+        }
+      ],
+      "definition": "천체나 물체가 일정하게 움직이는 길",
+      "student_friendly_explanation": "행성이나 위성이 도는 정해진 길이에요.",
+      "example_sentence": "지구는 일정한 궤도를 따라 태양 주위를 돕니다.",
+      "related_concepts": [
+        "공전",
+        "행성",
+        "태양계"
+      ],
+      "misconception_tip": "궤도는 눈에 보이는 선이 실제로 그려져 있는 것은 아니에요."
+    }
+  ]
+}

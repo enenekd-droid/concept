@@ -1,0 +1,574 @@
+{
+  "name": "3학년 과학 개념어 확장 데이터 part1",
+  "grade": 3,
+  "subject": "과학",
+  "curriculum": "2022 개정 교육과정",
+  "publisher": "아이스크림미디어",
+  "part": 1,
+  "count": 20,
+  "concepts": [
+    {
+      "id": 1,
+      "local_id": 1,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "관찰",
+      "description": "자세히 보고 알아보는 탐구 활동",
+      "hanja": "觀(볼 관) 察(살필 찰)",
+      "examples": [
+        "쌍안경으로 밤하늘의 별자리와 달의 표면을 관찰하는 시간을 가졌다.",
+        "아이들이 모래놀이를 하는 동안 선생님은 뒤에서 조용히 행동을 관찰했다."
+      ],
+      "keywords": [
+        "관찰",
+        "살펴보기",
+        "자세히 보기"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "관찰은(는) 자세히 보고 알아보는 탐구 활동",
+        "answer": true
+      },
+      "synonyms": [
+        "살펴보기",
+        "자세히 보기"
+      ]
+    },
+    {
+      "id": 2,
+      "local_id": 2,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "측정",
+      "description": "길이·무게·온도 등을 도구로 재는 활동",
+      "hanja": "測(잴 측) 定(정할 정)",
+      "examples": [
+        "학생들은 자를 이용해 책상의 길이를 측정했다.",
+        "체온계로 체온을 측정한 뒤 기록장에 적었다."
+      ],
+      "keywords": [
+        "측정",
+        "재기",
+        "계측"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "측정은(는) 길이·무게·온도 등을 도구로 재는 활동",
+        "answer": true
+      },
+      "synonyms": [
+        "재기",
+        "계측"
+      ]
+    },
+    {
+      "id": 3,
+      "local_id": 3,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "실험",
+      "description": "직접 해 보며 알아보는 활동",
+      "hanja": "實(열매 실) 驗(시험할 험)",
+      "examples": [
+        "우리는 자석에 붙는 물체를 알아보기 위해 실험을 했다.",
+        "실험을 할 때에는 안전 수칙을 먼저 확인해야 한다."
+      ],
+      "keywords": [
+        "실험",
+        "시험",
+        "탐구 활동"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "실험은(는) 직접 해 보며 알아보는 활동",
+        "answer": true
+      },
+      "synonyms": [
+        "시험",
+        "탐구 활동"
+      ]
+    },
+    {
+      "id": 4,
+      "local_id": 4,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "예상",
+      "description": "앞으로 일어날 일을 미리 생각하는 것",
+      "hanja": "豫(미리 예) 想(생각 상)",
+      "examples": [
+        "과학 시간에 '예상'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 예상에 대해 이야기하며 '앞으로 일어날 일을 미리 생각하는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "예상",
+        "짐작",
+        "예측"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "예상은(는) 앞으로 일어날 일을 미리 생각하는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "짐작",
+        "예측"
+      ]
+    },
+    {
+      "id": 5,
+      "local_id": 5,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "결과",
+      "description": "실험이나 관찰 뒤에 나타난 내용",
+      "hanja": "結(맺을 결) 果(열매 과)",
+      "examples": [
+        "과학 시간에 '결과'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 결과에 대해 이야기하며 '실험이나 관찰 뒤에 나타난 내용'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "결과",
+        "성과",
+        "나타난 일"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "결과은(는) 실험이나 관찰 뒤에 나타난 내용",
+        "answer": true
+      },
+      "synonyms": [
+        "성과",
+        "나타난 일"
+      ],
+      "antonyms": [
+        "원인"
+      ]
+    },
+    {
+      "id": 6,
+      "local_id": 6,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "식물",
+      "description": "스스로 양분을 만들며 살아가는 생물",
+      "hanja": "植(심을 식) 物(물건 물)",
+      "examples": [
+        "과학 시간에 '식물'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 식물에 대해 이야기하며 '스스로 양분을 만들며 살아가는 생물'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "식물",
+        "풀과 나무"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "식물은(는) 스스로 양분을 만들며 살아가는 생물",
+        "answer": true
+      },
+      "synonyms": [
+        "풀과 나무"
+      ]
+    },
+    {
+      "id": 7,
+      "local_id": 7,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "동물",
+      "description": "먹이를 먹고 움직이며 살아가는 생물",
+      "hanja": "動(움직일 동) 物(물건 물)",
+      "examples": [
+        "과학 시간에 '동물'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 동물에 대해 이야기하며 '먹이를 먹고 움직이며 살아가는 생물'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "동물"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "동물은(는) 먹이를 먹고 움직이며 살아가는 생물",
+        "answer": true
+      },
+      "antonyms": [
+        "식물"
+      ]
+    },
+    {
+      "id": 8,
+      "local_id": 8,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "뿌리",
+      "description": "식물을 지탱하고 물을 흡수하는 부분",
+      "hanja": "根(뿌리 근)",
+      "examples": [
+        "과학 시간에 '뿌리'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 뿌리에 대해 이야기하며 '식물을 지탱하고 물을 흡수하는 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "뿌리",
+        "근"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "뿌리은(는) 식물을 지탱하고 물을 흡수하는 부분",
+        "answer": true
+      },
+      "synonyms": [
+        "근"
+      ]
+    },
+    {
+      "id": 9,
+      "local_id": 9,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "줄기",
+      "description": "잎과 꽃을 받치고 물과 양분이 이동하는 부분",
+      "hanja": "莖(줄기 경)",
+      "examples": [
+        "과학 시간에 '줄기'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 줄기에 대해 이야기하며 '잎과 꽃을 받치고 물과 양분이 이동하는 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "줄기"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "줄기은(는) 잎과 꽃을 받치고 물과 양분이 이동하는 부분",
+        "answer": true
+      }
+    },
+    {
+      "id": 10,
+      "local_id": 10,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "잎",
+      "description": "식물이 양분을 만드는 부분",
+      "hanja": "葉(잎 엽)",
+      "examples": [
+        "과학 시간에 '잎'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 잎에 대해 이야기하며 '식물이 양분을 만드는 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "잎"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "잎은(는) 식물이 양분을 만드는 부분",
+        "answer": true
+      }
+    },
+    {
+      "id": 11,
+      "local_id": 11,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "꽃",
+      "description": "씨를 만드는 식물의 부분",
+      "hanja": "花(꽃 화)",
+      "examples": [
+        "과학 시간에 '꽃'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 꽃에 대해 이야기하며 '씨를 만드는 식물의 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "꽃"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "꽃은(는) 씨를 만드는 식물의 부분",
+        "answer": true
+      }
+    },
+    {
+      "id": 12,
+      "local_id": 12,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "열매",
+      "description": "씨를 보호하는 식물의 부분",
+      "hanja": "實(열매 실)",
+      "examples": [
+        "과학 시간에 '열매'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 열매에 대해 이야기하며 '씨를 보호하는 식물의 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "열매",
+        "과실"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "열매은(는) 씨를 보호하는 식물의 부분",
+        "answer": true
+      },
+      "synonyms": [
+        "과실"
+      ]
+    },
+    {
+      "id": 13,
+      "local_id": 13,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "씨",
+      "description": "새로운 식물로 자랄 수 있는 부분",
+      "hanja": "種(씨 종)",
+      "examples": [
+        "과학 시간에 '씨'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 씨에 대해 이야기하며 '새로운 식물로 자랄 수 있는 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "씨",
+        "종자"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "씨은(는) 새로운 식물로 자랄 수 있는 부분",
+        "answer": true
+      },
+      "synonyms": [
+        "종자"
+      ]
+    },
+    {
+      "id": 14,
+      "local_id": 14,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "생물",
+      "description": "살아 있는 것",
+      "hanja": "生(날 생) 物(물건 물)",
+      "examples": [
+        "과학 시간에 '생물'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 생물에 대해 이야기하며 '살아 있는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "생물",
+        "살아 있는 것"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "생물은(는) 살아 있는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "살아 있는 것"
+      ],
+      "antonyms": [
+        "무생물"
+      ]
+    },
+    {
+      "id": 15,
+      "local_id": 15,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "환경",
+      "description": "생물이 살아가는 주변",
+      "hanja": "環(고리 환) 境(지경 경)",
+      "examples": [
+        "과학 시간에 '환경'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 환경에 대해 이야기하며 '생물이 살아가는 주변'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "환경",
+        "주변",
+        "둘레 조건"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "환경은(는) 생물이 살아가는 주변",
+        "answer": true
+      },
+      "synonyms": [
+        "주변",
+        "둘레 조건"
+      ]
+    },
+    {
+      "id": 16,
+      "local_id": 16,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "물질",
+      "description": "모든 물건을 이루는 것",
+      "hanja": "物(물건 물) 質(바탕 질)",
+      "examples": [
+        "과학 시간에 '물질'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 물질에 대해 이야기하며 '모든 물건을 이루는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "물질",
+        "재료",
+        "성분"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "물질은(는) 모든 물건을 이루는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "재료",
+        "성분"
+      ]
+    },
+    {
+      "id": 17,
+      "local_id": 17,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "고체",
+      "description": "일정한 모양이 있는 물질의 상태",
+      "hanja": "固(굳을 고) 體(몸 체)",
+      "examples": [
+        "과학 시간에 '고체'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 고체에 대해 이야기하며 '일정한 모양이 있는 물질의 상태'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "고체"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "고체은(는) 일정한 모양이 있는 물질의 상태",
+        "answer": true
+      },
+      "antonyms": [
+        "액체",
+        "기체"
+      ]
+    },
+    {
+      "id": 18,
+      "local_id": 18,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "액체",
+      "description": "담는 그릇에 따라 모양이 변하는 상태",
+      "hanja": "液(진 액) 體(몸 체)",
+      "examples": [
+        "과학 시간에 '액체'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 액체에 대해 이야기하며 '담는 그릇에 따라 모양이 변하는 상태'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "액체"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "액체은(는) 담는 그릇에 따라 모양이 변하는 상태",
+        "answer": true
+      },
+      "antonyms": [
+        "고체",
+        "기체"
+      ]
+    },
+    {
+      "id": 19,
+      "local_id": 19,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "기체",
+      "description": "모양과 부피가 일정하지 않고 퍼지는 상태",
+      "hanja": "氣(기운 기) 體(몸 체)",
+      "examples": [
+        "과학 시간에 '기체'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 기체에 대해 이야기하며 '모양과 부피가 일정하지 않고 퍼지는 상태'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "기체"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "기체은(는) 모양과 부피가 일정하지 않고 퍼지는 상태",
+        "answer": true
+      },
+      "antonyms": [
+        "고체",
+        "액체"
+      ]
+    },
+    {
+      "id": 20,
+      "local_id": 20,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "자석",
+      "description": "철로 된 물체를 끌어당기는 물체",
+      "hanja": "磁(자석 자) 石(돌 석)",
+      "examples": [
+        "자석은 철로 된 클립을 끌어당긴다.",
+        "막대자석의 양쪽 끝에 철가루가 많이 붙었다."
+      ],
+      "keywords": [
+        "자석"
+      ],
+      "difficulty": 1,
+      "quiz": {
+        "type": "ox",
+        "question": "자석은(는) 철로 된 물체를 끌어당기는 물체",
+        "answer": true
+      }
+    }
+  ]
+}

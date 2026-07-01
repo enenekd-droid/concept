@@ -1,0 +1,491 @@
+{
+  "metadata": {
+    "title": "초등 5학년 과학 개념어 DB PART 3",
+    "subject": "과학",
+    "grade": 5,
+    "count": 20,
+    "schema_version": "2026-07-01"
+  },
+  "concepts": [
+    {
+      "id": "SCI5-041",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "광합성",
+      "hanja": "光合成",
+      "hanja_breakdown": [
+        {
+          "hanja": "光",
+          "meaning": "빛 광"
+        },
+        {
+          "hanja": "合",
+          "meaning": "합할 합"
+        },
+        {
+          "hanja": "成",
+          "meaning": "이룰 성"
+        }
+      ],
+      "definition": "식물이 빛을 이용해 물과 이산화 탄소로 양분을 만드는 작용",
+      "student_friendly_explanation": "식물이 햇빛으로 스스로 먹이를 만드는 과정이에요.",
+      "example_sentence": "잎에서는 광합성으로 녹말 같은 양분이 만들어집니다.",
+      "related_concepts": [
+        "잎",
+        "엽록체",
+        "이산화 탄소"
+      ],
+      "misconception_tip": "광합성은 식물이 흙을 먹어서 자라는 것이 아님을 보여 줘요."
+    },
+    {
+      "id": "SCI5-042",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "증산 작용",
+      "hanja": "蒸散作用",
+      "hanja_breakdown": [
+        {
+          "hanja": "蒸",
+          "meaning": "찔 증"
+        },
+        {
+          "hanja": "散",
+          "meaning": "흩을 산"
+        },
+        {
+          "hanja": "作",
+          "meaning": "지을 작"
+        },
+        {
+          "hanja": "用",
+          "meaning": "쓸 용"
+        }
+      ],
+      "definition": "식물체 안의 물이 잎의 기공을 통해 수증기로 나가는 작용",
+      "student_friendly_explanation": "잎에서 물이 수증기로 빠져나가는 현상이에요.",
+      "example_sentence": "맑고 더운 날에는 증산 작용이 활발해질 수 있습니다.",
+      "related_concepts": [
+        "기공",
+        "잎",
+        "물의 이동"
+      ],
+      "misconception_tip": "증산 작용은 식물이 물을 낭비하는 것만은 아니에요."
+    },
+    {
+      "id": "SCI5-043",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "기공",
+      "hanja": "氣孔",
+      "hanja_breakdown": [
+        {
+          "hanja": "氣",
+          "meaning": "기운 기"
+        },
+        {
+          "hanja": "孔",
+          "meaning": "구멍 공"
+        }
+      ],
+      "definition": "잎의 표면에 있는 작은 구멍으로 기체와 수증기가 드나드는 곳",
+      "student_friendly_explanation": "잎에 있는 아주 작은 숨구멍 같은 곳이에요.",
+      "example_sentence": "이산화 탄소는 기공을 통해 잎 안으로 들어갑니다.",
+      "related_concepts": [
+        "잎",
+        "증산 작용",
+        "광합성"
+      ],
+      "misconception_tip": "기공은 눈으로 바로 보기 어려울 만큼 작아요."
+    },
+    {
+      "id": "SCI5-044",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "물관",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "뿌리에서 흡수한 물이 이동하는 통로",
+      "student_friendly_explanation": "뿌리에서 잎까지 물이 올라가는 길이에요.",
+      "example_sentence": "색소 물에 담근 줄기에서 물관의 흔적을 볼 수 있습니다.",
+      "related_concepts": [
+        "줄기",
+        "뿌리",
+        "물의 이동"
+      ],
+      "misconception_tip": "물관은 물만이 아니라 물에 녹은 무기 양분도 이동시켜요."
+    },
+    {
+      "id": "SCI5-045",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "체관",
+      "hanja": "篩管",
+      "hanja_breakdown": [
+        {
+          "hanja": "篩",
+          "meaning": "체 사"
+        },
+        {
+          "hanja": "管",
+          "meaning": "대롱 관"
+        }
+      ],
+      "definition": "잎에서 만든 양분이 이동하는 통로",
+      "student_friendly_explanation": "잎에서 만든 먹이가 다른 부분으로 가는 길이에요.",
+      "example_sentence": "광합성으로 만들어진 양분은 체관을 통해 이동합니다.",
+      "related_concepts": [
+        "줄기",
+        "광합성",
+        "양분"
+      ],
+      "misconception_tip": "체관은 물관과 이동시키는 물질이 달라요."
+    },
+    {
+      "id": "SCI5-046",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "암술",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "꽃의 가운데에 있으며 씨가 만들어지는 데 중요한 기관",
+      "student_friendly_explanation": "꽃에서 씨가 만들어지는 쪽의 기관이에요.",
+      "example_sentence": "꽃의 암술에는 씨방이 있습니다.",
+      "related_concepts": [
+        "꽃",
+        "수술",
+        "수분"
+      ],
+      "misconception_tip": "암술과 수술은 꽃의 생식과 관련된 기관이에요."
+    },
+    {
+      "id": "SCI5-047",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "수술",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "꽃가루를 만드는 꽃의 기관",
+      "student_friendly_explanation": "꽃가루를 만드는 부분이에요.",
+      "example_sentence": "수술의 꽃밥에서 꽃가루가 만들어집니다.",
+      "related_concepts": [
+        "꽃",
+        "암술",
+        "꽃가루"
+      ],
+      "misconception_tip": "수술은 물건을 고치는 수리가 아니에요."
+    },
+    {
+      "id": "SCI5-048",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "수분",
+      "hanja": "受粉",
+      "hanja_breakdown": [
+        {
+          "hanja": "受",
+          "meaning": "받을 수"
+        },
+        {
+          "hanja": "粉",
+          "meaning": "가루 분"
+        }
+      ],
+      "definition": "꽃가루가 암술머리에 붙는 것",
+      "student_friendly_explanation": "꽃가루가 암술에 옮겨 붙는 일이에요.",
+      "example_sentence": "벌은 꽃가루를 옮겨 수분을 도울 수 있습니다.",
+      "related_concepts": [
+        "꽃가루",
+        "암술",
+        "수정"
+      ],
+      "misconception_tip": "수분은 물기가 있다는 뜻의 수분(水分)과 달라요."
+    },
+    {
+      "id": "SCI5-049",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "날씨",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "어느 때, 어느 곳의 기온·바람·구름·비 등의 대기 상태",
+      "student_friendly_explanation": "오늘 하늘과 공기의 상태를 말해요.",
+      "example_sentence": "오늘 날씨는 맑고 바람이 약합니다.",
+      "related_concepts": [
+        "기온",
+        "습도",
+        "강수"
+      ],
+      "misconception_tip": "날씨는 짧은 시간의 상태이고 기후는 긴 기간의 평균적인 특징이에요."
+    },
+    {
+      "id": "SCI5-050",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "기온",
+      "hanja": "氣溫",
+      "hanja_breakdown": [
+        {
+          "hanja": "氣",
+          "meaning": "기운 기"
+        },
+        {
+          "hanja": "溫",
+          "meaning": "따뜻할 온"
+        }
+      ],
+      "definition": "공기의 온도",
+      "student_friendly_explanation": "공기가 얼마나 따뜻하거나 차가운지 나타낸 값이에요.",
+      "example_sentence": "아침 기온은 낮보다 낮은 경우가 많습니다.",
+      "related_concepts": [
+        "온도",
+        "날씨",
+        "온도계"
+      ],
+      "misconception_tip": "햇빛을 직접 받는 곳에서 재면 정확한 기온과 다를 수 있어요."
+    },
+    {
+      "id": "SCI5-051",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "습도",
+      "hanja": "濕度",
+      "hanja_breakdown": [
+        {
+          "hanja": "濕",
+          "meaning": "젖을 습"
+        },
+        {
+          "hanja": "度",
+          "meaning": "법도 도"
+        }
+      ],
+      "definition": "공기 중에 수증기가 들어 있는 정도",
+      "student_friendly_explanation": "공기가 얼마나 눅눅한지 나타내는 정도예요.",
+      "example_sentence": "습도가 높으면 빨래가 잘 마르지 않습니다.",
+      "related_concepts": [
+        "수증기",
+        "날씨",
+        "구름"
+      ],
+      "misconception_tip": "습도는 비가 오는지 아닌지만으로 결정되지 않아요."
+    },
+    {
+      "id": "SCI5-052",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "바람",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "공기가 움직이는 것",
+      "student_friendly_explanation": "공기가 한 곳에서 다른 곳으로 움직이는 거예요.",
+      "example_sentence": "바람이 강하게 불어 나뭇가지가 흔들렸습니다.",
+      "related_concepts": [
+        "공기",
+        "기압",
+        "풍향"
+      ],
+      "misconception_tip": "바람은 눈에 보이지 않지만 주변 물체의 움직임으로 알 수 있어요."
+    },
+    {
+      "id": "SCI5-053",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "풍향",
+      "hanja": "風向",
+      "hanja_breakdown": [
+        {
+          "hanja": "風",
+          "meaning": "바람 풍"
+        },
+        {
+          "hanja": "向",
+          "meaning": "향할 향"
+        }
+      ],
+      "definition": "바람이 불어오는 방향",
+      "student_friendly_explanation": "바람이 어디에서 오는지를 나타내요.",
+      "example_sentence": "북풍은 북쪽에서 불어오는 바람입니다.",
+      "related_concepts": [
+        "바람",
+        "풍속",
+        "날씨"
+      ],
+      "misconception_tip": "풍향은 바람이 가는 방향이 아니라 불어오는 방향이에요."
+    },
+    {
+      "id": "SCI5-054",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "풍속",
+      "hanja": "風速",
+      "hanja_breakdown": [
+        {
+          "hanja": "風",
+          "meaning": "바람 풍"
+        },
+        {
+          "hanja": "速",
+          "meaning": "빠를 속"
+        }
+      ],
+      "definition": "바람의 빠르기",
+      "student_friendly_explanation": "바람이 얼마나 빠르게 부는지 나타내는 값이에요.",
+      "example_sentence": "풍속이 크면 바람이 세게 붑니다.",
+      "related_concepts": [
+        "바람",
+        "풍향",
+        "기상 관측"
+      ],
+      "misconception_tip": "풍속이 크다는 것은 바람의 방향을 뜻하는 말이 아니에요."
+    },
+    {
+      "id": "SCI5-055",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "구름",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "공기 중의 작은 물방울이나 얼음 알갱이가 모여 떠 있는 것",
+      "student_friendly_explanation": "하늘에 떠 있는 작은 물방울과 얼음 알갱이의 모임이에요.",
+      "example_sentence": "구름이 많아지자 하늘이 흐려졌습니다.",
+      "related_concepts": [
+        "수증기",
+        "응결",
+        "강수"
+      ],
+      "misconception_tip": "구름은 수증기 자체가 아니라 작은 물방울이나 얼음 알갱이에요."
+    },
+    {
+      "id": "SCI5-056",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "강수",
+      "hanja": "降水",
+      "hanja_breakdown": [
+        {
+          "hanja": "降",
+          "meaning": "내릴 강"
+        },
+        {
+          "hanja": "水",
+          "meaning": "물 수"
+        }
+      ],
+      "definition": "비, 눈, 우박처럼 하늘에서 물이 떨어지는 현상",
+      "student_friendly_explanation": "하늘에서 비나 눈 등이 내리는 일이에요.",
+      "example_sentence": "오늘 오후에는 강수가 예상됩니다.",
+      "related_concepts": [
+        "비",
+        "눈",
+        "구름"
+      ],
+      "misconception_tip": "강수는 비만을 뜻하지 않아요."
+    },
+    {
+      "id": "SCI5-057",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "이슬",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "공기 중 수증기가 차가운 물체 표면에서 물방울로 맺힌 것",
+      "student_friendly_explanation": "아침 풀잎에 맺힌 작은 물방울이에요.",
+      "example_sentence": "새벽에 기온이 낮아지면 풀잎에 이슬이 맺힙니다.",
+      "related_concepts": [
+        "수증기",
+        "응결",
+        "기온"
+      ],
+      "misconception_tip": "이슬은 하늘에서 내린 비가 아니에요."
+    },
+    {
+      "id": "SCI5-058",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "안개",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "지표 가까이에 작은 물방울이 떠 있어 앞이 흐리게 보이는 현상",
+      "student_friendly_explanation": "땅 가까이에 생긴 구름 같은 것이에요.",
+      "example_sentence": "안개가 짙으면 멀리 있는 건물이 잘 보이지 않습니다.",
+      "related_concepts": [
+        "구름",
+        "응결",
+        "날씨"
+      ],
+      "misconception_tip": "안개는 연기나 먼지만을 뜻하지 않아요."
+    },
+    {
+      "id": "SCI5-059",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "응결",
+      "hanja": "凝結",
+      "hanja_breakdown": [
+        {
+          "hanja": "凝",
+          "meaning": "엉길 응"
+        },
+        {
+          "hanja": "結",
+          "meaning": "맺을 결"
+        }
+      ],
+      "definition": "기체 상태의 수증기가 액체 상태의 물방울로 변하는 현상",
+      "student_friendly_explanation": "수증기가 차가워져 물방울이 되는 거예요.",
+      "example_sentence": "차가운 컵 겉면에 물방울이 맺히는 것은 응결 때문입니다.",
+      "related_concepts": [
+        "수증기",
+        "이슬",
+        "구름"
+      ],
+      "misconception_tip": "컵 안의 물이 새어 나온 것이 아니라 공기 중 수증기가 변한 거예요."
+    },
+    {
+      "id": "SCI5-060",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 3",
+      "concept": "기압",
+      "hanja": "氣壓",
+      "hanja_breakdown": [
+        {
+          "hanja": "氣",
+          "meaning": "기운 기"
+        },
+        {
+          "hanja": "壓",
+          "meaning": "누를 압"
+        }
+      ],
+      "definition": "공기가 누르는 힘",
+      "student_friendly_explanation": "공기가 주변을 누르는 힘이에요.",
+      "example_sentence": "기압 차이 때문에 바람이 불 수 있습니다.",
+      "related_concepts": [
+        "공기",
+        "바람",
+        "날씨"
+      ],
+      "misconception_tip": "공기는 보이지 않아도 무게가 있고 압력을 만들어요."
+    }
+  ]
+}

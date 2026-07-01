@@ -1,0 +1,354 @@
+{
+  "subject": "과학",
+  "grade": 4,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 2,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g4_sci_021",
+      "term": "물의 상태",
+      "hanja": {
+        "word": "物質狀態",
+        "breakdown": "물건 물, 바탕 질, 모양 상, 모습 태"
+      },
+      "meaning": "물질이 고체, 액체, 기체로 존재하는 모습",
+      "easy_explanation": "물은 얼음, 물, 수증기처럼 다른 모습으로 있을 수 있어요.",
+      "example_sentence": "온도에 따라 물의 상태가 달라집니다.",
+      "related_terms": [
+        "고체",
+        "액체",
+        "기체",
+        "상태 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_022",
+      "term": "고체",
+      "hanja": {
+        "word": "固體",
+        "breakdown": "굳을 고, 몸 체"
+      },
+      "meaning": "모양과 부피가 일정한 물질의 상태",
+      "easy_explanation": "얼음이나 돌처럼 모양이 잘 변하지 않는 상태예요.",
+      "example_sentence": "얼음은 물이 고체 상태로 변한 것입니다.",
+      "related_terms": [
+        "액체",
+        "기체",
+        "응고",
+        "융해"
+      ]
+    },
+    {
+      "id": "g4_sci_023",
+      "term": "액체",
+      "hanja": {
+        "word": "液體",
+        "breakdown": "진 액, 몸 체"
+      },
+      "meaning": "부피는 일정하지만 담는 그릇에 따라 모양이 변하는 물질의 상태",
+      "easy_explanation": "물처럼 흐르고 그릇 모양대로 변하는 상태예요.",
+      "example_sentence": "컵에 담긴 물은 액체 상태입니다.",
+      "related_terms": [
+        "고체",
+        "기체",
+        "증발",
+        "응고"
+      ]
+    },
+    {
+      "id": "g4_sci_024",
+      "term": "기체",
+      "hanja": {
+        "word": "氣體",
+        "breakdown": "기운 기, 몸 체"
+      },
+      "meaning": "모양과 부피가 일정하지 않고 공간에 퍼지는 물질의 상태",
+      "easy_explanation": "수증기나 공기처럼 눈에 잘 보이지 않고 퍼지는 상태예요.",
+      "example_sentence": "물이 끓으면 수증기라는 기체가 됩니다.",
+      "related_terms": [
+        "액체",
+        "수증기",
+        "증발",
+        "응결"
+      ]
+    },
+    {
+      "id": "g4_sci_025",
+      "term": "상태 변화",
+      "hanja": {
+        "word": "狀態變化",
+        "breakdown": "모양 상, 모습 태, 변할 변, 될 화"
+      },
+      "meaning": "물질이 고체, 액체, 기체 등 다른 상태로 바뀌는 현상",
+      "easy_explanation": "얼음이 물이 되고 물이 수증기가 되는 것처럼 모습이 바뀌는 일이에요.",
+      "example_sentence": "물의 상태 변화는 온도와 관계가 있습니다.",
+      "related_terms": [
+        "융해",
+        "응고",
+        "증발",
+        "응결"
+      ]
+    },
+    {
+      "id": "g4_sci_026",
+      "term": "융해",
+      "hanja": {
+        "word": "融解",
+        "breakdown": "녹을 융, 풀 해"
+      },
+      "meaning": "고체가 열을 받아 액체로 변하는 현상",
+      "easy_explanation": "얼음이 녹아 물이 되는 현상이에요.",
+      "example_sentence": "얼음은 따뜻한 곳에서 융해됩니다.",
+      "related_terms": [
+        "고체",
+        "액체",
+        "열",
+        "상태 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_027",
+      "term": "응고",
+      "hanja": {
+        "word": "凝固",
+        "breakdown": "엉길 응, 굳을 고"
+      },
+      "meaning": "액체가 열을 잃어 고체로 변하는 현상",
+      "easy_explanation": "물이 얼어 얼음이 되는 현상이에요.",
+      "example_sentence": "물이 냉동실에서 응고되어 얼음이 되었습니다.",
+      "related_terms": [
+        "액체",
+        "고체",
+        "열",
+        "상태 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_028",
+      "term": "증발",
+      "hanja": {
+        "word": "蒸發",
+        "breakdown": "찔 증, 필 발"
+      },
+      "meaning": "액체가 표면에서 기체로 변하는 현상",
+      "easy_explanation": "젖은 빨래의 물이 수증기로 변해 마르는 일이에요.",
+      "example_sentence": "햇빛이 강하고 바람이 불면 물의 증발이 빨라집니다.",
+      "related_terms": [
+        "액체",
+        "기체",
+        "수증기",
+        "상태 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_029",
+      "term": "응결",
+      "hanja": {
+        "word": "凝結",
+        "breakdown": "엉길 응, 맺을 결"
+      },
+      "meaning": "기체가 열을 잃어 액체로 변하는 현상",
+      "easy_explanation": "차가운 컵 겉에 물방울이 맺히는 현상이에요.",
+      "example_sentence": "공기 중 수증기가 응결하여 물방울이 생겼습니다.",
+      "related_terms": [
+        "기체",
+        "액체",
+        "수증기",
+        "상태 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_030",
+      "term": "끓음",
+      "hanja": null,
+      "meaning": "액체 내부와 표면에서 기체로 변하는 현상이 활발히 일어나는 것",
+      "easy_explanation": "물이 뜨거워져 부글부글 기포가 생기며 수증기로 변하는 일이에요.",
+      "example_sentence": "물이 끓을 때 많은 수증기가 생깁니다.",
+      "related_terms": [
+        "증발",
+        "수증기",
+        "온도",
+        "기체"
+      ]
+    },
+    {
+      "id": "g4_sci_031",
+      "term": "수증기",
+      "hanja": {
+        "word": "水蒸氣",
+        "breakdown": "물 수, 찔 증, 기운 기"
+      },
+      "meaning": "기체 상태의 물",
+      "easy_explanation": "물이 기체로 변한 것으로 눈에 보이지 않을 수 있어요.",
+      "example_sentence": "물이 끓으면 수증기가 생깁니다.",
+      "related_terms": [
+        "기체",
+        "증발",
+        "응결",
+        "물"
+      ]
+    },
+    {
+      "id": "g4_sci_032",
+      "term": "물의 순환",
+      "hanja": {
+        "word": "水循環",
+        "breakdown": "물 수, 돌 순, 고리 환"
+      },
+      "meaning": "물이 증발, 응결, 강수 등을 거쳐 지구에서 계속 이동하는 과정",
+      "easy_explanation": "바다와 땅의 물이 수증기가 되고 구름이 되어 다시 비나 눈으로 내리는 과정이에요.",
+      "example_sentence": "물의 순환 덕분에 지구의 물은 계속 이동합니다.",
+      "related_terms": [
+        "증발",
+        "응결",
+        "강수",
+        "구름"
+      ]
+    },
+    {
+      "id": "g4_sci_033",
+      "term": "혼합물",
+      "hanja": {
+        "word": "混合物",
+        "breakdown": "섞을 혼, 합할 합, 물건 물"
+      },
+      "meaning": "두 가지 이상의 물질이 섞여 있는 것",
+      "easy_explanation": "소금물이나 흙탕물처럼 여러 물질이 함께 섞인 것이에요.",
+      "example_sentence": "소금물은 물과 소금이 섞인 혼합물입니다.",
+      "related_terms": [
+        "용액",
+        "분리",
+        "용질",
+        "용매"
+      ]
+    },
+    {
+      "id": "g4_sci_034",
+      "term": "용해",
+      "hanja": {
+        "word": "溶解",
+        "breakdown": "녹을 용, 풀 해"
+      },
+      "meaning": "어떤 물질이 다른 물질에 녹아 고르게 섞이는 현상",
+      "easy_explanation": "소금이 물에 녹아 보이지 않게 섞이는 일이에요.",
+      "example_sentence": "설탕은 물에 용해되어 설탕물이 됩니다.",
+      "related_terms": [
+        "용액",
+        "용질",
+        "용매",
+        "혼합물"
+      ]
+    },
+    {
+      "id": "g4_sci_035",
+      "term": "용액",
+      "hanja": {
+        "word": "溶液",
+        "breakdown": "녹을 용, 진 액"
+      },
+      "meaning": "한 물질이 다른 물질에 녹아 고르게 섞인 액체",
+      "easy_explanation": "소금물, 설탕물처럼 어떤 물질이 물에 녹아 있는 액체예요.",
+      "example_sentence": "소금이 물에 녹아 소금 용액이 되었습니다.",
+      "related_terms": [
+        "용해",
+        "용질",
+        "용매",
+        "혼합물"
+      ]
+    },
+    {
+      "id": "g4_sci_036",
+      "term": "용질",
+      "hanja": {
+        "word": "溶質",
+        "breakdown": "녹을 용, 바탕 질"
+      },
+      "meaning": "용액에서 녹아 있는 물질",
+      "easy_explanation": "소금물에서 소금처럼 녹는 물질이에요.",
+      "example_sentence": "설탕물에서 설탕은 용질입니다.",
+      "related_terms": [
+        "용액",
+        "용매",
+        "용해",
+        "물질"
+      ]
+    },
+    {
+      "id": "g4_sci_037",
+      "term": "용매",
+      "hanja": {
+        "word": "溶媒",
+        "breakdown": "녹을 용, 중매 매"
+      },
+      "meaning": "용질을 녹이는 물질",
+      "easy_explanation": "소금물에서 물처럼 다른 물질을 녹이는 물질이에요.",
+      "example_sentence": "소금물에서 물은 용매입니다.",
+      "related_terms": [
+        "용액",
+        "용질",
+        "용해",
+        "물"
+      ]
+    },
+    {
+      "id": "g4_sci_038",
+      "term": "분리",
+      "hanja": {
+        "word": "分離",
+        "breakdown": "나눌 분, 떠날 리"
+      },
+      "meaning": "섞여 있는 물질을 각각의 성질에 따라 나누는 것",
+      "easy_explanation": "혼합물에서 필요한 물질을 따로 떼어 내는 일이에요.",
+      "example_sentence": "체를 이용해 모래와 자갈을 분리했습니다.",
+      "related_terms": [
+        "혼합물",
+        "거름",
+        "증발",
+        "자석"
+      ]
+    },
+    {
+      "id": "g4_sci_039",
+      "term": "거름",
+      "hanja": null,
+      "meaning": "거름종이나 체 등을 이용해 액체와 고체를 나누는 방법",
+      "easy_explanation": "흙탕물을 거름종이에 통과시켜 물과 흙을 나누는 방법이에요.",
+      "example_sentence": "거름 장치를 이용해 물에 섞인 모래를 분리했습니다.",
+      "related_terms": [
+        "분리",
+        "혼합물",
+        "거름종이",
+        "액체"
+      ]
+    },
+    {
+      "id": "g4_sci_040",
+      "term": "온도",
+      "hanja": {
+        "word": "溫度",
+        "breakdown": "따뜻할 온, 법도 도"
+      },
+      "meaning": "물체나 물질의 따뜻하고 차가운 정도",
+      "easy_explanation": "얼마나 따뜻한지 차가운지를 숫자로 나타낸 것이에요.",
+      "example_sentence": "온도가 높아지면 얼음이 더 빨리 녹습니다.",
+      "related_terms": [
+        "열",
+        "상태 변화",
+        "온도계",
+        "끓음"
+      ]
+    }
+  ]
+}

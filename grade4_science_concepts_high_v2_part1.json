@@ -1,0 +1,360 @@
+{
+  "subject": "과학",
+  "grade": 4,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 1,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g4_sci_001",
+      "term": "지층",
+      "hanja": {
+        "word": "地層",
+        "breakdown": "땅 지, 층 층"
+      },
+      "meaning": "자갈, 모래, 진흙 등이 쌓여 만들어진 층 모양의 구조",
+      "easy_explanation": "흙이나 모래 같은 물질이 오랜 시간 차곡차곡 쌓여 줄무늬처럼 보이는 땅속 층이에요.",
+      "example_sentence": "절벽에서 여러 겹으로 쌓인 지층을 관찰했습니다.",
+      "related_terms": [
+        "퇴적",
+        "퇴적암",
+        "화석",
+        "층리"
+      ]
+    },
+    {
+      "id": "g4_sci_002",
+      "term": "층리",
+      "hanja": {
+        "word": "層理",
+        "breakdown": "층 층, 다스릴 리"
+      },
+      "meaning": "퇴적물이 쌓이면서 지층에 나타나는 줄무늬 모양의 구조",
+      "easy_explanation": "지층에서 여러 겹이 나뉘어 보이는 줄무늬예요.",
+      "example_sentence": "지층의 층리를 보면 퇴적물이 쌓인 순서를 짐작할 수 있습니다.",
+      "related_terms": [
+        "지층",
+        "퇴적",
+        "퇴적암",
+        "암석"
+      ]
+    },
+    {
+      "id": "g4_sci_003",
+      "term": "퇴적",
+      "hanja": {
+        "word": "堆積",
+        "breakdown": "쌓을 퇴, 쌓을 적"
+      },
+      "meaning": "물이나 바람에 의해 운반된 자갈, 모래, 진흙 등이 쌓이는 현상",
+      "easy_explanation": "흙, 모래, 자갈이 물이나 바람에 옮겨져 한곳에 쌓이는 일이에요.",
+      "example_sentence": "강물이 느려지는 곳에서는 모래가 퇴적됩니다.",
+      "related_terms": [
+        "운반",
+        "침식",
+        "지층",
+        "퇴적암"
+      ]
+    },
+    {
+      "id": "g4_sci_004",
+      "term": "퇴적암",
+      "hanja": {
+        "word": "堆積岩",
+        "breakdown": "쌓을 퇴, 쌓을 적, 바위 암"
+      },
+      "meaning": "퇴적물이 오랜 시간 눌리고 굳어져 만들어진 암석",
+      "easy_explanation": "모래나 진흙, 자갈이 오래 쌓이고 굳어져 만들어진 돌이에요.",
+      "example_sentence": "사암과 이암은 대표적인 퇴적암입니다.",
+      "related_terms": [
+        "지층",
+        "퇴적",
+        "사암",
+        "이암"
+      ]
+    },
+    {
+      "id": "g4_sci_005",
+      "term": "사암",
+      "hanja": {
+        "word": "砂岩",
+        "breakdown": "모래 사, 바위 암"
+      },
+      "meaning": "모래가 쌓여 굳어진 퇴적암",
+      "easy_explanation": "작은 모래 알갱이들이 모여 굳어진 암석이에요.",
+      "example_sentence": "사암을 자세히 보면 모래 알갱이를 볼 수 있습니다.",
+      "related_terms": [
+        "퇴적암",
+        "모래",
+        "지층",
+        "암석"
+      ]
+    },
+    {
+      "id": "g4_sci_006",
+      "term": "이암",
+      "hanja": {
+        "word": "泥岩",
+        "breakdown": "진흙 이, 바위 암"
+      },
+      "meaning": "진흙이 쌓여 굳어진 퇴적암",
+      "easy_explanation": "아주 고운 진흙 알갱이들이 쌓여 굳어진 암석이에요.",
+      "example_sentence": "이암은 알갱이가 작아 표면이 비교적 매끈하게 느껴집니다.",
+      "related_terms": [
+        "퇴적암",
+        "진흙",
+        "지층",
+        "암석"
+      ]
+    },
+    {
+      "id": "g4_sci_007",
+      "term": "역암",
+      "hanja": {
+        "word": "礫岩",
+        "breakdown": "조약돌 역, 바위 암"
+      },
+      "meaning": "자갈이 쌓여 굳어진 퇴적암",
+      "easy_explanation": "동글동글한 자갈들이 모여 굳어진 암석이에요.",
+      "example_sentence": "역암에는 크기가 다양한 자갈이 들어 있습니다.",
+      "related_terms": [
+        "퇴적암",
+        "자갈",
+        "지층",
+        "암석"
+      ]
+    },
+    {
+      "id": "g4_sci_008",
+      "term": "화석",
+      "hanja": {
+        "word": "化石",
+        "breakdown": "될 화, 돌 석"
+      },
+      "meaning": "옛날에 살았던 생물의 몸체나 흔적이 지층 속에 남아 굳어진 것",
+      "easy_explanation": "아주 오래전 생물의 뼈, 발자국, 잎 모양 등이 돌처럼 남은 것이에요.",
+      "example_sentence": "공룡 발자국 화석을 통해 공룡이 살았던 흔적을 알 수 있습니다.",
+      "related_terms": [
+        "지층",
+        "퇴적암",
+        "생물",
+        "흔적"
+      ]
+    },
+    {
+      "id": "g4_sci_009",
+      "term": "표준 화석",
+      "hanja": {
+        "word": "標準化石",
+        "breakdown": "표할 표, 준할 준, 될 화, 돌 석"
+      },
+      "meaning": "지층이 만들어진 시대를 알려 주는 데 도움이 되는 화석",
+      "easy_explanation": "그 지층이 언제 만들어졌는지 알려 주는 단서가 되는 화석이에요.",
+      "example_sentence": "표준 화석은 지층의 나이를 비교하는 데 이용됩니다.",
+      "related_terms": [
+        "화석",
+        "지층",
+        "시대",
+        "퇴적암"
+      ]
+    },
+    {
+      "id": "g4_sci_010",
+      "term": "시상 화석",
+      "hanja": {
+        "word": "示相化石",
+        "breakdown": "보일 시, 모습 상, 될 화, 돌 석"
+      },
+      "meaning": "옛날의 환경을 알려 주는 데 도움이 되는 화석",
+      "easy_explanation": "그 생물이 살던 곳이 바다였는지, 따뜻했는지 등을 알려 주는 화석이에요.",
+      "example_sentence": "산호 화석은 따뜻하고 얕은 바다 환경을 짐작하게 합니다.",
+      "related_terms": [
+        "화석",
+        "환경",
+        "지층",
+        "생물"
+      ]
+    },
+    {
+      "id": "g4_sci_011",
+      "term": "침식",
+      "hanja": {
+        "word": "侵蝕",
+        "breakdown": "침범할 침, 좀먹을 식"
+      },
+      "meaning": "흐르는 물, 바람, 파도 등이 땅이나 암석을 깎는 작용",
+      "easy_explanation": "물이나 바람이 땅을 조금씩 깎아 내는 일이에요.",
+      "example_sentence": "강물의 침식 작용으로 골짜기가 깊어졌습니다.",
+      "related_terms": [
+        "풍화",
+        "운반",
+        "퇴적",
+        "지표 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_012",
+      "term": "운반",
+      "hanja": {
+        "word": "運搬",
+        "breakdown": "옮길 운, 옮길 반"
+      },
+      "meaning": "깎인 흙이나 돌 조각이 물, 바람 등에 의해 다른 곳으로 옮겨지는 작용",
+      "easy_explanation": "물이나 바람이 모래와 흙을 다른 곳으로 옮기는 일이에요.",
+      "example_sentence": "강물은 침식된 흙과 모래를 아래쪽으로 운반합니다.",
+      "related_terms": [
+        "침식",
+        "퇴적",
+        "풍화",
+        "강물"
+      ]
+    },
+    {
+      "id": "g4_sci_013",
+      "term": "풍화",
+      "hanja": {
+        "word": "風化",
+        "breakdown": "바람 풍, 될 화"
+      },
+      "meaning": "암석이 오랜 시간 동안 잘게 부서지거나 성분이 변하는 현상",
+      "easy_explanation": "돌이 비, 바람, 온도 변화 때문에 조금씩 부서지는 일이에요.",
+      "example_sentence": "암석은 풍화를 거쳐 작은 돌 조각과 흙이 될 수 있습니다.",
+      "related_terms": [
+        "암석",
+        "침식",
+        "흙",
+        "지표 변화"
+      ]
+    },
+    {
+      "id": "g4_sci_014",
+      "term": "지표",
+      "hanja": {
+        "word": "地表",
+        "breakdown": "땅 지, 겉 표"
+      },
+      "meaning": "지구의 겉면",
+      "easy_explanation": "우리가 밟고 있는 땅의 표면이에요.",
+      "example_sentence": "비와 바람은 지표의 모습을 변화시킵니다.",
+      "related_terms": [
+        "지표 변화",
+        "침식",
+        "퇴적",
+        "풍화"
+      ]
+    },
+    {
+      "id": "g4_sci_015",
+      "term": "지표 변화",
+      "hanja": {
+        "word": "地表變化",
+        "breakdown": "땅 지, 겉 표, 변할 변, 될 화"
+      },
+      "meaning": "침식, 운반, 퇴적, 풍화 등으로 땅의 모습이 달라지는 현상",
+      "easy_explanation": "물과 바람 때문에 땅의 모양이 조금씩 바뀌는 일이에요.",
+      "example_sentence": "강 주변의 지표 변화는 오랜 시간에 걸쳐 일어납니다.",
+      "related_terms": [
+        "지표",
+        "침식",
+        "운반",
+        "퇴적"
+      ]
+    },
+    {
+      "id": "g4_sci_016",
+      "term": "암석",
+      "hanja": {
+        "word": "岩石",
+        "breakdown": "바위 암, 돌 석"
+      },
+      "meaning": "여러 광물이나 물질이 모여 이루어진 단단한 자연 물체",
+      "easy_explanation": "산이나 땅에서 볼 수 있는 여러 종류의 돌이에요.",
+      "example_sentence": "암석은 생긴 과정에 따라 여러 종류로 나눌 수 있습니다.",
+      "related_terms": [
+        "광물",
+        "퇴적암",
+        "화강암",
+        "현무암"
+      ]
+    },
+    {
+      "id": "g4_sci_017",
+      "term": "광물",
+      "hanja": {
+        "word": "鑛物",
+        "breakdown": "쇳돌 광, 물건 물"
+      },
+      "meaning": "암석을 이루는 자연적으로 만들어진 물질",
+      "easy_explanation": "암석 속에 들어 있는 반짝이거나 색이 다른 작은 알갱이 같은 물질이에요.",
+      "example_sentence": "화강암에는 여러 가지 광물이 섞여 있습니다.",
+      "related_terms": [
+        "암석",
+        "화강암",
+        "관찰",
+        "알갱이"
+      ]
+    },
+    {
+      "id": "g4_sci_018",
+      "term": "토양",
+      "hanja": {
+        "word": "土壤",
+        "breakdown": "흙 토, 흙 양"
+      },
+      "meaning": "암석이 부서진 물질과 생물의 흔적 등이 섞여 식물이 자랄 수 있는 흙",
+      "easy_explanation": "식물이 뿌리를 내리고 자랄 수 있는 흙이에요.",
+      "example_sentence": "좋은 토양에는 식물이 자라는 데 필요한 물과 공기가 있습니다.",
+      "related_terms": [
+        "흙",
+        "풍화",
+        "식물",
+        "물"
+      ]
+    },
+    {
+      "id": "g4_sci_019",
+      "term": "화강암",
+      "hanja": {
+        "word": "花崗岩",
+        "breakdown": "꽃 화, 언덕 강, 바위 암"
+      },
+      "meaning": "마그마가 땅속 깊은 곳에서 천천히 식어 만들어진 암석",
+      "easy_explanation": "밝은 색 알갱이가 잘 보이는 단단한 암석이에요.",
+      "example_sentence": "화강암은 여러 광물 알갱이가 뚜렷하게 보입니다.",
+      "related_terms": [
+        "암석",
+        "광물",
+        "마그마",
+        "화성암"
+      ]
+    },
+    {
+      "id": "g4_sci_020",
+      "term": "현무암",
+      "hanja": {
+        "word": "玄武岩",
+        "breakdown": "검을 현, 굳셀 무, 바위 암"
+      },
+      "meaning": "용암이 지표 가까이에서 빠르게 식어 만들어진 어두운색 암석",
+      "easy_explanation": "구멍이 많고 어두운색을 띠는 경우가 많은 화산 암석이에요.",
+      "example_sentence": "제주도에서는 현무암을 많이 볼 수 있습니다.",
+      "related_terms": [
+        "용암",
+        "화산",
+        "암석",
+        "화성암"
+      ]
+    }
+  ]
+}

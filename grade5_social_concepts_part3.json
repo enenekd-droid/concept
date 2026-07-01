@@ -1,0 +1,356 @@
+{
+  "subject": "사회",
+  "grade": 5,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 3,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g5_soc_041",
+      "term": "역사",
+      "hanja": {
+        "word": "歷史",
+        "breakdown": "지낼 역, 역사 사"
+      },
+      "meaning": "과거에 사람들이 살아온 모습과 그 변화의 기록",
+      "easy_explanation": "옛날 사람들이 어떻게 살았는지 알아보는 공부예요.",
+      "example_sentence": "역사를 배우면 오늘날 우리 사회가 어떻게 만들어졌는지 알 수 있습니다.",
+      "related_terms": [
+        "과거",
+        "유물",
+        "유적",
+        "연표"
+      ]
+    },
+    {
+      "id": "g5_soc_042",
+      "term": "유물",
+      "hanja": {
+        "word": "遺物",
+        "breakdown": "남길 유, 물건 물"
+      },
+      "meaning": "옛사람들이 남긴 물건",
+      "easy_explanation": "옛날 사람들이 사용했던 도구, 그릇, 무기 같은 물건이에요.",
+      "example_sentence": "박물관에서 청동기 시대의 유물을 보았습니다.",
+      "related_terms": [
+        "유적",
+        "문화재",
+        "박물관",
+        "역사"
+      ]
+    },
+    {
+      "id": "g5_soc_043",
+      "term": "유적",
+      "hanja": {
+        "word": "遺跡",
+        "breakdown": "남길 유, 자취 적"
+      },
+      "meaning": "옛사람들의 생활 모습이 남아 있는 장소",
+      "easy_explanation": "옛날 집터, 무덤, 성터처럼 과거의 흔적이 남은 곳이에요.",
+      "example_sentence": "고인돌은 청동기 시대의 대표적인 유적입니다.",
+      "related_terms": [
+        "유물",
+        "문화재",
+        "고인돌",
+        "역사"
+      ]
+    },
+    {
+      "id": "g5_soc_044",
+      "term": "선사 시대",
+      "hanja": {
+        "word": "先史時代",
+        "breakdown": "먼저 선, 역사 사, 때 시, 대신할 대"
+      },
+      "meaning": "문자가 만들어지기 전의 시대",
+      "easy_explanation": "글로 된 기록이 없어 유물과 유적으로 생활 모습을 알아보는 시대예요.",
+      "example_sentence": "선사 시대 사람들의 생활은 도구와 집터를 통해 알 수 있습니다.",
+      "related_terms": [
+        "구석기 시대",
+        "신석기 시대",
+        "청동기 시대",
+        "유물"
+      ]
+    },
+    {
+      "id": "g5_soc_045",
+      "term": "구석기 시대",
+      "hanja": {
+        "word": "舊石器時代",
+        "breakdown": "옛 구, 돌 석, 그릇 기, 때 시, 대신할 대"
+      },
+      "meaning": "뗀석기를 사용하며 이동 생활을 하던 시대",
+      "easy_explanation": "돌을 깨뜨려 만든 도구를 쓰고 사냥과 채집을 하며 살던 시대예요.",
+      "example_sentence": "구석기 시대 사람들은 동굴이나 막집에서 살았습니다.",
+      "related_terms": [
+        "뗀석기",
+        "사냥",
+        "채집",
+        "이동 생활"
+      ]
+    },
+    {
+      "id": "g5_soc_046",
+      "term": "신석기 시대",
+      "hanja": {
+        "word": "新石器時代",
+        "breakdown": "새 신, 돌 석, 그릇 기, 때 시, 대신할 대"
+      },
+      "meaning": "간석기를 사용하고 농사를 시작한 시대",
+      "easy_explanation": "돌을 갈아 만든 도구를 쓰고 한곳에 머물러 살기 시작한 시대예요.",
+      "example_sentence": "신석기 시대에는 빗살무늬 토기가 사용되었습니다.",
+      "related_terms": [
+        "간석기",
+        "농경",
+        "정착 생활",
+        "빗살무늬 토기"
+      ]
+    },
+    {
+      "id": "g5_soc_047",
+      "term": "청동기 시대",
+      "hanja": {
+        "word": "靑銅器時代",
+        "breakdown": "푸를 청, 구리 동, 그릇 기, 때 시, 대신할 대"
+      },
+      "meaning": "청동으로 만든 도구를 사용하던 시대",
+      "easy_explanation": "농사가 더 발달하고 지배자와 피지배자가 생겨난 시대예요.",
+      "example_sentence": "청동기 시대에는 고인돌이 만들어졌습니다.",
+      "related_terms": [
+        "청동검",
+        "고인돌",
+        "계급",
+        "농경"
+      ]
+    },
+    {
+      "id": "g5_soc_048",
+      "term": "고조선",
+      "hanja": {
+        "word": "古朝鮮",
+        "breakdown": "옛 고, 아침 조, 고울 선"
+      },
+      "meaning": "우리 역사에 등장하는 최초의 국가",
+      "easy_explanation": "청동기 문화를 바탕으로 세워진 우리나라의 첫 국가예요.",
+      "example_sentence": "고조선에는 사회 질서를 보여 주는 법이 있었습니다.",
+      "related_terms": [
+        "단군왕검",
+        "청동기 시대",
+        "국가",
+        "법"
+      ]
+    },
+    {
+      "id": "g5_soc_049",
+      "term": "삼국",
+      "hanja": {
+        "word": "三國",
+        "breakdown": "석 삼, 나라 국"
+      },
+      "meaning": "고구려, 백제, 신라 세 나라",
+      "easy_explanation": "한반도와 주변 지역에서 경쟁하며 발전한 세 나라를 말해요.",
+      "example_sentence": "삼국은 서로 경쟁하고 교류하며 문화를 발전시켰습니다.",
+      "related_terms": [
+        "고구려",
+        "백제",
+        "신라",
+        "가야"
+      ]
+    },
+    {
+      "id": "g5_soc_050",
+      "term": "고구려",
+      "hanja": {
+        "word": "高句麗",
+        "breakdown": "높을 고, 글귀 구, 고울 려"
+      },
+      "meaning": "만주와 한반도 북부에서 성장한 삼국 중 하나",
+      "easy_explanation": "넓은 영토와 강한 군사력을 가진 나라였어요.",
+      "example_sentence": "고구려는 광개토 대왕 때 크게 성장했습니다.",
+      "related_terms": [
+        "삼국",
+        "광개토 대왕",
+        "장수왕",
+        "평양"
+      ]
+    },
+    {
+      "id": "g5_soc_051",
+      "term": "백제",
+      "hanja": {
+        "word": "百濟",
+        "breakdown": "일백 백, 건널 제"
+      },
+      "meaning": "한강 유역에서 성장한 삼국 중 하나",
+      "easy_explanation": "일본과 중국과 교류하며 세련된 문화를 발전시킨 나라예요.",
+      "example_sentence": "백제는 불교와 문화를 일본에 전해 주었습니다.",
+      "related_terms": [
+        "삼국",
+        "한강",
+        "불교",
+        "문화 교류"
+      ]
+    },
+    {
+      "id": "g5_soc_052",
+      "term": "신라",
+      "hanja": {
+        "word": "新羅",
+        "breakdown": "새 신, 벌일 라"
+      },
+      "meaning": "한반도 동남쪽에서 성장한 삼국 중 하나",
+      "easy_explanation": "삼국을 통일하고 불교문화를 크게 발전시킨 나라예요.",
+      "example_sentence": "신라는 화랑도를 바탕으로 인재를 길렀습니다.",
+      "related_terms": [
+        "삼국",
+        "화랑도",
+        "통일 신라",
+        "불국사"
+      ]
+    },
+    {
+      "id": "g5_soc_053",
+      "term": "가야",
+      "hanja": {
+        "word": "伽倻",
+        "breakdown": "절 가, 땅 이름 야"
+      },
+      "meaning": "낙동강 유역에서 철기 문화를 바탕으로 발전한 여러 나라",
+      "easy_explanation": "철을 잘 만들고 주변 나라와 활발히 교류했던 나라들이에요.",
+      "example_sentence": "가야는 철을 이용한 문화가 발달했습니다.",
+      "related_terms": [
+        "철기",
+        "낙동강",
+        "교류",
+        "삼국"
+      ]
+    },
+    {
+      "id": "g5_soc_054",
+      "term": "통일 신라",
+      "hanja": {
+        "word": "統一新羅",
+        "breakdown": "거느릴 통, 한 일, 새 신, 벌일 라"
+      },
+      "meaning": "신라가 삼국을 통일한 뒤의 나라",
+      "easy_explanation": "신라가 고구려와 백제의 옛 땅 일부를 포함하여 다스리던 시기예요.",
+      "example_sentence": "통일 신라에서는 불국사와 석굴암 같은 문화재가 만들어졌습니다.",
+      "related_terms": [
+        "신라",
+        "삼국 통일",
+        "불국사",
+        "석굴암"
+      ]
+    },
+    {
+      "id": "g5_soc_055",
+      "term": "발해",
+      "hanja": {
+        "word": "渤海",
+        "breakdown": "바다 이름 발, 바다 해"
+      },
+      "meaning": "고구려를 계승하여 만주와 한반도 북부에 세워진 나라",
+      "easy_explanation": "고구려 유민과 말갈 사람들이 함께 세운 나라예요.",
+      "example_sentence": "발해는 해동성국이라고 불릴 만큼 번성했습니다.",
+      "related_terms": [
+        "고구려",
+        "대조영",
+        "해동성국",
+        "남북국 시대"
+      ]
+    },
+    {
+      "id": "g5_soc_056",
+      "term": "고려",
+      "hanja": {
+        "word": "高麗",
+        "breakdown": "높을 고, 고울 려"
+      },
+      "meaning": "후삼국을 통일하고 세워진 나라",
+      "easy_explanation": "왕건이 세운 나라로, 불교와 활발한 교류가 특징이에요.",
+      "example_sentence": "고려는 팔만대장경과 금속 활자 문화를 남겼습니다.",
+      "related_terms": [
+        "왕건",
+        "후삼국 통일",
+        "불교",
+        "금속 활자"
+      ]
+    },
+    {
+      "id": "g5_soc_057",
+      "term": "조선",
+      "hanja": {
+        "word": "朝鮮",
+        "breakdown": "아침 조, 고울 선"
+      },
+      "meaning": "이성계가 세운 유교 중심의 나라",
+      "easy_explanation": "유교를 바탕으로 정치와 사회 제도를 정비한 나라예요.",
+      "example_sentence": "조선 시대에는 한글이 창제되었습니다.",
+      "related_terms": [
+        "이성계",
+        "유교",
+        "세종 대왕",
+        "한글"
+      ]
+    },
+    {
+      "id": "g5_soc_058",
+      "term": "유교",
+      "hanja": {
+        "word": "儒敎",
+        "breakdown": "선비 유, 가르칠 교"
+      },
+      "meaning": "예절과 도덕, 충과 효를 중요하게 여기는 사상",
+      "easy_explanation": "사람 사이의 바른 관계와 예절을 강조한 가르침이에요.",
+      "example_sentence": "조선은 유교를 바탕으로 나라를 다스렸습니다.",
+      "related_terms": [
+        "조선",
+        "성리학",
+        "예절",
+        "효"
+      ]
+    },
+    {
+      "id": "g5_soc_059",
+      "term": "한글",
+      "hanja": null,
+      "meaning": "세종 대왕이 백성을 위해 만든 우리 글자",
+      "easy_explanation": "누구나 쉽게 배우고 쓸 수 있도록 만든 우리나라의 문자예요.",
+      "example_sentence": "한글 창제로 백성들이 자신의 생각을 글로 표현하기 쉬워졌습니다.",
+      "related_terms": [
+        "세종 대왕",
+        "훈민정음",
+        "문자",
+        "조선"
+      ]
+    },
+    {
+      "id": "g5_soc_060",
+      "term": "문화재",
+      "hanja": {
+        "word": "文化財",
+        "breakdown": "글월 문, 될 화, 재물 재"
+      },
+      "meaning": "역사적, 예술적, 학문적으로 가치가 있어 보존할 만한 문화유산",
+      "easy_explanation": "옛사람들의 생활과 생각이 담긴 소중한 보물이에요.",
+      "example_sentence": "불국사와 석굴암은 우리나라의 대표적인 문화재입니다.",
+      "related_terms": [
+        "유물",
+        "유적",
+        "문화유산",
+        "보존"
+      ]
+    }
+  ]
+}

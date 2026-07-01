@@ -1,0 +1,162 @@
+[
+  {
+    "id": 61,
+    "term": "독자",
+    "hanja": "讀者",
+    "hanja_meaning": "읽을 독, 사람 자",
+    "definition": "글을 읽는 사람",
+    "easy_definition": "글을 읽는 사람",
+    "example": "글쓴이는 독자가 이해하기 쉽게 글을 써야 한다.",
+    "non_example": "글을 쓴 사람",
+    "related_terms": [
+      "글쓴이",
+      "목적",
+      "관점"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 62,
+    "term": "글쓴이",
+    "hanja": null,
+    "hanja_meaning": null,
+    "definition": "글을 쓴 사람",
+    "easy_definition": "글을 지은 사람",
+    "example": "글쓴이의 생각을 파악하며 글을 읽었다.",
+    "non_example": "글을 읽는 사람",
+    "related_terms": [
+      "독자",
+      "관점",
+      "주제"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 63,
+    "term": "목적",
+    "hanja": "目的",
+    "hanja_meaning": "눈 목, 과녁 적",
+    "definition": "어떤 일을 하려는 까닭이나 이루려고 하는 일",
+    "easy_definition": "무엇을 하려는 이유나 목표",
+    "example": "이 글은 정보를 알려 주려는 목적을 가지고 있다.",
+    "non_example": "아무 까닭 없이 쓴 글",
+    "related_terms": [
+      "글쓴이",
+      "독자",
+      "의도"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 64,
+    "term": "의도",
+    "hanja": "意圖",
+    "hanja_meaning": "뜻 의, 그림 도",
+    "definition": "글쓴이나 말하는 사람이 어떤 생각으로 말하거나 글을 쓴 까닭",
+    "easy_definition": "말이나 글에 담긴 생각이나 뜻",
+    "example": "광고에 담긴 의도를 생각하며 내용을 살펴보았다.",
+    "non_example": "겉으로 보이는 글자만 읽는 것",
+    "related_terms": [
+      "목적",
+      "글쓴이",
+      "관점"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 65,
+    "term": "관점",
+    "hanja": "觀點",
+    "hanja_meaning": "볼 관, 점 점",
+    "definition": "어떤 대상을 바라보거나 생각하는 입장",
+    "easy_definition": "무엇을 바라보는 생각의 방향",
+    "example": "같은 사건도 사람마다 다른 관점에서 볼 수 있다.",
+    "non_example": "아무 생각 없이 보는 것",
+    "related_terms": [
+      "입장",
+      "의견",
+      "글쓴이"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 66,
+    "term": "입장",
+    "hanja": "立場",
+    "hanja_meaning": "설 립, 마당 장",
+    "definition": "어떤 문제나 상황에 대해 가지는 생각이나 태도",
+    "easy_definition": "어떤 일에 대한 자신의 생각이나 처지",
+    "example": "찬성하는 입장과 반대하는 입장을 비교했다.",
+    "non_example": "문제와 관계없는 이야기",
+    "related_terms": [
+      "관점",
+      "의견",
+      "주장"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 67,
+    "term": "추론",
+    "hanja": "推論",
+    "hanja_meaning": "밀 추, 논할 론",
+    "definition": "글에 직접 드러나지 않은 내용을 단서와 배경지식을 바탕으로 짐작하는 것",
+    "easy_definition": "글 속 단서를 보고 숨은 내용을 짐작하는 것",
+    "example": "인물의 행동을 보고 마음을 추론했다.",
+    "non_example": "글에 없는 내용을 아무렇게나 상상했다.",
+    "related_terms": [
+      "단서",
+      "예측",
+      "배경지식"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 68,
+    "term": "단서",
+    "hanja": "端緖",
+    "hanja_meaning": "끝 단, 실마리 서",
+    "definition": "어떤 내용을 짐작하거나 문제를 해결하는 데 도움이 되는 실마리",
+    "easy_definition": "생각하거나 알아내는 데 도움이 되는 힌트",
+    "example": "글 속 단서를 찾아 인물의 마음을 짐작했다.",
+    "non_example": "내용과 전혀 관계없는 말",
+    "related_terms": [
+      "추론",
+      "예측",
+      "근거"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 69,
+    "term": "예측",
+    "hanja": "豫測",
+    "hanja_meaning": "미리 예, 헤아릴 측",
+    "definition": "앞으로 일어날 일이나 이어질 내용을 미리 짐작하는 것",
+    "easy_definition": "앞으로 어떻게 될지 미리 생각하는 것",
+    "example": "제목과 그림을 보고 글의 내용을 예측했다.",
+    "non_example": "이미 일어난 일을 그대로 말하는 것",
+    "related_terms": [
+      "추론",
+      "단서",
+      "짐작"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 70,
+    "term": "감상",
+    "hanja": "感想",
+    "hanja_meaning": "느낄 감, 생각 상",
+    "definition": "작품이나 글을 보고 느끼고 생각한 내용",
+    "easy_definition": "글이나 작품을 보고 든 느낌과 생각",
+    "example": "시를 읽고 떠오른 감상을 친구들과 나누었다.",
+    "non_example": "작품의 제목만 말하는 것",
+    "related_terms": [
+      "느낌",
+      "생각",
+      "작품"
+    ],
+    "category": "문학"
+  }
+]

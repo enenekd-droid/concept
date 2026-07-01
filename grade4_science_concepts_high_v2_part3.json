@@ -1,0 +1,330 @@
+{
+  "subject": "과학",
+  "grade": 4,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 3,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g4_sci_041",
+      "term": "식물",
+      "hanja": {
+        "word": "植物",
+        "breakdown": "심을 식, 물건 물"
+      },
+      "meaning": "뿌리, 줄기, 잎 등을 가지고 스스로 양분을 만드는 생물",
+      "easy_explanation": "햇빛을 이용해 스스로 먹이가 되는 양분을 만드는 생물이에요.",
+      "example_sentence": "식물은 환경에 따라 다양한 모습으로 자랍니다.",
+      "related_terms": [
+        "뿌리",
+        "줄기",
+        "잎",
+        "꽃"
+      ]
+    },
+    {
+      "id": "g4_sci_042",
+      "term": "뿌리",
+      "hanja": null,
+      "meaning": "식물을 땅에 고정하고 물과 양분을 흡수하는 기관",
+      "easy_explanation": "식물을 흙에 붙잡아 주고 물을 빨아들이는 부분이에요.",
+      "example_sentence": "뿌리는 흙 속에서 물을 흡수합니다.",
+      "related_terms": [
+        "식물",
+        "줄기",
+        "흡수",
+        "물"
+      ]
+    },
+    {
+      "id": "g4_sci_043",
+      "term": "줄기",
+      "hanja": null,
+      "meaning": "식물의 몸을 지탱하고 물과 양분이 이동하는 통로 역할을 하는 기관",
+      "easy_explanation": "잎과 꽃을 받쳐 주고 물이 지나가는 길이 되는 부분이에요.",
+      "example_sentence": "줄기는 뿌리에서 흡수한 물을 잎으로 이동시킵니다.",
+      "related_terms": [
+        "식물",
+        "뿌리",
+        "잎",
+        "물관"
+      ]
+    },
+    {
+      "id": "g4_sci_044",
+      "term": "잎",
+      "hanja": null,
+      "meaning": "식물에서 주로 양분을 만드는 기관",
+      "easy_explanation": "햇빛을 받아 식물이 살아가는 데 필요한 양분을 만드는 부분이에요.",
+      "example_sentence": "잎은 햇빛을 받아 양분을 만듭니다.",
+      "related_terms": [
+        "식물",
+        "광합성",
+        "기공",
+        "줄기"
+      ]
+    },
+    {
+      "id": "g4_sci_045",
+      "term": "꽃",
+      "hanja": null,
+      "meaning": "식물이 씨를 만들기 위해 피우는 생식 기관",
+      "easy_explanation": "열매와 씨가 생기도록 돕는 식물의 아름다운 부분이에요.",
+      "example_sentence": "꽃가루가 암술에 옮겨지면 씨가 만들어질 수 있습니다.",
+      "related_terms": [
+        "수분",
+        "열매",
+        "씨",
+        "식물"
+      ]
+    },
+    {
+      "id": "g4_sci_046",
+      "term": "열매",
+      "hanja": null,
+      "meaning": "꽃이 변하여 씨를 보호하고 퍼뜨리는 역할을 하는 부분",
+      "easy_explanation": "씨를 감싸고 있는 식물의 부분이에요.",
+      "example_sentence": "사과와 토마토는 식물의 열매입니다.",
+      "related_terms": [
+        "씨",
+        "꽃",
+        "씨앗 퍼짐",
+        "식물"
+      ]
+    },
+    {
+      "id": "g4_sci_047",
+      "term": "씨",
+      "hanja": null,
+      "meaning": "새로운 식물로 자랄 수 있는 구조",
+      "easy_explanation": "조건이 맞으면 싹이 터서 새 식물로 자랄 수 있는 작은 알갱이예요.",
+      "example_sentence": "강낭콩의 씨를 심고 싹트는 과정을 관찰했습니다.",
+      "related_terms": [
+        "싹트기",
+        "열매",
+        "식물",
+        "씨앗 퍼짐"
+      ]
+    },
+    {
+      "id": "g4_sci_048",
+      "term": "수분",
+      "hanja": {
+        "word": "受粉",
+        "breakdown": "받을 수, 가루 분"
+      },
+      "meaning": "꽃가루가 암술머리에 옮겨지는 과정",
+      "easy_explanation": "꽃가루가 암술에 붙어 씨가 만들어질 준비를 하는 일이에요.",
+      "example_sentence": "벌은 꽃가루를 옮겨 수분을 돕습니다.",
+      "related_terms": [
+        "꽃",
+        "꽃가루",
+        "암술",
+        "열매"
+      ]
+    },
+    {
+      "id": "g4_sci_049",
+      "term": "씨앗 퍼짐",
+      "hanja": null,
+      "meaning": "씨가 바람, 물, 동물 등에 의해 멀리 옮겨지는 현상",
+      "easy_explanation": "씨가 부모 식물에서 떨어져 다른 곳으로 이동하는 일이에요.",
+      "example_sentence": "민들레 씨는 바람을 타고 멀리 퍼집니다.",
+      "related_terms": [
+        "씨",
+        "열매",
+        "바람",
+        "동물"
+      ]
+    },
+    {
+      "id": "g4_sci_050",
+      "term": "한살이",
+      "hanja": null,
+      "meaning": "생물이 태어나 자라고 번식하여 죽기까지의 과정",
+      "easy_explanation": "생물이 태어나서 자라고 다시 자손을 남기는 전체 과정이에요.",
+      "example_sentence": "배추흰나비의 한살이를 관찰했습니다.",
+      "related_terms": [
+        "동물",
+        "식물",
+        "성장",
+        "번식"
+      ]
+    },
+    {
+      "id": "g4_sci_051",
+      "term": "동물",
+      "hanja": {
+        "word": "動物",
+        "breakdown": "움직일 동, 물건 물"
+      },
+      "meaning": "스스로 양분을 만들지 못하고 먹이를 먹으며 살아가는 생물",
+      "easy_explanation": "먹이를 먹고 움직이며 살아가는 생물이에요.",
+      "example_sentence": "동물은 사는 곳에 알맞은 몸의 특징을 가집니다.",
+      "related_terms": [
+        "생물",
+        "먹이",
+        "서식지",
+        "적응"
+      ]
+    },
+    {
+      "id": "g4_sci_052",
+      "term": "서식지",
+      "hanja": {
+        "word": "棲息地",
+        "breakdown": "깃들 서, 숨쉴 식, 땅 지"
+      },
+      "meaning": "생물이 살아가는 장소",
+      "easy_explanation": "동물이나 식물이 먹이를 얻고 살아가는 곳이에요.",
+      "example_sentence": "연못은 개구리와 물풀의 서식지입니다.",
+      "related_terms": [
+        "생물",
+        "환경",
+        "생태계",
+        "적응"
+      ]
+    },
+    {
+      "id": "g4_sci_053",
+      "term": "적응",
+      "hanja": {
+        "word": "適應",
+        "breakdown": "맞을 적, 응할 응"
+      },
+      "meaning": "생물이 사는 환경에 알맞은 특징을 가지거나 행동하는 것",
+      "easy_explanation": "생물이 살아가기 좋은 모양이나 습관을 가지는 것이에요.",
+      "example_sentence": "낙타는 사막 환경에 적응한 몸의 특징을 가지고 있습니다.",
+      "related_terms": [
+        "환경",
+        "서식지",
+        "보호색",
+        "생물"
+      ]
+    },
+    {
+      "id": "g4_sci_054",
+      "term": "보호색",
+      "hanja": {
+        "word": "保護色",
+        "breakdown": "지킬 보, 보호할 호, 빛 색"
+      },
+      "meaning": "생물이 주변 환경과 비슷한 색을 띠어 몸을 숨기는 데 도움이 되는 색",
+      "easy_explanation": "적에게 잘 보이지 않도록 주변과 비슷한 색을 가진 것이에요.",
+      "example_sentence": "메뚜기의 보호색은 풀밭에서 몸을 숨기는 데 도움이 됩니다.",
+      "related_terms": [
+        "적응",
+        "동물",
+        "환경",
+        "위장"
+      ]
+    },
+    {
+      "id": "g4_sci_055",
+      "term": "먹이",
+      "hanja": null,
+      "meaning": "동물이 살아가는 데 필요한 양분을 얻기 위해 먹는 것",
+      "easy_explanation": "동물이 힘을 얻고 자라기 위해 먹는 음식이에요.",
+      "example_sentence": "개구리는 작은 곤충을 먹이로 삼습니다.",
+      "related_terms": [
+        "동물",
+        "먹이사슬",
+        "소비자",
+        "생태계"
+      ]
+    },
+    {
+      "id": "g4_sci_056",
+      "term": "먹이사슬",
+      "hanja": null,
+      "meaning": "생물들이 먹고 먹히는 관계가 사슬처럼 이어진 것",
+      "easy_explanation": "풀을 메뚜기가 먹고, 메뚜기를 개구리가 먹는 것처럼 먹이 관계가 이어지는 거예요.",
+      "example_sentence": "먹이사슬은 생태계의 관계를 보여 줍니다.",
+      "related_terms": [
+        "생태계",
+        "생산자",
+        "소비자",
+        "분해자"
+      ]
+    },
+    {
+      "id": "g4_sci_057",
+      "term": "생태계",
+      "hanja": {
+        "word": "生態系",
+        "breakdown": "날 생, 모습 태, 이을 계"
+      },
+      "meaning": "어떤 장소의 생물과 환경이 서로 영향을 주고받는 체계",
+      "easy_explanation": "숲이나 연못에서 생물과 물, 공기, 흙이 서로 관계를 맺고 살아가는 모습이에요.",
+      "example_sentence": "생태계가 건강하려면 다양한 생물이 함께 살아가야 합니다.",
+      "related_terms": [
+        "생물",
+        "환경",
+        "먹이사슬",
+        "서식지"
+      ]
+    },
+    {
+      "id": "g4_sci_058",
+      "term": "생산자",
+      "hanja": {
+        "word": "生産者",
+        "breakdown": "날 생, 낳을 산, 사람 자"
+      },
+      "meaning": "스스로 양분을 만들어 다른 생물의 먹이가 되는 생물",
+      "easy_explanation": "식물처럼 햇빛을 이용해 스스로 양분을 만드는 생물이에요.",
+      "example_sentence": "풀과 나무는 생태계의 생산자입니다.",
+      "related_terms": [
+        "식물",
+        "광합성",
+        "소비자",
+        "먹이사슬"
+      ]
+    },
+    {
+      "id": "g4_sci_059",
+      "term": "소비자",
+      "hanja": {
+        "word": "消費者",
+        "breakdown": "사라질 소, 쓸 비, 사람 자"
+      },
+      "meaning": "다른 생물을 먹어 양분을 얻는 생물",
+      "easy_explanation": "동물처럼 식물이나 다른 동물을 먹고 살아가는 생물이에요.",
+      "example_sentence": "토끼와 여우는 생태계의 소비자입니다.",
+      "related_terms": [
+        "동물",
+        "생산자",
+        "먹이사슬",
+        "생태계"
+      ]
+    },
+    {
+      "id": "g4_sci_060",
+      "term": "분해자",
+      "hanja": {
+        "word": "分解者",
+        "breakdown": "나눌 분, 풀 해, 사람 자"
+      },
+      "meaning": "죽은 생물이나 배설물을 분해하여 자연으로 되돌리는 생물",
+      "easy_explanation": "곰팡이나 세균처럼 죽은 생물을 썩게 하는 생물이에요.",
+      "example_sentence": "분해자는 생태계에서 물질이 다시 이용되도록 돕습니다.",
+      "related_terms": [
+        "생태계",
+        "곰팡이",
+        "세균",
+        "물질 순환"
+      ]
+    }
+  ]
+}

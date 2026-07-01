@@ -1,0 +1,568 @@
+{
+  "name": "3학년 과학 개념어 확장 데이터 part4",
+  "grade": 3,
+  "subject": "과학",
+  "curriculum": "2022 개정 교육과정",
+  "publisher": "아이스크림미디어",
+  "part": 4,
+  "count": 20,
+  "concepts": [
+    {
+      "id": 61,
+      "local_id": 61,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "전기",
+      "description": "전류가 흐르며 빛이나 열 등을 내는 현상",
+      "hanja": "電(번개 전) 氣(기운 기)",
+      "examples": [
+        "과학 시간에 '전기'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 전기에 대해 이야기하며 '전류가 흐르며 빛이나 열 등을 내는 현상'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "전기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "전기은(는) 전류가 흐르며 빛이나 열 등을 내는 현상",
+        "answer": true
+      }
+    },
+    {
+      "id": 62,
+      "local_id": 62,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "전구",
+      "description": "전기로 빛을 내는 기구",
+      "hanja": "電(번개 전) 球(공 구)",
+      "examples": [
+        "과학 시간에 '전구'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 전구에 대해 이야기하며 '전기로 빛을 내는 기구'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "전구"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "전구은(는) 전기로 빛을 내는 기구",
+        "answer": true
+      }
+    },
+    {
+      "id": 63,
+      "local_id": 63,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "건전지",
+      "description": "전기를 공급하는 물건",
+      "hanja": "乾(마를 건) 電(번개 전) 池(못 지)",
+      "examples": [
+        "과학 시간에 '건전지'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 건전지에 대해 이야기하며 '전기를 공급하는 물건'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "건전지",
+        "전지"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "건전지은(는) 전기를 공급하는 물건",
+        "answer": true
+      },
+      "synonyms": [
+        "전지"
+      ]
+    },
+    {
+      "id": 64,
+      "local_id": 64,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "회로",
+      "description": "전기가 흐르는 길",
+      "hanja": "回(돌 회) 路(길 로)",
+      "examples": [
+        "과학 시간에 '회로'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 회로에 대해 이야기하며 '전기가 흐르는 길'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "회로",
+        "전기 회로"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "회로은(는) 전기가 흐르는 길",
+        "answer": true
+      },
+      "synonyms": [
+        "전기 회로"
+      ]
+    },
+    {
+      "id": 65,
+      "local_id": 65,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "도체",
+      "description": "전기가 잘 통하는 물질",
+      "hanja": "導(이끌 도) 體(몸 체)",
+      "examples": [
+        "구리선은 전기가 잘 통하는 도체이다.",
+        "도체와 부도체를 구분하는 실험을 했다."
+      ],
+      "keywords": [
+        "도체",
+        "전도체"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "도체은(는) 전기가 잘 통하는 물질",
+        "answer": true
+      },
+      "synonyms": [
+        "전도체"
+      ],
+      "antonyms": [
+        "부도체"
+      ]
+    },
+    {
+      "id": 66,
+      "local_id": 66,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "부도체",
+      "description": "전기가 잘 통하지 않는 물질",
+      "hanja": "不(아닐 부) 導(이끌 도) 體(몸 체)",
+      "examples": [
+        "고무와 플라스틱은 전기가 잘 통하지 않는 부도체이다.",
+        "전선 겉면은 부도체로 감싸 안전하게 만든다."
+      ],
+      "keywords": [
+        "부도체",
+        "절연체"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "부도체은(는) 전기가 잘 통하지 않는 물질",
+        "answer": true
+      },
+      "synonyms": [
+        "절연체"
+      ],
+      "antonyms": [
+        "도체"
+      ]
+    },
+    {
+      "id": 67,
+      "local_id": 67,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "자원",
+      "description": "생활에 필요한 자연의 것",
+      "hanja": "資(재물 자) 源(근원 원)",
+      "examples": [
+        "과학 시간에 '자원'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 자원에 대해 이야기하며 '생활에 필요한 자연의 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "자원"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "자원은(는) 생활에 필요한 자연의 것",
+        "answer": true
+      }
+    },
+    {
+      "id": 68,
+      "local_id": 68,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "절약",
+      "description": "아껴 쓰는 것",
+      "hanja": "節(마디 절) 約(맺을 약)",
+      "examples": [
+        "과학 시간에 '절약'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 절약에 대해 이야기하며 '아껴 쓰는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "절약",
+        "아껴 쓰기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "절약은(는) 아껴 쓰는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "아껴 쓰기"
+      ],
+      "antonyms": [
+        "낭비"
+      ]
+    },
+    {
+      "id": 69,
+      "local_id": 69,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "오염",
+      "description": "환경이 더러워지거나 나빠지는 것",
+      "hanja": "汚(더러울 오) 染(물들 염)",
+      "examples": [
+        "과학 시간에 '오염'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 오염에 대해 이야기하며 '환경이 더러워지거나 나빠지는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "오염",
+        "더러워짐"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "오염은(는) 환경이 더러워지거나 나빠지는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "더러워짐"
+      ],
+      "antonyms": [
+        "정화"
+      ]
+    },
+    {
+      "id": 70,
+      "local_id": 70,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "보호",
+      "description": "자연이나 생물을 지키는 것",
+      "hanja": "保(지킬 보) 護(도울 호)",
+      "examples": [
+        "과학 시간에 '보호'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 보호에 대해 이야기하며 '자연이나 생물을 지키는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "보호",
+        "지킴"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "보호은(는) 자연이나 생물을 지키는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "지킴"
+      ],
+      "antonyms": [
+        "파괴"
+      ]
+    },
+    {
+      "id": 71,
+      "local_id": 71,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "생태계",
+      "description": "생물과 환경이 서로 영향을 주고받는 체계",
+      "hanja": "生(날 생) 態(모양 태) 系(이을 계)",
+      "examples": [
+        "과학 시간에 '생태계'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 생태계에 대해 이야기하며 '생물과 환경이 서로 영향을 주고받는 체계'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "생태계"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "생태계은(는) 생물과 환경이 서로 영향을 주고받는 체계",
+        "answer": true
+      }
+    },
+    {
+      "id": 72,
+      "local_id": 72,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "먹이",
+      "description": "생물이 살아가기 위해 먹는 것",
+      "hanja": "食(먹을 식)",
+      "examples": [
+        "과학 시간에 '먹이'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 먹이에 대해 이야기하며 '생물이 살아가기 위해 먹는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "먹이",
+        "음식"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "먹이은(는) 생물이 살아가기 위해 먹는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "음식"
+      ]
+    },
+    {
+      "id": 73,
+      "local_id": 73,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "서식지",
+      "description": "생물이 살아가는 곳",
+      "hanja": "棲(깃들일 서) 息(쉴 식) 地(땅 지)",
+      "examples": [
+        "과학 시간에 '서식지'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 서식지에 대해 이야기하며 '생물이 살아가는 곳'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "서식지",
+        "사는 곳"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "서식지은(는) 생물이 살아가는 곳",
+        "answer": true
+      },
+      "synonyms": [
+        "사는 곳"
+      ]
+    },
+    {
+      "id": 74,
+      "local_id": 74,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "적응",
+      "description": "생물이 환경에 맞게 살아가는 것",
+      "hanja": "適(맞을 적) 應(응할 응)",
+      "examples": [
+        "과학 시간에 '적응'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 적응에 대해 이야기하며 '생물이 환경에 맞게 살아가는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "적응",
+        "맞춤"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "적응은(는) 생물이 환경에 맞게 살아가는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "맞춤"
+      ]
+    },
+    {
+      "id": 75,
+      "local_id": 75,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "관찰일지",
+      "description": "관찰한 내용을 날짜에 따라 기록한 것",
+      "hanja": "觀(볼 관) 察(살필 찰) 日(날 일) 誌(기록할 지)",
+      "examples": [
+        "과학 시간에 '관찰일지'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 관찰일지에 대해 이야기하며 '관찰한 내용을 날짜에 따라 기록한 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "관찰일지",
+        "관찰 기록"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "관찰일지은(는) 관찰한 내용을 날짜에 따라 기록한 것",
+        "answer": true
+      },
+      "synonyms": [
+        "관찰 기록"
+      ]
+    },
+    {
+      "id": 76,
+      "local_id": 76,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "실험기구",
+      "description": "실험에 사용하는 도구",
+      "hanja": "實(열매 실) 驗(시험할 험) 器(그릇 기) 具(갖출 구)",
+      "examples": [
+        "과학 시간에 '실험기구'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 실험기구에 대해 이야기하며 '실험에 사용하는 도구'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "실험기구",
+        "실험 도구"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "실험기구은(는) 실험에 사용하는 도구",
+        "answer": true
+      },
+      "synonyms": [
+        "실험 도구"
+      ]
+    },
+    {
+      "id": 77,
+      "local_id": 77,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "변화 과정",
+      "description": "모습이나 상태가 변하는 순서",
+      "hanja": "變(변할 변) 化(될 화) 過(지날 과) 程(길 정)",
+      "examples": [
+        "과학 시간에 '변화 과정'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 변화 과정에 대해 이야기하며 '모습이나 상태가 변하는 순서'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "변화 과정",
+        "변화 순서"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "변화 과정은(는) 모습이나 상태가 변하는 순서",
+        "answer": true
+      },
+      "synonyms": [
+        "변화 순서"
+      ]
+    },
+    {
+      "id": 78,
+      "local_id": 78,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "탐구",
+      "description": "스스로 궁금한 것을 알아보는 활동",
+      "hanja": "探(찾을 탐) 究(궁구할 구)",
+      "examples": [
+        "과학 시간에 '탐구'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 탐구에 대해 이야기하며 '스스로 궁금한 것을 알아보는 활동'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "탐구",
+        "알아보기",
+        "연구"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "탐구은(는) 스스로 궁금한 것을 알아보는 활동",
+        "answer": true
+      },
+      "synonyms": [
+        "알아보기",
+        "연구"
+      ]
+    },
+    {
+      "id": 79,
+      "local_id": 79,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "자연현상",
+      "description": "자연에서 일어나는 일",
+      "hanja": "自(스스로 자) 然(그러할 연) 現(나타날 현) 象(모양 상)",
+      "examples": [
+        "과학 시간에 '자연현상'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 자연현상에 대해 이야기하며 '자연에서 일어나는 일'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "자연현상"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "자연현상은(는) 자연에서 일어나는 일",
+        "answer": true
+      }
+    },
+    {
+      "id": 80,
+      "local_id": 80,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 2,
+      "unit": "2학기 과학 핵심",
+      "term": "과학자",
+      "description": "과학을 연구하는 사람",
+      "hanja": "科(과목 과) 學(배울 학) 者(사람 자)",
+      "examples": [
+        "과학 시간에 '과학자'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 과학자에 대해 이야기하며 '과학을 연구하는 사람'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "과학자",
+        "연구자"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "과학자은(는) 과학을 연구하는 사람",
+        "answer": true
+      },
+      "synonyms": [
+        "연구자"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 71,
+    "term": "비유",
+    "hanja": "比喩",
+    "hanja_meaning": "견줄 비, 깨우칠 유",
+    "definition": "어떤 대상을 다른 대상에 빗대어 표현하는 것",
+    "easy_definition": "무엇을 다른 것에 빗대어 나타내는 표현",
+    "example": "구름을 솜사탕에 비유했다.",
+    "non_example": "구름은 하늘에 있다.",
+    "related_terms": [
+      "직유법",
+      "은유법",
+      "표현"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 72,
+    "term": "직유법",
+    "hanja": "直喩法",
+    "hanja_meaning": "곧을 직, 깨우칠 유, 법 법",
+    "definition": "'~처럼', '~같이'와 같은 말을 사용하여 직접 빗대어 표현하는 방법",
+    "easy_definition": "'처럼', '같이'를 써서 빗대는 표현",
+    "example": "아이의 웃음은 햇살처럼 밝다.",
+    "non_example": "아이의 웃음은 밝다.",
+    "related_terms": [
+      "비유",
+      "은유법",
+      "표현"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 73,
+    "term": "은유법",
+    "hanja": "隱喩法",
+    "hanja_meaning": "숨을 은, 깨우칠 유, 법 법",
+    "definition": "'~처럼', '~같이'를 쓰지 않고 어떤 대상을 다른 대상인 것처럼 표현하는 방법",
+    "easy_definition": "무엇을 다른 것이라고 빗대어 말하는 표현",
+    "example": "우리 반은 하나의 작은 숲이다.",
+    "non_example": "우리 반은 숲처럼 조용하다.",
+    "related_terms": [
+      "비유",
+      "직유법",
+      "표현"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 74,
+    "term": "의인법",
+    "hanja": "擬人法",
+    "hanja_meaning": "비길 의, 사람 인, 법 법",
+    "definition": "사람이 아닌 것을 사람처럼 표현하는 방법",
+    "easy_definition": "사람이 아닌 것을 사람처럼 나타내는 표현",
+    "example": "바람이 나에게 속삭였다.",
+    "non_example": "바람이 세게 불었다.",
+    "related_terms": [
+      "비유",
+      "표현",
+      "상상"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 75,
+    "term": "반복",
+    "hanja": "反復",
+    "hanja_meaning": "돌이킬 반, 다시 복",
+    "definition": "같거나 비슷한 말, 문장, 표현을 되풀이하는 것",
+    "easy_definition": "같은 말을 여러 번 되풀이하는 것",
+    "example": "시에서 같은 말을 반복하여 리듬감을 살렸다.",
+    "non_example": "한 번만 말하고 끝내는 것",
+    "related_terms": [
+      "운율",
+      "표현",
+      "시"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 76,
+    "term": "운율",
+    "hanja": "韻律",
+    "hanja_meaning": "운 운, 법칙 률",
+    "definition": "시나 노래에서 느껴지는 말의 가락이나 리듬",
+    "easy_definition": "글이나 시에서 느껴지는 리듬감",
+    "example": "반복되는 말 때문에 시의 운율이 잘 느껴졌다.",
+    "non_example": "아무 리듬 없이 설명만 하는 글",
+    "related_terms": [
+      "반복",
+      "시",
+      "표현"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 77,
+    "term": "인물",
+    "hanja": "人物",
+    "hanja_meaning": "사람 인, 물건 물",
+    "definition": "이야기나 작품에 등장하는 사람이나 생명체",
+    "easy_definition": "이야기에 나오는 사람이나 캐릭터",
+    "example": "이야기 속 인물의 성격을 생각하며 읽었다.",
+    "non_example": "이야기가 실린 책의 표지",
+    "related_terms": [
+      "사건",
+      "배경",
+      "갈등"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 78,
+    "term": "사건",
+    "hanja": "事件",
+    "hanja_meaning": "일 사, 물건 건",
+    "definition": "이야기 속에서 일어나는 일",
+    "easy_definition": "이야기에서 벌어지는 일",
+    "example": "주요 사건을 순서대로 정리했다.",
+    "non_example": "인물의 이름만 적는 것",
+    "related_terms": [
+      "인물",
+      "배경",
+      "줄거리"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 79,
+    "term": "배경",
+    "hanja": "背景",
+    "hanja_meaning": "등 배, 볕 경",
+    "definition": "이야기 속 사건이 일어나는 시간과 장소, 상황",
+    "easy_definition": "이야기가 일어나는 때와 곳",
+    "example": "이야기의 배경은 겨울 산골 마을이다.",
+    "non_example": "인물이 한 말만 적은 것",
+    "related_terms": [
+      "인물",
+      "사건",
+      "장소"
+    ],
+    "category": "문학"
+  },
+  {
+    "id": 80,
+    "term": "갈등",
+    "hanja": "葛藤",
+    "hanja_meaning": "칡 갈, 등나무 등",
+    "definition": "인물 사이 또는 인물의 마음속에서 생기는 충돌이나 고민",
+    "easy_definition": "생각이나 마음이 서로 부딪치는 일",
+    "example": "두 인물의 갈등이 이야기의 긴장감을 만들었다.",
+    "non_example": "모든 인물이 같은 생각을 하는 상황",
+    "related_terms": [
+      "인물",
+      "사건",
+      "문제"
+    ],
+    "category": "문학"
+  }
+]

@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "title": "초등 5학년 과학 개념어 DB PART 2",
+    "subject": "과학",
+    "grade": 5,
+    "count": 20,
+    "schema_version": "2026-07-01"
+  },
+  "concepts": [
+    {
+      "id": "SCI5-021",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "용해",
+      "hanja": "溶解",
+      "hanja_breakdown": [
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "解",
+          "meaning": "풀 해"
+        }
+      ],
+      "definition": "어떤 물질이 다른 물질에 녹아 고르게 섞이는 현상",
+      "student_friendly_explanation": "설탕이 물에 녹아 보이지 않게 섞이는 거예요.",
+      "example_sentence": "소금은 물에 용해됩니다.",
+      "related_concepts": [
+        "용질",
+        "용매",
+        "용액"
+      ],
+      "misconception_tip": "녹은 물질이 사라진 것이 아니라 고르게 섞인 거예요."
+    },
+    {
+      "id": "SCI5-022",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "용액",
+      "hanja": "溶液",
+      "hanja_breakdown": [
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "液",
+          "meaning": "진 액"
+        }
+      ],
+      "definition": "두 물질이 고르게 섞여 있는 액체",
+      "student_friendly_explanation": "어떤 물질이 액체에 녹아 골고루 섞인 것이에요.",
+      "example_sentence": "소금물은 소금이 물에 녹아 만들어진 용액입니다.",
+      "related_concepts": [
+        "용해",
+        "용질",
+        "용매"
+      ],
+      "misconception_tip": "용액은 겉으로 맑아 보여도 녹아 있는 물질이 있을 수 있어요."
+    },
+    {
+      "id": "SCI5-023",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "용질",
+      "hanja": "溶質",
+      "hanja_breakdown": [
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "質",
+          "meaning": "바탕 질"
+        }
+      ],
+      "definition": "용액에서 녹아 들어가는 물질",
+      "student_friendly_explanation": "물에 넣었을 때 녹는 물질이에요.",
+      "example_sentence": "설탕물에서 설탕은 용질입니다.",
+      "related_concepts": [
+        "용액",
+        "용매",
+        "용해"
+      ],
+      "misconception_tip": "용질은 양이 적은 물질이라고만 외우기보다 녹는 역할로 이해해요."
+    },
+    {
+      "id": "SCI5-024",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "용매",
+      "hanja": "溶媒",
+      "hanja_breakdown": [
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "媒",
+          "meaning": "중매 매"
+        }
+      ],
+      "definition": "용질을 녹이는 물질",
+      "student_friendly_explanation": "다른 물질을 녹여 주는 액체예요.",
+      "example_sentence": "소금물에서 물은 용매입니다.",
+      "related_concepts": [
+        "용액",
+        "용질",
+        "물"
+      ],
+      "misconception_tip": "용매는 항상 물만 있는 것은 아니지만 초등 실험에서는 물을 많이 다뤄요."
+    },
+    {
+      "id": "SCI5-025",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "농도",
+      "hanja": "濃度",
+      "hanja_breakdown": [
+        {
+          "hanja": "濃",
+          "meaning": "짙을 농"
+        },
+        {
+          "hanja": "度",
+          "meaning": "법도 도"
+        }
+      ],
+      "definition": "용액의 진한 정도",
+      "student_friendly_explanation": "용액에 용질이 얼마나 많이 녹아 있는지 나타내는 정도예요.",
+      "example_sentence": "소금을 많이 넣은 소금물은 농도가 높습니다.",
+      "related_concepts": [
+        "용액",
+        "진하기",
+        "용질"
+      ],
+      "misconception_tip": "색이 진하다고 항상 농도가 높다고 판단할 수는 없어요."
+    },
+    {
+      "id": "SCI5-026",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "포화 용액",
+      "hanja": "飽和溶液",
+      "hanja_breakdown": [
+        {
+          "hanja": "飽",
+          "meaning": "배부를 포"
+        },
+        {
+          "hanja": "和",
+          "meaning": "화할 화"
+        },
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "液",
+          "meaning": "진 액"
+        }
+      ],
+      "definition": "일정한 온도에서 용질이 더 이상 녹기 어려운 용액",
+      "student_friendly_explanation": "더 넣어도 잘 녹지 않을 만큼 가득 녹아 있는 용액이에요.",
+      "example_sentence": "소금이 더 이상 녹지 않고 바닥에 남으면 포화 용액에 가까울 수 있습니다.",
+      "related_concepts": [
+        "용해",
+        "용해도",
+        "용질"
+      ],
+      "misconception_tip": "포화 상태는 온도가 변하면 달라질 수 있어요."
+    },
+    {
+      "id": "SCI5-027",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "용해도",
+      "hanja": "溶解度",
+      "hanja_breakdown": [
+        {
+          "hanja": "溶",
+          "meaning": "녹을 용"
+        },
+        {
+          "hanja": "解",
+          "meaning": "풀 해"
+        },
+        {
+          "hanja": "度",
+          "meaning": "법도 도"
+        }
+      ],
+      "definition": "일정한 온도에서 용매에 녹을 수 있는 용질의 양",
+      "student_friendly_explanation": "어떤 물질이 얼마나 많이 녹을 수 있는지 나타내요.",
+      "example_sentence": "온도가 높아지면 붕산의 용해도가 커집니다.",
+      "related_concepts": [
+        "용해",
+        "포화 용액",
+        "온도"
+      ],
+      "misconception_tip": "모든 물질의 용해도가 온도에 따라 똑같이 변하는 것은 아니에요."
+    },
+    {
+      "id": "SCI5-028",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "결정",
+      "hanja": "結晶",
+      "hanja_breakdown": [
+        {
+          "hanja": "結",
+          "meaning": "맺을 결"
+        },
+        {
+          "hanja": "晶",
+          "meaning": "맑을 정"
+        }
+      ],
+      "definition": "물질을 이루는 알갱이가 규칙적으로 배열되어 일정한 모양을 이룬 것",
+      "student_friendly_explanation": "소금이나 설탕 알갱이처럼 일정한 모양을 가진 고체예요.",
+      "example_sentence": "소금물의 물이 증발하면 소금 결정이 남습니다.",
+      "related_concepts": [
+        "증발",
+        "용액",
+        "고체"
+      ],
+      "misconception_tip": "결정의 크기는 조건에 따라 달라질 수 있어요."
+    },
+    {
+      "id": "SCI5-029",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "증발",
+      "hanja": "蒸發",
+      "hanja_breakdown": [
+        {
+          "hanja": "蒸",
+          "meaning": "찔 증"
+        },
+        {
+          "hanja": "發",
+          "meaning": "필 발"
+        }
+      ],
+      "definition": "액체가 표면에서 기체로 변하는 현상",
+      "student_friendly_explanation": "물이 끓지 않아도 공기 중으로 조금씩 날아가는 거예요.",
+      "example_sentence": "젖은 빨래가 마르는 것은 물이 증발하기 때문입니다.",
+      "related_concepts": [
+        "물",
+        "수증기",
+        "결정"
+      ],
+      "misconception_tip": "증발은 끓을 때만 일어나는 것이 아니에요."
+    },
+    {
+      "id": "SCI5-030",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "여과",
+      "hanja": "濾過",
+      "hanja_breakdown": [
+        {
+          "hanja": "濾",
+          "meaning": "거를 여"
+        },
+        {
+          "hanja": "過",
+          "meaning": "지날 과"
+        }
+      ],
+      "definition": "거름 장치를 이용해 섞인 물질을 걸러 내는 방법",
+      "student_friendly_explanation": "거름종이 같은 것으로 큰 알갱이를 걸러 내는 방법이에요.",
+      "example_sentence": "흙탕물을 여과하면 큰 흙 알갱이를 걸러 낼 수 있습니다.",
+      "related_concepts": [
+        "혼합물",
+        "거름종이",
+        "분리"
+      ],
+      "misconception_tip": "물에 녹은 소금은 보통 거름종이로 걸러지지 않아요."
+    },
+    {
+      "id": "SCI5-031",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "혼합물",
+      "hanja": "混合物",
+      "hanja_breakdown": [
+        {
+          "hanja": "混",
+          "meaning": "섞을 혼"
+        },
+        {
+          "hanja": "合",
+          "meaning": "합할 합"
+        },
+        {
+          "hanja": "物",
+          "meaning": "물건 물"
+        }
+      ],
+      "definition": "두 가지 이상의 물질이 섞여 있는 것",
+      "student_friendly_explanation": "여러 물질이 함께 들어 있는 것이에요.",
+      "example_sentence": "소금과 모래가 섞이면 혼합물이 됩니다.",
+      "related_concepts": [
+        "분리",
+        "여과",
+        "용액"
+      ],
+      "misconception_tip": "혼합물은 항상 눈으로 구분되는 것은 아니에요."
+    },
+    {
+      "id": "SCI5-032",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "분리",
+      "hanja": "分離",
+      "hanja_breakdown": [
+        {
+          "hanja": "分",
+          "meaning": "나눌 분"
+        },
+        {
+          "hanja": "離",
+          "meaning": "떼놓을 리"
+        }
+      ],
+      "definition": "섞여 있는 물질을 각각의 물질로 나누는 것",
+      "student_friendly_explanation": "섞인 것을 다시 따로 나누는 거예요.",
+      "example_sentence": "자석을 이용해 모래 속 철 가루를 분리할 수 있습니다.",
+      "related_concepts": [
+        "혼합물",
+        "여과",
+        "증발"
+      ],
+      "misconception_tip": "물질의 성질 차이를 이용해야 잘 분리할 수 있어요."
+    },
+    {
+      "id": "SCI5-033",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "식물",
+      "hanja": "植物",
+      "hanja_breakdown": [
+        {
+          "hanja": "植",
+          "meaning": "심을 식"
+        },
+        {
+          "hanja": "物",
+          "meaning": "물건 물"
+        }
+      ],
+      "definition": "스스로 양분을 만들며 자라는 생물의 한 무리",
+      "student_friendly_explanation": "뿌리, 줄기, 잎 등을 가지고 자라는 생물이에요.",
+      "example_sentence": "강낭콩은 씨에서 싹이 터 식물로 자랍니다.",
+      "related_concepts": [
+        "뿌리",
+        "줄기",
+        "잎"
+      ],
+      "misconception_tip": "버섯은 식물이 아니라 균류에 속해요."
+    },
+    {
+      "id": "SCI5-034",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "뿌리",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "식물을 땅에 고정하고 물과 무기 양분을 흡수하는 기관",
+      "student_friendly_explanation": "식물이 쓰러지지 않게 잡아 주고 물을 빨아들이는 부분이에요.",
+      "example_sentence": "봉숭아의 뿌리는 흙 속에서 물을 흡수합니다.",
+      "related_concepts": [
+        "줄기",
+        "물관",
+        "흡수"
+      ],
+      "misconception_tip": "뿌리는 단순히 식물을 붙잡기만 하는 기관이 아니에요."
+    },
+    {
+      "id": "SCI5-035",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "줄기",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "식물의 몸을 지탱하고 물질이 이동하는 통로가 되는 기관",
+      "student_friendly_explanation": "잎과 꽃을 받쳐 주고 물과 양분이 지나가는 길이에요.",
+      "example_sentence": "줄기를 통해 뿌리에서 흡수한 물이 잎으로 이동합니다.",
+      "related_concepts": [
+        "물관",
+        "체관",
+        "잎"
+      ],
+      "misconception_tip": "줄기 안에는 물질이 이동하는 여러 통로가 있어요."
+    },
+    {
+      "id": "SCI5-036",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "잎",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "식물이 햇빛을 받아 양분을 만드는 주요 기관",
+      "student_friendly_explanation": "식물이 햇빛을 이용해 먹이를 만드는 부분이에요.",
+      "example_sentence": "식물의 잎에서는 광합성이 일어납니다.",
+      "related_concepts": [
+        "광합성",
+        "기공",
+        "증산 작용"
+      ],
+      "misconception_tip": "잎은 단순히 초록색 장식이 아니에요."
+    },
+    {
+      "id": "SCI5-037",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "꽃",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "식물이 씨를 만들기 위해 피우는 생식 기관",
+      "student_friendly_explanation": "식물이 열매와 씨를 만들기 위해 피우는 부분이에요.",
+      "example_sentence": "꽃이 핀 뒤 열매가 생기기도 합니다.",
+      "related_concepts": [
+        "암술",
+        "수술",
+        "수분"
+      ],
+      "misconception_tip": "모든 식물이 눈에 잘 띄는 꽃을 피우는 것은 아니에요."
+    },
+    {
+      "id": "SCI5-038",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "열매",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "씨를 보호하거나 퍼뜨리는 데 도움을 주는 식물의 기관",
+      "student_friendly_explanation": "씨를 감싸고 있는 부분이에요.",
+      "example_sentence": "사과 열매 안에는 씨가 들어 있습니다.",
+      "related_concepts": [
+        "씨",
+        "꽃",
+        "번식"
+      ],
+      "misconception_tip": "우리가 먹는 부분이 항상 식물학적 열매와 같지는 않아요."
+    },
+    {
+      "id": "SCI5-039",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "씨",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "새로운 식물로 자랄 수 있는 구조",
+      "student_friendly_explanation": "조건이 맞으면 싹이 터 새 식물이 될 수 있는 것이에요.",
+      "example_sentence": "강낭콩 씨를 심으면 싹이 납니다.",
+      "related_concepts": [
+        "발아",
+        "열매",
+        "번식"
+      ],
+      "misconception_tip": "씨는 죽은 알갱이가 아니라 자랄 수 있는 생명 활동의 시작이에요."
+    },
+    {
+      "id": "SCI5-040",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 2",
+      "concept": "발아",
+      "hanja": "發芽",
+      "hanja_breakdown": [
+        {
+          "hanja": "發",
+          "meaning": "필 발"
+        },
+        {
+          "hanja": "芽",
+          "meaning": "싹 아"
+        }
+      ],
+      "definition": "씨에서 싹이 트는 현상",
+      "student_friendly_explanation": "씨가 깨어나 뿌리와 싹을 내는 것이에요.",
+      "example_sentence": "씨가 발아하려면 물과 알맞은 온도, 공기가 필요합니다.",
+      "related_concepts": [
+        "씨",
+        "싹",
+        "생장"
+      ],
+      "misconception_tip": "햇빛은 많은 씨의 발아에 꼭 필요한 조건은 아니에요."
+    }
+  ]
+}

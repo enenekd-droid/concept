@@ -1,0 +1,549 @@
+{
+  "metadata": {
+    "title": "초등 5학년 과학 개념어 DB PART 4",
+    "subject": "과학",
+    "grade": 5,
+    "count": 20,
+    "schema_version": "2026-07-01"
+  },
+  "concepts": [
+    {
+      "id": "SCI5-061",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "운동",
+      "hanja": "運動",
+      "hanja_breakdown": [
+        {
+          "hanja": "運",
+          "meaning": "옮길 운"
+        },
+        {
+          "hanja": "動",
+          "meaning": "움직일 동"
+        }
+      ],
+      "definition": "물체의 위치가 시간이 지나면서 변하는 것",
+      "student_friendly_explanation": "물체가 움직여 위치가 바뀌는 것이에요.",
+      "example_sentence": "굴러가는 공은 운동하고 있습니다.",
+      "related_concepts": [
+        "위치",
+        "속력",
+        "이동 거리"
+      ],
+      "misconception_tip": "가만히 서 있는 물체는 기준에 따라 운동 여부가 다르게 보일 수 있어요."
+    },
+    {
+      "id": "SCI5-062",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "위치",
+      "hanja": "位置",
+      "hanja_breakdown": [
+        {
+          "hanja": "位",
+          "meaning": "자리 위"
+        },
+        {
+          "hanja": "置",
+          "meaning": "둘 치"
+        }
+      ],
+      "definition": "물체가 있는 자리",
+      "student_friendly_explanation": "어디에 있는지를 나타내는 말이에요.",
+      "example_sentence": "교실 앞문을 기준으로 책상의 위치를 설명했습니다.",
+      "related_concepts": [
+        "기준점",
+        "운동",
+        "방향"
+      ],
+      "misconception_tip": "위치는 기준을 정해야 정확히 설명할 수 있어요."
+    },
+    {
+      "id": "SCI5-063",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "기준점",
+      "hanja": "基準點",
+      "hanja_breakdown": [
+        {
+          "hanja": "基",
+          "meaning": "터 기"
+        },
+        {
+          "hanja": "準",
+          "meaning": "준할 준"
+        },
+        {
+          "hanja": "點",
+          "meaning": "점 점"
+        }
+      ],
+      "definition": "위치를 나타낼 때 기준으로 삼는 점",
+      "student_friendly_explanation": "어디에 있는지 말할 때 출발 기준이 되는 곳이에요.",
+      "example_sentence": "학교 정문을 기준점으로 도서관의 위치를 설명했습니다.",
+      "related_concepts": [
+        "위치",
+        "방향",
+        "거리"
+      ],
+      "misconception_tip": "기준점이 바뀌면 위치 설명도 달라질 수 있어요."
+    },
+    {
+      "id": "SCI5-064",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "이동 거리",
+      "hanja": "移動距離",
+      "hanja_breakdown": [
+        {
+          "hanja": "移",
+          "meaning": "옮길 이"
+        },
+        {
+          "hanja": "動",
+          "meaning": "움직일 동"
+        },
+        {
+          "hanja": "距",
+          "meaning": "떨어질 거"
+        },
+        {
+          "hanja": "離",
+          "meaning": "떠날 리"
+        }
+      ],
+      "definition": "물체가 실제로 움직인 길의 길이",
+      "student_friendly_explanation": "움직이며 지나간 길을 모두 잰 길이예요.",
+      "example_sentence": "운동장을 한 바퀴 돌면 이동 거리는 운동장 둘레와 같습니다.",
+      "related_concepts": [
+        "운동",
+        "속력",
+        "거리"
+      ],
+      "misconception_tip": "출발점과 도착점 사이의 곧은거리와 다를 수 있어요."
+    },
+    {
+      "id": "SCI5-065",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "시간",
+      "hanja": "時間",
+      "hanja_breakdown": [
+        {
+          "hanja": "時",
+          "meaning": "때 시"
+        },
+        {
+          "hanja": "間",
+          "meaning": "사이 간"
+        }
+      ],
+      "definition": "어떤 일이 계속되거나 변화하는 동안의 길이",
+      "student_friendly_explanation": "얼마나 오래 걸렸는지를 나타내요.",
+      "example_sentence": "공이 도착하는 데 걸린 시간을 초시계로 쟀습니다.",
+      "related_concepts": [
+        "속력",
+        "운동",
+        "측정"
+      ],
+      "misconception_tip": "속력을 구할 때 시간의 단위를 잘 맞춰야 해요."
+    },
+    {
+      "id": "SCI5-066",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "속력",
+      "hanja": "速力",
+      "hanja_breakdown": [
+        {
+          "hanja": "速",
+          "meaning": "빠를 속"
+        },
+        {
+          "hanja": "力",
+          "meaning": "힘 력"
+        }
+      ],
+      "definition": "물체가 일정한 시간 동안 이동한 거리",
+      "student_friendly_explanation": "얼마나 빠르게 움직이는지를 나타내는 값이에요.",
+      "example_sentence": "같은 시간에 더 멀리 간 자동차의 속력이 더 큽니다.",
+      "related_concepts": [
+        "이동 거리",
+        "시간",
+        "운동"
+      ],
+      "misconception_tip": "속력은 방향을 포함하지 않는 빠르기예요."
+    },
+    {
+      "id": "SCI5-067",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "빠르기",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "물체가 움직이는 정도를 일상적으로 나타내는 말",
+      "student_friendly_explanation": "물체가 얼마나 빨리 움직이는지 말하는 표현이에요.",
+      "example_sentence": "자전거의 빠르기는 걷는 사람보다 클 수 있습니다.",
+      "related_concepts": [
+        "속력",
+        "운동",
+        "시간"
+      ],
+      "misconception_tip": "과학에서는 빠르기를 더 정확히 나타내기 위해 속력을 사용해요."
+    },
+    {
+      "id": "SCI5-068",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "방향",
+      "hanja": "方向",
+      "hanja_breakdown": [
+        {
+          "hanja": "方",
+          "meaning": "모 방"
+        },
+        {
+          "hanja": "向",
+          "meaning": "향할 향"
+        }
+      ],
+      "definition": "물체가 향하거나 움직이는 쪽",
+      "student_friendly_explanation": "어느 쪽으로 가는지를 나타내는 말이에요.",
+      "example_sentence": "공은 오른쪽 방향으로 굴러갔습니다.",
+      "related_concepts": [
+        "위치",
+        "운동",
+        "기준점"
+      ],
+      "misconception_tip": "방향은 빠르기와 다른 정보예요."
+    },
+    {
+      "id": "SCI5-069",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "측정",
+      "hanja": "測定",
+      "hanja_breakdown": [
+        {
+          "hanja": "測",
+          "meaning": "잴 측"
+        },
+        {
+          "hanja": "定",
+          "meaning": "정할 정"
+        }
+      ],
+      "definition": "도구를 사용해 양을 재어 수로 나타내는 것",
+      "student_friendly_explanation": "길이, 시간, 온도 등을 도구로 재는 일이에요.",
+      "example_sentence": "줄자로 이동 거리를 측정했습니다.",
+      "related_concepts": [
+        "단위",
+        "도구",
+        "관찰"
+      ],
+      "misconception_tip": "측정할 때는 알맞은 도구와 단위를 사용해야 해요."
+    },
+    {
+      "id": "SCI5-070",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "단위",
+      "hanja": "單位",
+      "hanja_breakdown": [
+        {
+          "hanja": "單",
+          "meaning": "홑 단"
+        },
+        {
+          "hanja": "位",
+          "meaning": "자리 위"
+        }
+      ],
+      "definition": "측정한 양을 나타내는 기준이 되는 크기",
+      "student_friendly_explanation": "잰 값을 말할 때 붙이는 기준 이름이에요.",
+      "example_sentence": "길이의 단위에는 cm와 m가 있습니다.",
+      "related_concepts": [
+        "측정",
+        "거리",
+        "시간"
+      ],
+      "misconception_tip": "숫자만 쓰면 무엇을 잰 값인지 알기 어려워요."
+    },
+    {
+      "id": "SCI5-071",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "산성",
+      "hanja": "酸性",
+      "hanja_breakdown": [
+        {
+          "hanja": "酸",
+          "meaning": "실 산"
+        },
+        {
+          "hanja": "性",
+          "meaning": "성품 성"
+        }
+      ],
+      "definition": "푸른 리트머스 종이를 붉게 변화시키는 성질",
+      "student_friendly_explanation": "레몬즙이나 식초처럼 신맛이 나는 물질에서 흔히 볼 수 있는 성질이에요.",
+      "example_sentence": "식초는 산성을 나타냅니다.",
+      "related_concepts": [
+        "염기성",
+        "지시약",
+        "중화"
+      ],
+      "misconception_tip": "맛을 직접 보며 산성을 확인하면 안 돼요."
+    },
+    {
+      "id": "SCI5-072",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "염기성",
+      "hanja": "鹽基性",
+      "hanja_breakdown": [
+        {
+          "hanja": "鹽",
+          "meaning": "소금 염"
+        },
+        {
+          "hanja": "基",
+          "meaning": "터 기"
+        },
+        {
+          "hanja": "性",
+          "meaning": "성품 성"
+        }
+      ],
+      "definition": "붉은 리트머스 종이를 푸르게 변화시키는 성질",
+      "student_friendly_explanation": "비눗물처럼 미끌거리는 느낌이 나는 물질에서 볼 수 있는 성질이에요.",
+      "example_sentence": "비눗물은 염기성을 나타낼 수 있습니다.",
+      "related_concepts": [
+        "산성",
+        "지시약",
+        "중화"
+      ],
+      "misconception_tip": "생활 속 물질이라도 직접 만지거나 맛보며 확인하면 위험할 수 있어요."
+    },
+    {
+      "id": "SCI5-073",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "중성",
+      "hanja": "中性",
+      "hanja_breakdown": [
+        {
+          "hanja": "中",
+          "meaning": "가운데 중"
+        },
+        {
+          "hanja": "性",
+          "meaning": "성품 성"
+        }
+      ],
+      "definition": "산성도 염기성도 강하게 나타내지 않는 성질",
+      "student_friendly_explanation": "산성과 염기성 어느 쪽도 뚜렷하지 않은 성질이에요.",
+      "example_sentence": "순수한 물은 대체로 중성입니다.",
+      "related_concepts": [
+        "산성",
+        "염기성",
+        "pH"
+      ],
+      "misconception_tip": "중성은 아무 성질이 없다는 뜻이 아니에요."
+    },
+    {
+      "id": "SCI5-074",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "지시약",
+      "hanja": "指示藥",
+      "hanja_breakdown": [
+        {
+          "hanja": "指",
+          "meaning": "가리킬 지"
+        },
+        {
+          "hanja": "示",
+          "meaning": "보일 시"
+        },
+        {
+          "hanja": "藥",
+          "meaning": "약 약"
+        }
+      ],
+      "definition": "물질의 성질에 따라 색이 변해 성질을 알려 주는 물질",
+      "student_friendly_explanation": "색 변화로 산성인지 염기성인지 알려 주는 약품이에요.",
+      "example_sentence": "BTB 용액은 산성과 염기성에 따라 색이 변합니다.",
+      "related_concepts": [
+        "리트머스 종이",
+        "BTB 용액",
+        "산성"
+      ],
+      "misconception_tip": "지시약의 색 변화는 정해진 조건에서 관찰해야 해요."
+    },
+    {
+      "id": "SCI5-075",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "리트머스 종이",
+      "hanja": "litmus—",
+      "hanja_breakdown": [
+        {
+          "hanja": "BTB/영문 포함",
+          "meaning": "litmus: 지의류에서 얻은 색소 이름"
+        }
+      ],
+      "definition": "산성과 염기성을 색 변화로 알아보는 종이 지시약",
+      "student_friendly_explanation": "색이 변해 물질의 성질을 알려 주는 종이예요.",
+      "example_sentence": "푸른 리트머스 종이는 산성 용액에서 붉게 변합니다.",
+      "related_concepts": [
+        "지시약",
+        "산성",
+        "염기성"
+      ],
+      "misconception_tip": "리트머스 종이는 산성·염기성의 세기를 자세히 알려 주지는 않아요."
+    },
+    {
+      "id": "SCI5-076",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "BTB 용액",
+      "hanja": "BTB溶液",
+      "hanja_breakdown": [
+        {
+          "hanja": "BTB溶液",
+          "meaning": "BTB: bromothymol blue 약자|녹을 용|진 액"
+        }
+      ],
+      "definition": "산성·중성·염기성에 따라 색이 달라지는 지시약 용액",
+      "student_friendly_explanation": "색으로 산성, 중성, 염기성을 구별하게 해 주는 용액이에요.",
+      "example_sentence": "BTB 용액은 중성에서 초록색을 나타냅니다.",
+      "related_concepts": [
+        "지시약",
+        "산성",
+        "중성"
+      ],
+      "misconception_tip": "BTB 용액은 색을 정확히 비교해야 해요."
+    },
+    {
+      "id": "SCI5-077",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "중화",
+      "hanja": "中和",
+      "hanja_breakdown": [
+        {
+          "hanja": "中",
+          "meaning": "가운데 중"
+        },
+        {
+          "hanja": "和",
+          "meaning": "화할 화"
+        }
+      ],
+      "definition": "산성과 염기성이 서로의 성질을 약하게 만드는 반응",
+      "student_friendly_explanation": "산성과 염기성이 만나 성질이 약해지는 일이에요.",
+      "example_sentence": "묽은 염산과 묽은 수산화 나트륨 용액을 알맞게 섞으면 중화가 일어납니다.",
+      "related_concepts": [
+        "산성",
+        "염기성",
+        "지시약"
+      ],
+      "misconception_tip": "중화가 되었다고 항상 완전히 안전하다는 뜻은 아니에요."
+    },
+    {
+      "id": "SCI5-078",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "생태계",
+      "hanja": "生態系",
+      "hanja_breakdown": [
+        {
+          "hanja": "生",
+          "meaning": "날 생"
+        },
+        {
+          "hanja": "態",
+          "meaning": "모습 태"
+        },
+        {
+          "hanja": "系",
+          "meaning": "이을 계"
+        }
+      ],
+      "definition": "어떤 지역의 생물과 그 생물을 둘러싼 환경이 서로 관계를 맺는 전체",
+      "student_friendly_explanation": "살아 있는 생물과 주변 환경이 서로 연결된 자연의 한 단위예요.",
+      "example_sentence": "연못 생태계에는 물, 햇빛, 물풀, 물고기 등이 포함됩니다.",
+      "related_concepts": [
+        "생물 요소",
+        "비생물 요소",
+        "먹이 관계"
+      ],
+      "misconception_tip": "생태계는 생물만 모아 놓은 것이 아니라 환경도 포함해요."
+    },
+    {
+      "id": "SCI5-079",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "먹이 사슬",
+      "hanja": null,
+      "hanja_breakdown": [],
+      "definition": "생물 사이에서 먹고 먹히는 관계가 사슬처럼 이어진 것",
+      "student_friendly_explanation": "누가 누구를 먹는지 한 줄로 이어 나타낸 것이에요.",
+      "example_sentence": "풀 → 메뚜기 → 개구리 → 뱀은 먹이 사슬의 예입니다.",
+      "related_concepts": [
+        "생태계",
+        "생산자",
+        "소비자"
+      ],
+      "misconception_tip": "실제 자연에서는 여러 먹이 사슬이 그물처럼 복잡하게 연결돼요."
+    },
+    {
+      "id": "SCI5-080",
+      "subject": "과학",
+      "grade": 5,
+      "part": "PART 4",
+      "concept": "환경",
+      "hanja": "環境",
+      "hanja_breakdown": [
+        {
+          "hanja": "環",
+          "meaning": "고리 환"
+        },
+        {
+          "hanja": "境",
+          "meaning": "지경 경"
+        }
+      ],
+      "definition": "생물의 생활에 영향을 주는 주변 조건",
+      "student_friendly_explanation": "생물이 살아가는 데 영향을 주는 주변의 모든 것이에요.",
+      "example_sentence": "햇빛, 물, 공기, 흙은 식물의 환경이 됩니다.",
+      "related_concepts": [
+        "생태계",
+        "서식지",
+        "비생물 요소"
+      ],
+      "misconception_tip": "환경은 자연환경뿐 아니라 생물이 서로 주고받는 영향도 포함할 수 있어요."
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "name": "3학년 과학 개념어 확장 데이터 part2",
+  "grade": 3,
+  "subject": "과학",
+  "curriculum": "2022 개정 교육과정",
+  "publisher": "아이스크림미디어",
+  "part": 2,
+  "count": 20,
+  "concepts": [
+    {
+      "id": 21,
+      "local_id": 21,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "자력",
+      "description": "자석이 끌어당기거나 밀어내는 힘",
+      "hanja": "磁(자석 자) 力(힘 력)",
+      "examples": [
+        "과학 시간에 '자력'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 자력에 대해 이야기하며 '자석이 끌어당기거나 밀어내는 힘'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "자력",
+        "자석의 힘"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "자력은(는) 자석이 끌어당기거나 밀어내는 힘",
+        "answer": true
+      },
+      "synonyms": [
+        "자석의 힘"
+      ]
+    },
+    {
+      "id": 22,
+      "local_id": 22,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "극",
+      "description": "자석의 힘이 센 양쪽 끝",
+      "hanja": "極(다할 극)",
+      "examples": [
+        "과학 시간에 '극'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 극에 대해 이야기하며 '자석의 힘이 센 양쪽 끝'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "극"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "극은(는) 자석의 힘이 센 양쪽 끝",
+        "answer": true
+      }
+    },
+    {
+      "id": 23,
+      "local_id": 23,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "힘",
+      "description": "물체를 움직이거나 모양을 바꾸는 작용",
+      "hanja": "力(힘 력)",
+      "examples": [
+        "과학 시간에 '힘'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 힘에 대해 이야기하며 '물체를 움직이거나 모양을 바꾸는 작용'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "힘",
+        "작용"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "힘은(는) 물체를 움직이거나 모양을 바꾸는 작용",
+        "answer": true
+      },
+      "synonyms": [
+        "작용"
+      ]
+    },
+    {
+      "id": 24,
+      "local_id": 24,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "무게",
+      "description": "물체의 무거운 정도",
+      "hanja": "重(무거울 중) 量(헤아릴 량)",
+      "examples": [
+        "과학 시간에 '무게'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 무게에 대해 이야기하며 '물체의 무거운 정도'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "무게",
+        "중량"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "무게은(는) 물체의 무거운 정도",
+        "answer": true
+      },
+      "synonyms": [
+        "중량"
+      ],
+      "antonyms": [
+        "가벼움"
+      ]
+    },
+    {
+      "id": 25,
+      "local_id": 25,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "길이",
+      "description": "물체의 긴 정도",
+      "hanja": "長(길 장)",
+      "examples": [
+        "과학 시간에 '길이'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 길이에 대해 이야기하며 '물체의 긴 정도'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "길이",
+        "거리"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "길이은(는) 물체의 긴 정도",
+        "answer": true
+      },
+      "synonyms": [
+        "거리"
+      ]
+    },
+    {
+      "id": 26,
+      "local_id": 26,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "온도",
+      "description": "뜨겁고 차가운 정도",
+      "hanja": "溫(따뜻할 온) 度(정도 도)",
+      "examples": [
+        "과학 시간에 '온도'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 온도에 대해 이야기하며 '뜨겁고 차가운 정도'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "온도"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "온도은(는) 뜨겁고 차가운 정도",
+        "answer": true
+      }
+    },
+    {
+      "id": 27,
+      "local_id": 27,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "빛",
+      "description": "물체를 볼 수 있게 해 주는 것",
+      "hanja": "光(빛 광)",
+      "examples": [
+        "과학 시간에 '빛'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 빛에 대해 이야기하며 '물체를 볼 수 있게 해 주는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "빛",
+        "광"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "빛은(는) 물체를 볼 수 있게 해 주는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "광"
+      ],
+      "antonyms": [
+        "어둠"
+      ]
+    },
+    {
+      "id": 28,
+      "local_id": 28,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "그림자",
+      "description": "빛이 물체에 막혀 생기는 어두운 부분",
+      "hanja": "影(그림자 영)",
+      "examples": [
+        "과학 시간에 '그림자'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 그림자에 대해 이야기하며 '빛이 물체에 막혀 생기는 어두운 부분'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "그림자",
+        "그늘"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "그림자은(는) 빛이 물체에 막혀 생기는 어두운 부분",
+        "answer": true
+      },
+      "synonyms": [
+        "그늘"
+      ]
+    },
+    {
+      "id": 29,
+      "local_id": 29,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "소리",
+      "description": "물체의 떨림으로 생기는 것",
+      "hanja": "聲(소리 성)",
+      "examples": [
+        "과학 시간에 '소리'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 소리에 대해 이야기하며 '물체의 떨림으로 생기는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "소리",
+        "음"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "소리은(는) 물체의 떨림으로 생기는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "음"
+      ]
+    },
+    {
+      "id": 30,
+      "local_id": 30,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "진동",
+      "description": "물체가 흔들리는 움직임",
+      "hanja": "振(떨칠 진) 動(움직일 동)",
+      "examples": [
+        "과학 시간에 '진동'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 진동에 대해 이야기하며 '물체가 흔들리는 움직임'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "진동",
+        "떨림"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "진동은(는) 물체가 흔들리는 움직임",
+        "answer": true
+      },
+      "synonyms": [
+        "떨림"
+      ]
+    },
+    {
+      "id": 31,
+      "local_id": 31,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "공기",
+      "description": "눈에 보이지 않지만 우리 주변에 있는 기체",
+      "hanja": "空(빌 공) 氣(기운 기)",
+      "examples": [
+        "과학 시간에 '공기'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 공기에 대해 이야기하며 '눈에 보이지 않지만 우리 주변에 있는 기체'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "공기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "공기은(는) 눈에 보이지 않지만 우리 주변에 있는 기체",
+        "answer": true
+      }
+    },
+    {
+      "id": 32,
+      "local_id": 32,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "물",
+      "description": "생명과 생활에 필요한 액체",
+      "hanja": "水(물 수)",
+      "examples": [
+        "과학 시간에 '물'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 물에 대해 이야기하며 '생명과 생활에 필요한 액체'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "물"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "물은(는) 생명과 생활에 필요한 액체",
+        "answer": true
+      }
+    },
+    {
+      "id": 33,
+      "local_id": 33,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "흙",
+      "description": "식물이 자라는 땅의 물질",
+      "hanja": "土(흙 토)",
+      "examples": [
+        "과학 시간에 '흙'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 흙에 대해 이야기하며 '식물이 자라는 땅의 물질'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "흙",
+        "토양"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "흙은(는) 식물이 자라는 땅의 물질",
+        "answer": true
+      },
+      "synonyms": [
+        "토양"
+      ]
+    },
+    {
+      "id": 34,
+      "local_id": 34,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "자연",
+      "description": "사람의 손을 거치지 않은 환경",
+      "hanja": "自(스스로 자) 然(그러할 연)",
+      "examples": [
+        "과학 시간에 '자연'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 자연에 대해 이야기하며 '사람의 손을 거치지 않은 환경'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "자연"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "자연은(는) 사람의 손을 거치지 않은 환경",
+        "answer": true
+      },
+      "antonyms": [
+        "인공"
+      ],
+      "proverb": "가는 말이 고와야 오는 말이 곱다: 자연 개념과 직접 관련은 약하지만, 자연을 대할 때도 바른 태도가 중요함을 연결해 생각할 수 있다."
+    },
+    {
+      "id": 35,
+      "local_id": 35,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "생명",
+      "description": "살아 있는 상태",
+      "hanja": "生(날 생) 命(목숨 명)",
+      "examples": [
+        "과학 시간에 '생명'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 생명에 대해 이야기하며 '살아 있는 상태'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "생명",
+        "목숨"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "생명은(는) 살아 있는 상태",
+        "answer": true
+      },
+      "synonyms": [
+        "목숨"
+      ]
+    },
+    {
+      "id": 36,
+      "local_id": 36,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "특징",
+      "description": "다른 것과 구별되는 점",
+      "hanja": "特(특별할 특) 徵(부를 징)",
+      "examples": [
+        "과학 시간에 '특징'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 특징에 대해 이야기하며 '다른 것과 구별되는 점'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "특징",
+        "특성",
+        "성질"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "특징은(는) 다른 것과 구별되는 점",
+        "answer": true
+      },
+      "synonyms": [
+        "특성",
+        "성질"
+      ]
+    },
+    {
+      "id": 37,
+      "local_id": 37,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "변화",
+      "description": "모습이나 상태가 달라지는 것",
+      "hanja": "變(변할 변) 化(될 화)",
+      "examples": [
+        "과학 시간에 '변화'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 변화에 대해 이야기하며 '모습이나 상태가 달라지는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "변화",
+        "달라짐"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "변화은(는) 모습이나 상태가 달라지는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "달라짐"
+      ]
+    },
+    {
+      "id": 38,
+      "local_id": 38,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "비교",
+      "description": "서로 같은 점과 다른 점을 살피는 것",
+      "hanja": "比(견줄 비) 較(견줄 교)",
+      "examples": [
+        "과학 시간에 '비교'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 비교에 대해 이야기하며 '서로 같은 점과 다른 점을 살피는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "비교",
+        "견주기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "비교은(는) 서로 같은 점과 다른 점을 살피는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "견주기"
+      ]
+    },
+    {
+      "id": 39,
+      "local_id": 39,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "기록",
+      "description": "관찰하거나 알게 된 내용을 적는 것",
+      "hanja": "記(기록할 기) 錄(기록할 록)",
+      "examples": [
+        "과학 시간에 '기록'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 기록에 대해 이야기하며 '관찰하거나 알게 된 내용을 적는 것'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "기록",
+        "적기",
+        "남기기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "기록은(는) 관찰하거나 알게 된 내용을 적는 것",
+        "answer": true
+      },
+      "synonyms": [
+        "적기",
+        "남기기"
+      ]
+    },
+    {
+      "id": 40,
+      "local_id": 40,
+      "grade": 3,
+      "subject": "과학",
+      "semester": 1,
+      "unit": "1학기 과학 핵심",
+      "term": "안전",
+      "description": "실험이나 생활에서 위험을 줄이는 상태",
+      "hanja": "安(편안할 안) 全(온전할 전)",
+      "examples": [
+        "과학 시간에 '안전'의 뜻을 배우고 관찰 기록장에 정리했다.",
+        "친구와 함께 안전에 대해 이야기하며 '실험이나 생활에서 위험을 줄이는 상태'라는 뜻을 확인했다."
+      ],
+      "keywords": [
+        "안전",
+        "무사"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "type": "ox",
+        "question": "안전은(는) 실험이나 생활에서 위험을 줄이는 상태",
+        "answer": true
+      },
+      "synonyms": [
+        "무사"
+      ],
+      "antonyms": [
+        "위험"
+      ]
+    }
+  ]
+}

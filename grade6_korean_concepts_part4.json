@@ -1,0 +1,350 @@
+{
+  "subject": "국어",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 4,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_kor_061",
+      "term": "토의",
+      "hanja": {
+        "word": "討議",
+        "breakdown": "칠 토, 의논할 의"
+      },
+      "meaning": "여러 사람이 의견을 나누어 문제 해결 방법을 찾는 말하기 활동",
+      "easy_explanation": "함께 의견을 말하고 더 좋은 해결책을 찾는 대화예요.",
+      "example_sentence": "학급 규칙을 정하기 위해 모둠별로 토의했습니다.",
+      "related_terms": [
+        "의견",
+        "문제 해결",
+        "듣기",
+        "회의"
+      ]
+    },
+    {
+      "id": "g6_kor_062",
+      "term": "토론",
+      "hanja": {
+        "word": "討論",
+        "breakdown": "칠 토, 논할 론"
+      },
+      "meaning": "찬성과 반대 의견으로 나뉘어 근거를 들어 주장하는 말하기 활동",
+      "easy_explanation": "서로 다른 의견을 근거와 함께 말하며 따져 보는 활동이에요.",
+      "example_sentence": "학생들은 휴대 전화 사용에 대해 찬반 토론을 했습니다.",
+      "related_terms": [
+        "주장",
+        "근거",
+        "찬성",
+        "반대"
+      ]
+    },
+    {
+      "id": "g6_kor_063",
+      "term": "발표",
+      "hanja": {
+        "word": "發表",
+        "breakdown": "필 발, 겉 표"
+      },
+      "meaning": "여러 사람 앞에서 조사한 내용이나 생각을 말하는 것",
+      "easy_explanation": "친구들 앞에서 준비한 내용을 알기 쉽게 말하는 활동이에요.",
+      "example_sentence": "모둠에서 조사한 내용을 발표했습니다.",
+      "related_terms": [
+        "자료",
+        "말하기",
+        "듣기",
+        "청중"
+      ]
+    },
+    {
+      "id": "g6_kor_064",
+      "term": "청중",
+      "hanja": {
+        "word": "聽衆",
+        "breakdown": "들을 청, 무리 중"
+      },
+      "meaning": "발표나 이야기를 듣는 사람들",
+      "easy_explanation": "말하는 사람의 이야기를 듣는 친구들이나 사람들을 말해요.",
+      "example_sentence": "발표자는 청중이 이해하기 쉽게 설명해야 합니다.",
+      "related_terms": [
+        "발표",
+        "듣기",
+        "말하기",
+        "반응"
+      ]
+    },
+    {
+      "id": "g6_kor_065",
+      "term": "공감",
+      "hanja": {
+        "word": "共感",
+        "breakdown": "함께 공, 느낄 감"
+      },
+      "meaning": "다른 사람의 생각이나 감정을 함께 느끼고 이해하는 것",
+      "easy_explanation": "상대의 마음을 헤아리고 이해하는 것이에요.",
+      "example_sentence": "친구의 이야기를 들으며 슬픈 마음에 공감했습니다.",
+      "related_terms": [
+        "듣기",
+        "배려",
+        "대화",
+        "감정"
+      ]
+    },
+    {
+      "id": "g6_kor_066",
+      "term": "대화",
+      "hanja": {
+        "word": "對話",
+        "breakdown": "대할 대, 말씀 화"
+      },
+      "meaning": "두 사람 이상이 서로 말을 주고받는 것",
+      "easy_explanation": "서로 듣고 말하며 생각과 마음을 나누는 일이에요.",
+      "example_sentence": "대화를 통해 오해를 풀 수 있습니다.",
+      "related_terms": [
+        "말하기",
+        "듣기",
+        "공감",
+        "언어 예절"
+      ]
+    },
+    {
+      "id": "g6_kor_067",
+      "term": "언어 예절",
+      "hanja": {
+        "word": "言語禮節",
+        "breakdown": "말씀 언, 말씀 어, 예도 예, 마디 절"
+      },
+      "meaning": "말을 할 때 상대와 상황에 맞게 지켜야 하는 예의",
+      "easy_explanation": "상대방을 존중하며 바르게 말하는 태도와 방법이에요.",
+      "example_sentence": "온라인 대화에서도 언어 예절을 지켜야 합니다.",
+      "related_terms": [
+        "높임 표현",
+        "대화",
+        "공감",
+        "존중"
+      ]
+    },
+    {
+      "id": "g6_kor_068",
+      "term": "높임 표현",
+      "hanja": {
+        "word": "表現",
+        "breakdown": "겉 표, 나타날 현"
+      },
+      "meaning": "상대나 대상자를 높여 말하는 표현",
+      "easy_explanation": "어른이나 높여야 할 사람에게 예의를 갖추어 말하는 방법이에요.",
+      "example_sentence": "선생님께 말씀드릴 때에는 높임 표현을 사용합니다.",
+      "related_terms": [
+        "언어 예절",
+        "존댓말",
+        "상대 높임",
+        "주체 높임"
+      ]
+    },
+    {
+      "id": "g6_kor_069",
+      "term": "표준어",
+      "hanja": {
+        "word": "標準語",
+        "breakdown": "표할 표, 준할 준, 말씀 어"
+      },
+      "meaning": "한 나라에서 공식적으로 쓰도록 정한 바른말",
+      "easy_explanation": "여러 지역 사람들이 서로 잘 이해하도록 기준으로 삼는 말이에요.",
+      "example_sentence": "공식적인 발표에서는 표준어를 사용하는 것이 좋습니다.",
+      "related_terms": [
+        "방언",
+        "맞춤법",
+        "발음",
+        "국어"
+      ]
+    },
+    {
+      "id": "g6_kor_070",
+      "term": "방언",
+      "hanja": {
+        "word": "方言",
+        "breakdown": "방향 방, 말씀 언"
+      },
+      "meaning": "지역에 따라 다르게 쓰이는 말",
+      "easy_explanation": "지역마다 조금씩 다른 낱말이나 말투를 말해요.",
+      "example_sentence": "방언에는 지역의 생활과 문화가 담겨 있습니다.",
+      "related_terms": [
+        "표준어",
+        "지역",
+        "말투",
+        "문화"
+      ]
+    },
+    {
+      "id": "g6_kor_071",
+      "term": "맞춤법",
+      "hanja": null,
+      "meaning": "글자를 바르게 적는 규칙",
+      "easy_explanation": "우리말을 글로 쓸 때 지켜야 하는 약속이에요.",
+      "example_sentence": "일기를 쓴 뒤 맞춤법을 확인했습니다.",
+      "related_terms": [
+        "띄어쓰기",
+        "표준어",
+        "문장 부호",
+        "글쓰기"
+      ]
+    },
+    {
+      "id": "g6_kor_072",
+      "term": "띄어쓰기",
+      "hanja": null,
+      "meaning": "글을 쓸 때 낱말 사이를 알맞게 띄어 쓰는 것",
+      "easy_explanation": "문장을 읽기 쉽도록 단어 사이를 벌려 쓰는 규칙이에요.",
+      "example_sentence": "띄어쓰기를 바르게 하면 글의 뜻이 분명해집니다.",
+      "related_terms": [
+        "맞춤법",
+        "문장",
+        "낱말",
+        "글쓰기"
+      ]
+    },
+    {
+      "id": "g6_kor_073",
+      "term": "문장 부호",
+      "hanja": {
+        "word": "文章符號",
+        "breakdown": "글월 문, 글 장, 부호 부, 부르짖을 호"
+      },
+      "meaning": "문장의 뜻이나 읽는 방법을 나타내는 기호",
+      "easy_explanation": "마침표, 쉼표, 물음표처럼 글을 읽기 쉽게 도와주는 표시예요.",
+      "example_sentence": "문장 부호를 알맞게 사용하면 글의 느낌이 잘 전달됩니다.",
+      "related_terms": [
+        "마침표",
+        "쉼표",
+        "물음표",
+        "문장"
+      ]
+    },
+    {
+      "id": "g6_kor_074",
+      "term": "낱말",
+      "hanja": null,
+      "meaning": "뜻을 가진 말의 작은 단위",
+      "easy_explanation": "문장을 이루는 뜻 있는 말 하나하나예요.",
+      "example_sentence": "모르는 낱말은 문맥을 살펴 뜻을 짐작했습니다.",
+      "related_terms": [
+        "문장",
+        "문맥",
+        "어휘",
+        "뜻"
+      ]
+    },
+    {
+      "id": "g6_kor_075",
+      "term": "문맥",
+      "hanja": {
+        "word": "文脈",
+        "breakdown": "글월 문, 줄기 맥"
+      },
+      "meaning": "글이나 말에서 앞뒤 내용의 흐름",
+      "easy_explanation": "문장 앞뒤를 살펴 뜻을 이해하게 해 주는 흐름이에요.",
+      "example_sentence": "문맥을 보면 모르는 낱말의 뜻을 짐작할 수 있습니다.",
+      "related_terms": [
+        "낱말",
+        "뜻",
+        "추론",
+        "읽기"
+      ]
+    },
+    {
+      "id": "g6_kor_076",
+      "term": "관용 표현",
+      "hanja": {
+        "word": "慣用表現",
+        "breakdown": "익숙할 관, 쓸 용, 겉 표, 나타날 현"
+      },
+      "meaning": "둘 이상의 낱말이 모여 원래 뜻과 다른 특별한 뜻으로 쓰이는 표현",
+      "easy_explanation": "말 그대로의 뜻이 아니라 익숙하게 정해진 뜻으로 쓰는 표현이에요.",
+      "example_sentence": "'손이 크다'는 씀씀이가 크다는 뜻의 관용 표현입니다.",
+      "related_terms": [
+        "속담",
+        "비유",
+        "표현",
+        "문맥"
+      ]
+    },
+    {
+      "id": "g6_kor_077",
+      "term": "속담",
+      "hanja": {
+        "word": "俗談",
+        "breakdown": "풍속 속, 말씀 담"
+      },
+      "meaning": "옛사람들의 지혜나 교훈이 담긴 짧은 말",
+      "easy_explanation": "생활 속 경험에서 나온 짧고 익숙한 교훈의 말이에요.",
+      "example_sentence": "'가는 말이 고와야 오는 말이 곱다'는 속담을 배웠습니다.",
+      "related_terms": [
+        "관용 표현",
+        "교훈",
+        "비유",
+        "말"
+      ]
+    },
+    {
+      "id": "g6_kor_078",
+      "term": "담화",
+      "hanja": {
+        "word": "談話",
+        "breakdown": "말씀 담, 말씀 화"
+      },
+      "meaning": "말하는 사람과 듣는 사람이 상황 속에서 주고받는 말이나 글",
+      "easy_explanation": "누가, 누구에게, 어떤 상황에서 하는 말인지까지 포함한 말의 덩어리예요.",
+      "example_sentence": "담화 상황을 생각하며 알맞은 표현을 골랐습니다.",
+      "related_terms": [
+        "대화",
+        "상황",
+        "화자",
+        "청자"
+      ]
+    },
+    {
+      "id": "g6_kor_079",
+      "term": "청자",
+      "hanja": {
+        "word": "聽者",
+        "breakdown": "들을 청, 사람 자"
+      },
+      "meaning": "말을 듣는 사람",
+      "easy_explanation": "말하는 사람의 이야기를 듣는 상대방이에요.",
+      "example_sentence": "말할 때에는 청자의 나이와 상황을 고려해야 합니다.",
+      "related_terms": [
+        "화자",
+        "담화",
+        "대화",
+        "언어 예절"
+      ]
+    },
+    {
+      "id": "g6_kor_080",
+      "term": "화법",
+      "hanja": {
+        "word": "話法",
+        "breakdown": "말씀 화, 법 법"
+      },
+      "meaning": "말하는 방법이나 말하기의 방식",
+      "easy_explanation": "상황과 목적에 맞게 말하는 방법이에요.",
+      "example_sentence": "상대방을 배려하는 화법을 사용하면 대화가 부드러워집니다.",
+      "related_terms": [
+        "말하기",
+        "대화",
+        "언어 예절",
+        "발표"
+      ]
+    }
+  ]
+}

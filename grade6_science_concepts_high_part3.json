@@ -1,0 +1,351 @@
+{
+  "subject": "과학",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 3,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_sci_041",
+      "term": "생물",
+      "hanja": {
+        "word": "生物",
+        "breakdown": "날 생, 물건 물"
+      },
+      "meaning": "숨 쉬고 자라며 번식하는 살아 있는 것",
+      "easy_explanation": "동물, 식물, 곰팡이, 세균처럼 살아 있는 것을 말해요.",
+      "example_sentence": "생물은 환경과 영향을 주고받으며 살아갑니다.",
+      "related_terms": [
+        "동물",
+        "식물",
+        "미생물",
+        "생태계"
+      ]
+    },
+    {
+      "id": "g6_sci_042",
+      "term": "식물",
+      "hanja": {
+        "word": "植物",
+        "breakdown": "심을 식, 물건 물"
+      },
+      "meaning": "대부분 스스로 양분을 만들며 살아가는 생물",
+      "easy_explanation": "햇빛, 물, 이산화탄소를 이용해 스스로 양분을 만드는 생물이에요.",
+      "example_sentence": "식물은 광합성을 통해 양분을 만듭니다.",
+      "related_terms": [
+        "광합성",
+        "잎",
+        "줄기",
+        "뿌리"
+      ]
+    },
+    {
+      "id": "g6_sci_043",
+      "term": "동물",
+      "hanja": {
+        "word": "動物",
+        "breakdown": "움직일 동, 물건 물"
+      },
+      "meaning": "스스로 양분을 만들지 못하고 다른 생물을 먹으며 살아가는 생물",
+      "easy_explanation": "먹이를 먹고 움직이며 살아가는 생물이에요.",
+      "example_sentence": "동물은 먹이를 통해 필요한 에너지를 얻습니다.",
+      "related_terms": [
+        "생물",
+        "소화",
+        "호흡",
+        "먹이"
+      ]
+    },
+    {
+      "id": "g6_sci_044",
+      "term": "세포",
+      "hanja": {
+        "word": "細胞",
+        "breakdown": "가늘 세, 세포 포"
+      },
+      "meaning": "생물을 이루는 기본 단위",
+      "easy_explanation": "우리 몸과 식물의 몸을 이루는 아주 작은 기본 조각이에요.",
+      "example_sentence": "현미경으로 양파 표피 세포를 관찰했습니다.",
+      "related_terms": [
+        "현미경",
+        "생물",
+        "조직",
+        "기관"
+      ]
+    },
+    {
+      "id": "g6_sci_045",
+      "term": "현미경",
+      "hanja": {
+        "word": "顯微鏡",
+        "breakdown": "나타날 현, 작을 미, 거울 경"
+      },
+      "meaning": "눈으로 보기 어려운 작은 물체를 확대해 보는 도구",
+      "easy_explanation": "세포나 작은 생물을 크게 볼 수 있게 해 주는 도구예요.",
+      "example_sentence": "현미경을 이용해 작은 생물을 관찰했습니다.",
+      "related_terms": [
+        "세포",
+        "관찰",
+        "확대",
+        "미생물"
+      ]
+    },
+    {
+      "id": "g6_sci_046",
+      "term": "광합성",
+      "hanja": {
+        "word": "光合成",
+        "breakdown": "빛 광, 합할 합, 이룰 성"
+      },
+      "meaning": "식물이 빛을 이용해 물과 이산화탄소로 양분을 만드는 과정",
+      "easy_explanation": "식물이 햇빛을 받아 스스로 먹이가 되는 양분을 만드는 일이에요.",
+      "example_sentence": "식물은 광합성을 하며 산소를 내보냅니다.",
+      "related_terms": [
+        "식물",
+        "잎",
+        "햇빛",
+        "이산화탄소"
+      ]
+    },
+    {
+      "id": "g6_sci_047",
+      "term": "잎",
+      "hanja": null,
+      "meaning": "식물에서 주로 광합성이 일어나는 기관",
+      "easy_explanation": "햇빛을 받아 양분을 만드는 식물의 중요한 부분이에요.",
+      "example_sentence": "잎의 초록색 부분에서 광합성이 활발하게 일어납니다.",
+      "related_terms": [
+        "광합성",
+        "기공",
+        "식물",
+        "증산작용"
+      ]
+    },
+    {
+      "id": "g6_sci_048",
+      "term": "줄기",
+      "hanja": null,
+      "meaning": "식물의 몸을 지탱하고 물과 양분이 이동하는 통로가 되는 기관",
+      "easy_explanation": "잎과 꽃을 받치고 물과 양분이 지나가는 길이에요.",
+      "example_sentence": "줄기는 뿌리에서 흡수한 물을 잎으로 이동시킵니다.",
+      "related_terms": [
+        "뿌리",
+        "잎",
+        "물관",
+        "체관"
+      ]
+    },
+    {
+      "id": "g6_sci_049",
+      "term": "뿌리",
+      "hanja": null,
+      "meaning": "식물을 땅에 고정하고 물과 무기 양분을 흡수하는 기관",
+      "easy_explanation": "식물을 땅에 붙잡아 주고 물을 빨아들이는 부분이에요.",
+      "example_sentence": "뿌리는 흙 속의 물을 흡수합니다.",
+      "related_terms": [
+        "줄기",
+        "식물",
+        "흡수",
+        "물"
+      ]
+    },
+    {
+      "id": "g6_sci_050",
+      "term": "기공",
+      "hanja": {
+        "word": "氣孔",
+        "breakdown": "기운 기, 구멍 공"
+      },
+      "meaning": "잎의 표면에 있어 기체가 드나드는 작은 구멍",
+      "easy_explanation": "식물이 숨 쉬고 물이 빠져나가는 아주 작은 구멍이에요.",
+      "example_sentence": "기공을 통해 이산화탄소와 산소가 드나듭니다.",
+      "related_terms": [
+        "잎",
+        "광합성",
+        "증산작용",
+        "기체"
+      ]
+    },
+    {
+      "id": "g6_sci_051",
+      "term": "증산작용",
+      "hanja": {
+        "word": "蒸散作用",
+        "breakdown": "찔 증, 흩을 산, 지을 작, 쓸 용"
+      },
+      "meaning": "식물 안의 물이 수증기가 되어 잎의 기공을 통해 빠져나가는 작용",
+      "easy_explanation": "식물의 잎에서 물이 수증기로 빠져나가는 현상이에요.",
+      "example_sentence": "증산작용은 식물 안의 물 이동에 도움을 줍니다.",
+      "related_terms": [
+        "기공",
+        "잎",
+        "물",
+        "식물"
+      ]
+    },
+    {
+      "id": "g6_sci_052",
+      "term": "소화",
+      "hanja": {
+        "word": "消化",
+        "breakdown": "사라질 소, 될 화"
+      },
+      "meaning": "음식물을 몸에 흡수될 수 있는 작은 물질로 분해하는 과정",
+      "easy_explanation": "먹은 음식이 몸에서 사용할 수 있게 잘게 나누어지는 일이에요.",
+      "example_sentence": "입, 위, 작은창자에서 음식물의 소화가 일어납니다.",
+      "related_terms": [
+        "소화기관",
+        "영양소",
+        "위",
+        "작은창자"
+      ]
+    },
+    {
+      "id": "g6_sci_053",
+      "term": "소화기관",
+      "hanja": {
+        "word": "消化器官",
+        "breakdown": "사라질 소, 될 화, 그릇 기, 벼슬 관"
+      },
+      "meaning": "음식물을 소화하고 흡수하는 데 관여하는 몸속 기관",
+      "easy_explanation": "입, 식도, 위, 작은창자, 큰창자처럼 음식이 지나가며 소화되는 기관이에요.",
+      "example_sentence": "소화기관은 음식물을 잘게 분해하고 필요한 영양소를 흡수합니다.",
+      "related_terms": [
+        "소화",
+        "위",
+        "작은창자",
+        "큰창자"
+      ]
+    },
+    {
+      "id": "g6_sci_054",
+      "term": "호흡",
+      "hanja": {
+        "word": "呼吸",
+        "breakdown": "부를 호, 숨쉴 흡"
+      },
+      "meaning": "산소를 받아들이고 이산화탄소를 내보내는 과정",
+      "easy_explanation": "숨을 들이마시고 내쉬며 몸에 필요한 산소를 얻는 일이에요.",
+      "example_sentence": "사람은 호흡을 통해 산소를 몸속으로 받아들입니다.",
+      "related_terms": [
+        "폐",
+        "산소",
+        "이산화탄소",
+        "순환"
+      ]
+    },
+    {
+      "id": "g6_sci_055",
+      "term": "폐",
+      "hanja": {
+        "word": "肺",
+        "breakdown": "허파 폐"
+      },
+      "meaning": "공기 중의 산소를 받아들이고 이산화탄소를 내보내는 기관",
+      "easy_explanation": "숨을 쉴 때 공기가 드나드는 몸속 기관이에요.",
+      "example_sentence": "폐에서는 산소와 이산화탄소의 교환이 일어납니다.",
+      "related_terms": [
+        "호흡",
+        "산소",
+        "이산화탄소",
+        "기관"
+      ]
+    },
+    {
+      "id": "g6_sci_056",
+      "term": "순환",
+      "hanja": {
+        "word": "循環",
+        "breakdown": "돌 순, 고리 환"
+      },
+      "meaning": "혈액이 심장과 혈관을 따라 온몸을 도는 과정",
+      "easy_explanation": "피가 심장에서 나와 온몸을 돌고 다시 돌아오는 일이에요.",
+      "example_sentence": "혈액의 순환으로 산소와 영양소가 온몸에 전달됩니다.",
+      "related_terms": [
+        "심장",
+        "혈액",
+        "혈관",
+        "호흡"
+      ]
+    },
+    {
+      "id": "g6_sci_057",
+      "term": "심장",
+      "hanja": {
+        "word": "心臟",
+        "breakdown": "마음 심, 오장 장"
+      },
+      "meaning": "혈액을 온몸으로 보내는 펌프 역할을 하는 기관",
+      "easy_explanation": "피를 온몸으로 밀어 보내는 몸속 기관이에요.",
+      "example_sentence": "심장은 쉬지 않고 뛰며 혈액을 순환시킵니다.",
+      "related_terms": [
+        "순환",
+        "혈액",
+        "혈관",
+        "맥박"
+      ]
+    },
+    {
+      "id": "g6_sci_058",
+      "term": "혈액",
+      "hanja": {
+        "word": "血液",
+        "breakdown": "피 혈, 진 액"
+      },
+      "meaning": "혈관을 따라 흐르며 산소, 영양소, 노폐물 등을 운반하는 액체",
+      "easy_explanation": "우리 몸속을 돌며 필요한 것과 버릴 것을 운반하는 피예요.",
+      "example_sentence": "혈액은 산소와 영양소를 몸의 여러 부분으로 운반합니다.",
+      "related_terms": [
+        "순환",
+        "심장",
+        "혈관",
+        "산소"
+      ]
+    },
+    {
+      "id": "g6_sci_059",
+      "term": "혈관",
+      "hanja": {
+        "word": "血管",
+        "breakdown": "피 혈, 대롱 관"
+      },
+      "meaning": "혈액이 흐르는 관",
+      "easy_explanation": "피가 지나가는 몸속 길이에요.",
+      "example_sentence": "혈관을 통해 혈액이 온몸으로 이동합니다.",
+      "related_terms": [
+        "혈액",
+        "심장",
+        "순환",
+        "동맥"
+      ]
+    },
+    {
+      "id": "g6_sci_060",
+      "term": "배설",
+      "hanja": {
+        "word": "排泄",
+        "breakdown": "밀칠 배, 샐 설"
+      },
+      "meaning": "몸속에서 생긴 노폐물을 몸 밖으로 내보내는 과정",
+      "easy_explanation": "몸에 필요 없는 물질을 오줌이나 땀 등으로 내보내는 일이에요.",
+      "example_sentence": "콩팥은 노폐물을 걸러 오줌을 만드는 데 관여합니다.",
+      "related_terms": [
+        "노폐물",
+        "콩팥",
+        "오줌",
+        "몸"
+      ]
+    }
+  ]
+}

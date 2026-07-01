@@ -1,0 +1,162 @@
+[
+  {
+    "id": 51,
+    "term": "핵심",
+    "hanja": "核心",
+    "hanja_meaning": "씨 핵, 마음 심",
+    "definition": "가장 중요하고 중심이 되는 내용",
+    "easy_definition": "가장 중요한 부분",
+    "example": "발표를 들으며 핵심을 메모했다.",
+    "non_example": "중요하지 않은 세부 내용만 기억했다.",
+    "related_terms": [
+      "요약",
+      "중심 내용",
+      "주제"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 52,
+    "term": "중심 내용",
+    "hanja": "中心內容",
+    "hanja_meaning": "가운데 중, 마음 심, 안 내, 얼굴 용",
+    "definition": "글에서 가장 중요하게 전달하려는 내용",
+    "easy_definition": "글에서 꼭 알아야 하는 중요한 내용",
+    "example": "각 문단의 중심 내용을 찾아 밑줄을 그었다.",
+    "non_example": "사소한 예시만 기억했다.",
+    "related_terms": [
+      "주제",
+      "요약",
+      "핵심"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 53,
+    "term": "주제",
+    "hanja": "主題",
+    "hanja_meaning": "주인 주, 제목 제",
+    "definition": "글 전체에서 가장 말하고자 하는 중심 생각",
+    "easy_definition": "글이 가장 하고 싶은 이야기",
+    "example": "이 글의 주제는 자연을 보호하자는 것이다.",
+    "non_example": "글에 나온 등장인물의 이름",
+    "related_terms": [
+      "중심 내용",
+      "제목",
+      "요약"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 54,
+    "term": "제목",
+    "hanja": "題目",
+    "hanja_meaning": "제목 제, 눈 목",
+    "definition": "글의 내용을 대표하여 붙인 이름",
+    "easy_definition": "글의 이름",
+    "example": "글의 내용을 생각하며 알맞은 제목을 붙였다.",
+    "non_example": "글쓴이의 이름",
+    "related_terms": [
+      "주제",
+      "내용",
+      "읽기"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 55,
+    "term": "문단",
+    "hanja": "文段",
+    "hanja_meaning": "글월 문, 층계 단",
+    "definition": "하나의 중심 내용을 담은 글의 단위",
+    "easy_definition": "한 가지 내용을 담은 글의 묶음",
+    "example": "새로운 내용이 시작되어 문단을 나누었다.",
+    "non_example": "문장을 아무 곳에서나 끊었다.",
+    "related_terms": [
+      "문장",
+      "중심 내용",
+      "글"
+    ],
+    "category": "읽기"
+  },
+  {
+    "id": 56,
+    "term": "문장",
+    "hanja": "文章",
+    "hanja_meaning": "글월 문, 글 장",
+    "definition": "하나의 생각을 완전하게 나타낸 말",
+    "easy_definition": "뜻이 완전하게 전달되는 말",
+    "example": "문장의 끝에는 마침표를 찍는다.",
+    "non_example": "학교에 그리고",
+    "related_terms": [
+      "문단",
+      "낱말",
+      "글"
+    ],
+    "category": "문법"
+  },
+  {
+    "id": 57,
+    "term": "낱말",
+    "hanja": null,
+    "hanja_meaning": null,
+    "definition": "뜻을 가진 가장 작은 말의 단위",
+    "easy_definition": "뜻이 있는 하나의 말",
+    "example": "'학교'는 하나의 낱말이다.",
+    "non_example": "학+교를 따로 떼어 말하는 것",
+    "related_terms": [
+      "문장",
+      "어휘",
+      "단어"
+    ],
+    "category": "문법"
+  },
+  {
+    "id": 58,
+    "term": "어휘",
+    "hanja": "語彙",
+    "hanja_meaning": "말씀 어, 무리 휘",
+    "definition": "어떤 사람이 사용하는 낱말이나 일정한 범위의 낱말",
+    "easy_definition": "사용하는 여러 낱말",
+    "example": "책을 많이 읽으면 어휘력이 늘어난다.",
+    "non_example": "같은 낱말만 계속 사용했다.",
+    "related_terms": [
+      "낱말",
+      "어휘력",
+      "단어"
+    ],
+    "category": "문법"
+  },
+  {
+    "id": 59,
+    "term": "어휘력",
+    "hanja": "語彙力",
+    "hanja_meaning": "말씀 어, 무리 휘, 힘 력",
+    "definition": "낱말을 이해하고 적절하게 사용하는 능력",
+    "easy_definition": "낱말을 잘 알고 잘 사용하는 힘",
+    "example": "독서를 통해 어휘력을 키울 수 있다.",
+    "non_example": "뜻을 모르고 아무 낱말이나 사용했다.",
+    "related_terms": [
+      "어휘",
+      "독서",
+      "표현"
+    ],
+    "category": "문법"
+  },
+  {
+    "id": 60,
+    "term": "표현",
+    "hanja": "表現",
+    "hanja_meaning": "겉 표, 나타날 현",
+    "definition": "생각이나 느낌을 말이나 글로 나타내는 것",
+    "easy_definition": "생각이나 마음을 나타내는 것",
+    "example": "비유적인 표현을 사용하여 글을 더욱 생생하게 썼다.",
+    "non_example": "아무 말도 하지 않았다.",
+    "related_terms": [
+      "글쓰기",
+      "말하기",
+      "비유"
+    ],
+    "category": "쓰기"
+  }
+]

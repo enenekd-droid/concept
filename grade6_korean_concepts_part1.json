@@ -1,0 +1,353 @@
+{
+  "subject": "국어",
+  "grade": 6,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 1,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g6_kor_001",
+      "term": "주제",
+      "hanja": {
+        "word": "主題",
+        "breakdown": "주인 주, 제목 제"
+      },
+      "meaning": "글이나 작품에서 중심이 되는 생각이나 내용",
+      "easy_explanation": "글쓴이가 글을 통해 가장 말하고 싶은 핵심 생각이에요.",
+      "example_sentence": "이 이야기의 주제는 친구를 배려하는 마음입니다.",
+      "related_terms": [
+        "중심 생각",
+        "소재",
+        "제재",
+        "글쓴이의 의도"
+      ]
+    },
+    {
+      "id": "g6_kor_002",
+      "term": "중심 생각",
+      "hanja": null,
+      "meaning": "글에서 가장 중요하게 드러나는 생각",
+      "easy_explanation": "문단이나 글 전체에서 꼭 기억해야 할 핵심 내용이에요.",
+      "example_sentence": "문단의 중심 생각을 찾으면 내용을 쉽게 이해할 수 있습니다.",
+      "related_terms": [
+        "주제",
+        "중심 문장",
+        "문단",
+        "요약"
+      ]
+    },
+    {
+      "id": "g6_kor_003",
+      "term": "중심 문장",
+      "hanja": {
+        "word": "中心文章",
+        "breakdown": "가운데 중, 마음 심, 글월 문, 글 장"
+      },
+      "meaning": "문단의 중심 생각을 담고 있는 문장",
+      "easy_explanation": "문단에서 가장 중요한 내용을 직접 말해 주는 문장이에요.",
+      "example_sentence": "중심 문장을 찾고 뒷받침 문장을 확인했습니다.",
+      "related_terms": [
+        "중심 생각",
+        "뒷받침 문장",
+        "문단",
+        "요약"
+      ]
+    },
+    {
+      "id": "g6_kor_004",
+      "term": "뒷받침 문장",
+      "hanja": {
+        "word": "文章",
+        "breakdown": "글월 문, 글 장"
+      },
+      "meaning": "중심 문장의 내용을 자세히 설명하거나 예를 들어 주는 문장",
+      "easy_explanation": "중심 생각을 더 잘 이해하도록 도와주는 문장이에요.",
+      "example_sentence": "뒷받침 문장을 읽으면 중심 문장의 뜻이 더 분명해집니다.",
+      "related_terms": [
+        "중심 문장",
+        "문단",
+        "예시",
+        "설명"
+      ]
+    },
+    {
+      "id": "g6_kor_005",
+      "term": "요약",
+      "hanja": {
+        "word": "要約",
+        "breakdown": "중요할 요, 묶을 약"
+      },
+      "meaning": "중요한 내용을 간추려 짧게 정리하는 것",
+      "easy_explanation": "글에서 꼭 필요한 내용만 골라 짧게 줄이는 일이에요.",
+      "example_sentence": "글을 읽고 사건의 흐름에 따라 내용을 요약했습니다.",
+      "related_terms": [
+        "중심 생각",
+        "간추리기",
+        "핵심어",
+        "문단"
+      ]
+    },
+    {
+      "id": "g6_kor_006",
+      "term": "핵심어",
+      "hanja": {
+        "word": "核心語",
+        "breakdown": "씨 핵, 마음 심, 말씀 어"
+      },
+      "meaning": "글의 내용을 이해하는 데 가장 중요한 낱말",
+      "easy_explanation": "글에서 꼭 알아야 하는 중요한 단어예요.",
+      "example_sentence": "핵심어를 표시하며 설명문을 읽었습니다.",
+      "related_terms": [
+        "중심 생각",
+        "요약",
+        "낱말",
+        "개념어"
+      ]
+    },
+    {
+      "id": "g6_kor_007",
+      "term": "소재",
+      "hanja": {
+        "word": "素材",
+        "breakdown": "본디 소, 재목 재"
+      },
+      "meaning": "글이나 작품의 바탕이 되는 재료",
+      "easy_explanation": "글을 쓰거나 이야기를 만들 때 사용되는 대상이나 재료예요.",
+      "example_sentence": "작가는 가족 여행을 소재로 수필을 썼습니다.",
+      "related_terms": [
+        "제재",
+        "주제",
+        "글감",
+        "작품"
+      ]
+    },
+    {
+      "id": "g6_kor_008",
+      "term": "제재",
+      "hanja": {
+        "word": "題材",
+        "breakdown": "제목 제, 재목 재"
+      },
+      "meaning": "글에서 다루는 구체적인 대상이나 내용",
+      "easy_explanation": "글쓴이가 주제를 드러내기 위해 선택한 구체적인 내용이에요.",
+      "example_sentence": "이 시의 제재는 봄비입니다.",
+      "related_terms": [
+        "소재",
+        "주제",
+        "대상",
+        "표현"
+      ]
+    },
+    {
+      "id": "g6_kor_009",
+      "term": "글쓴이의 의도",
+      "hanja": {
+        "word": "意圖",
+        "breakdown": "뜻 의, 그림 도"
+      },
+      "meaning": "글쓴이가 글을 쓴 목적이나 전하려는 생각",
+      "easy_explanation": "글쓴이가 독자에게 무엇을 말하고 싶은지에 대한 생각이에요.",
+      "example_sentence": "글쓴이의 의도를 파악하며 글을 읽었습니다.",
+      "related_terms": [
+        "주제",
+        "목적",
+        "관점",
+        "독자"
+      ]
+    },
+    {
+      "id": "g6_kor_010",
+      "term": "관점",
+      "hanja": {
+        "word": "觀點",
+        "breakdown": "볼 관, 점 점"
+      },
+      "meaning": "어떤 대상을 바라보거나 생각하는 입장",
+      "easy_explanation": "사람이나 문제를 어떤 생각으로 바라보는지를 말해요.",
+      "example_sentence": "같은 사건도 관점에 따라 다르게 해석될 수 있습니다.",
+      "related_terms": [
+        "입장",
+        "시각",
+        "해석",
+        "비판적 읽기"
+      ]
+    },
+    {
+      "id": "g6_kor_011",
+      "term": "추론",
+      "hanja": {
+        "word": "推論",
+        "breakdown": "밀 추, 논할 론"
+      },
+      "meaning": "글에 직접 나오지 않은 내용을 근거를 바탕으로 짐작하는 것",
+      "easy_explanation": "글 속 단서로 숨은 뜻이나 다음 내용을 생각해 보는 일이에요.",
+      "example_sentence": "인물의 말과 행동을 근거로 마음을 추론했습니다.",
+      "related_terms": [
+        "근거",
+        "단서",
+        "짐작",
+        "해석"
+      ]
+    },
+    {
+      "id": "g6_kor_012",
+      "term": "근거",
+      "hanja": {
+        "word": "根據",
+        "breakdown": "뿌리 근, 의거할 거"
+      },
+      "meaning": "생각이나 판단을 뒷받침하는 이유나 자료",
+      "easy_explanation": "내 의견이 맞다고 설명할 때 필요한 이유나 증거예요.",
+      "example_sentence": "주장을 말할 때에는 알맞은 근거를 들어야 합니다.",
+      "related_terms": [
+        "주장",
+        "이유",
+        "자료",
+        "논리"
+      ]
+    },
+    {
+      "id": "g6_kor_013",
+      "term": "비판적 읽기",
+      "hanja": {
+        "word": "批判的",
+        "breakdown": "칠 비, 판단할 판, 과녁 적"
+      },
+      "meaning": "글의 내용과 표현이 타당한지 따져 보며 읽는 방법",
+      "easy_explanation": "글을 그대로 믿기보다 맞는지, 부족한 점은 없는지 생각하며 읽는 거예요.",
+      "example_sentence": "광고문을 비판적 읽기로 살펴보았습니다.",
+      "related_terms": [
+        "관점",
+        "타당성",
+        "근거",
+        "판단"
+      ]
+    },
+    {
+      "id": "g6_kor_014",
+      "term": "타당성",
+      "hanja": {
+        "word": "妥當性",
+        "breakdown": "온당할 타, 마땅할 당, 성품 성"
+      },
+      "meaning": "주장이나 근거가 이치에 맞고 알맞은 성질",
+      "easy_explanation": "말이나 글의 내용이 믿을 만하고 말이 되는 정도예요.",
+      "example_sentence": "주장의 타당성을 판단하려면 근거를 살펴보아야 합니다.",
+      "related_terms": [
+        "주장",
+        "근거",
+        "논리",
+        "비판적 읽기"
+      ]
+    },
+    {
+      "id": "g6_kor_015",
+      "term": "인물",
+      "hanja": {
+        "word": "人物",
+        "breakdown": "사람 인, 물건 물"
+      },
+      "meaning": "이야기나 작품에 등장하는 사람 또는 존재",
+      "easy_explanation": "이야기 속에서 말하고 행동하는 사람이나 동물 같은 존재예요.",
+      "example_sentence": "인물의 성격은 말과 행동을 통해 알 수 있습니다.",
+      "related_terms": [
+        "성격",
+        "사건",
+        "배경",
+        "갈등"
+      ]
+    },
+    {
+      "id": "g6_kor_016",
+      "term": "성격",
+      "hanja": {
+        "word": "性格",
+        "breakdown": "성품 성, 격식 격"
+      },
+      "meaning": "인물이 가지고 있는 마음씨나 행동의 특징",
+      "easy_explanation": "인물이 어떤 사람인지 보여 주는 특징이에요.",
+      "example_sentence": "주인공은 용감하고 책임감 있는 성격입니다.",
+      "related_terms": [
+        "인물",
+        "행동",
+        "말",
+        "심리"
+      ]
+    },
+    {
+      "id": "g6_kor_017",
+      "term": "사건",
+      "hanja": {
+        "word": "事件",
+        "breakdown": "일 사, 물건 건"
+      },
+      "meaning": "이야기 속에서 일어나는 일",
+      "easy_explanation": "인물에게 생기거나 인물이 겪는 중요한 일이에요.",
+      "example_sentence": "사건의 순서를 정리하면 이야기의 흐름을 알 수 있습니다.",
+      "related_terms": [
+        "줄거리",
+        "인물",
+        "배경",
+        "갈등"
+      ]
+    },
+    {
+      "id": "g6_kor_018",
+      "term": "배경",
+      "hanja": {
+        "word": "背景",
+        "breakdown": "등 배, 볕 경"
+      },
+      "meaning": "이야기 속 사건이 일어나는 시간과 장소",
+      "easy_explanation": "이야기가 언제, 어디에서 벌어지는지를 말해요.",
+      "example_sentence": "이 작품의 배경은 겨울 산골 마을입니다.",
+      "related_terms": [
+        "시간",
+        "장소",
+        "사건",
+        "분위기"
+      ]
+    },
+    {
+      "id": "g6_kor_019",
+      "term": "갈등",
+      "hanja": {
+        "word": "葛藤",
+        "breakdown": "칡 갈, 등나무 등"
+      },
+      "meaning": "인물 사이 또는 인물 마음속에서 생기는 대립이나 고민",
+      "easy_explanation": "생각이나 마음이 부딪혀 문제가 생기는 상황이에요.",
+      "example_sentence": "주인공은 친구와의 갈등을 대화로 해결했습니다.",
+      "related_terms": [
+        "인물",
+        "사건",
+        "문제",
+        "해결"
+      ]
+    },
+    {
+      "id": "g6_kor_020",
+      "term": "줄거리",
+      "hanja": null,
+      "meaning": "이야기의 중요한 사건을 차례대로 정리한 내용",
+      "easy_explanation": "이야기에서 중요한 일들이 어떻게 이어지는지 간단히 정리한 것이에요.",
+      "example_sentence": "소설의 줄거리를 사건의 흐름에 따라 말했습니다.",
+      "related_terms": [
+        "사건",
+        "인물",
+        "배경",
+        "요약"
+      ]
+    }
+  ]
+}

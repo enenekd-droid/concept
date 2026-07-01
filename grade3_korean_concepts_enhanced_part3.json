@@ -1,0 +1,1065 @@
+{
+  "name": "3학년 국어 개념어 확장 데이터 part3",
+  "grade": 3,
+  "subject": "국어",
+  "curriculum": "2022 개정 교육과정",
+  "publisher": "국정교과서(교육부)",
+  "part": 3,
+  "count": 20,
+  "concepts": [
+    {
+      "id": 41,
+      "local_id": 41,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "주장",
+      "hanja": "主(주인 주) 張(베풀 장)",
+      "description": "자신의 생각을 분명하게 말하는 것",
+      "examples": [
+        "나는 학교 앞 교통안전을 더 지켜야 한다고 주장했다.",
+        "주장을 말할 때에는 알맞은 근거가 필요하다."
+      ],
+      "synonyms": [
+        "의견",
+        "입장"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "근거",
+        "설득",
+        "논설"
+      ],
+      "wrong_concepts": [
+        "주장과 의견을 완전히 다르게 생각하기 쉬움"
+      ],
+      "learning_tip": "주장은 의견 중에서도 분명하게 내세우는 생각이에요.",
+      "keywords": [
+        "주장",
+        "근거",
+        "설득",
+        "논설"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "주장은(는) 자신의 생각을 분명하게 말하는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'주장'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "자신의 생각을 분명하게 말하는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 42,
+      "local_id": 42,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "근거",
+      "hanja": "根(뿌리 근) 據(근거 거)",
+      "description": "주장을 뒷받침하는 이유나 자료",
+      "examples": [
+        "그 주장이 맞다고 생각한 근거를 두 가지 말했다.",
+        "근거가 분명하면 내 생각을 더 잘 설득할 수 있다."
+      ],
+      "synonyms": [
+        "이유",
+        "증거"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "주장",
+        "자료",
+        "이유"
+      ],
+      "wrong_concepts": [
+        "근거를 자신의 느낌으로만 쓰기 쉬움"
+      ],
+      "learning_tip": "근거는 주장과 관련 있는 이유나 자료여야 해요.",
+      "keywords": [
+        "근거",
+        "주장",
+        "자료",
+        "이유"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "근거은(는) 주장을 뒷받침하는 이유나 자료",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'근거'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "주장을 뒷받침하는 이유나 자료",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 43,
+      "local_id": 43,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "설득",
+      "hanja": "說(말씀 설) 得(얻을 득)",
+      "description": "상대가 자신의 생각을 받아들이도록 말하거나 쓰는 것",
+      "examples": [
+        "나는 동생을 설득해 함께 방을 정리했다.",
+        "친구를 설득하려면 친절한 말과 알맞은 근거가 필요하다."
+      ],
+      "synonyms": [
+        "납득시키기"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "주장",
+        "근거",
+        "광고"
+      ],
+      "wrong_concepts": [
+        "설득을 억지로 시키는 것으로 생각하기 쉬움"
+      ],
+      "learning_tip": "설득은 상대가 스스로 이해하고 받아들이도록 돕는 거예요.",
+      "keywords": [
+        "설득",
+        "주장",
+        "근거",
+        "광고"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "설득은(는) 상대가 자신의 생각을 받아들이도록 말하거나 쓰는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'설득'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "상대가 자신의 생각을 받아들이도록 말하거나 쓰는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 44,
+      "local_id": 44,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "광고",
+      "hanja": "廣(넓을 광) 告(알릴 고)",
+      "description": "사람들에게 알리거나 권하는 글이나 매체",
+      "examples": [
+        "새로 나온 책을 소개하는 광고를 만들었다.",
+        "광고에는 사람들의 관심을 끄는 문구가 들어간다."
+      ],
+      "synonyms": [
+        "홍보",
+        "알림"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "설득",
+        "매체",
+        "소개"
+      ],
+      "wrong_concepts": [
+        "광고를 무조건 사실이라고 믿기 쉬움"
+      ],
+      "learning_tip": "광고는 알리거나 권하려는 목적이 있으므로 내용을 잘 판단해야 해요.",
+      "keywords": [
+        "광고",
+        "설득",
+        "매체",
+        "소개"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "광고은(는) 사람들에게 알리거나 권하는 글이나 매체",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'광고'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "사람들에게 알리거나 권하는 글이나 매체",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 45,
+      "local_id": 45,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "소개",
+      "hanja": "紹(이을 소) 介(끼일 개)",
+      "description": "대상에 대해 다른 사람에게 알려 주는 것",
+      "examples": [
+        "나는 우리 동네 도서관을 친구들에게 소개했다.",
+        "좋아하는 책의 줄거리와 장점을 소개해 보았다."
+      ],
+      "synonyms": [
+        "알림",
+        "안내"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "대상",
+        "설명",
+        "발표"
+      ],
+      "wrong_concepts": [
+        "소개와 설명을 혼동하기 쉬움"
+      ],
+      "learning_tip": "소개는 대상을 알리는 데 초점이 있고, 설명은 알기 쉽게 풀이하는 데 초점이 있어요.",
+      "keywords": [
+        "소개",
+        "대상",
+        "설명",
+        "발표"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "소개은(는) 대상에 대해 다른 사람에게 알려 주는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'소개'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "대상에 대해 다른 사람에게 알려 주는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 46,
+      "local_id": 46,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "비교",
+      "hanja": "比(견줄 비) 較(견줄 교)",
+      "description": "서로 같은 점과 다른 점을 살피는 것",
+      "examples": [
+        "두 이야기의 인물과 배경을 비교했다.",
+        "플라스틱 병과 보온병의 장단점을 비교해 보았다."
+      ],
+      "synonyms": [
+        "견주기"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "공통점",
+        "차이점",
+        "분류"
+      ],
+      "wrong_concepts": [
+        "비교를 다른 점만 찾는 것으로 생각하기 쉬움"
+      ],
+      "learning_tip": "비교는 같은 점과 다른 점을 모두 살피는 거예요.",
+      "keywords": [
+        "비교",
+        "공통점",
+        "차이점",
+        "분류"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "비교은(는) 서로 같은 점과 다른 점을 살피는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'비교'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 같은 점과 다른 점을 살피는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 47,
+      "local_id": 47,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "공통점",
+      "hanja": "共(함께 공) 通(통할 통) 點(점 점)",
+      "description": "서로 같은 점",
+      "examples": [
+        "두 인물의 공통점은 친구를 소중히 여긴다는 것이다.",
+        "강아지와 고양이의 공통점을 찾아 표에 정리했다."
+      ],
+      "synonyms": [
+        "같은 점"
+      ],
+      "antonyms": [
+        "차이점"
+      ],
+      "proverb": null,
+      "related_words": [
+        "비교",
+        "특징",
+        "같음"
+      ],
+      "wrong_concepts": [
+        "공통점과 차이점을 반대로 쓰기 쉬움"
+      ],
+      "learning_tip": "공통점은 서로 같은 점이에요.",
+      "keywords": [
+        "공통점",
+        "비교",
+        "특징",
+        "같음"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "공통점은(는) 서로 같은 점",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'공통점'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 같은 점",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 48,
+      "local_id": 48,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "차이점",
+      "hanja": "差(다를 차) 異(다를 이) 點(점 점)",
+      "description": "서로 다른 점",
+      "examples": [
+        "두 글의 차이점을 찾아 발표했다.",
+        "종이책과 전자책의 차이점을 비교해 보았다."
+      ],
+      "synonyms": [
+        "다른 점"
+      ],
+      "antonyms": [
+        "공통점"
+      ],
+      "proverb": null,
+      "related_words": [
+        "비교",
+        "특징",
+        "다름"
+      ],
+      "wrong_concepts": [
+        "차이점을 장단점과 무조건 같다고 생각하기 쉬움"
+      ],
+      "learning_tip": "차이점은 단순히 다른 점이고, 장단점은 좋은 점과 아쉬운 점이에요.",
+      "keywords": [
+        "차이점",
+        "비교",
+        "특징",
+        "다름"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "차이점은(는) 서로 다른 점",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'차이점'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 다른 점",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 49,
+      "local_id": 49,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "요점",
+      "hanja": "要(중요할 요) 點(점 점)",
+      "description": "가장 중요한 내용",
+      "examples": [
+        "발표를 들으며 요점을 공책에 적었다.",
+        "긴 설명에서 요점만 골라 말해 보았다."
+      ],
+      "synonyms": [
+        "핵심",
+        "중요한 점"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "중심 내용",
+        "핵심",
+        "요약"
+      ],
+      "wrong_concepts": [
+        "요점과 전체 내용을 혼동하기 쉬움"
+      ],
+      "learning_tip": "요점은 전체 중 가장 중요한 부분이에요.",
+      "keywords": [
+        "요점",
+        "중심 내용",
+        "핵심",
+        "요약"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "요점은(는) 가장 중요한 내용",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'요점'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "가장 중요한 내용",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 50,
+      "local_id": 50,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "목적",
+      "hanja": "目(눈 목) 的(과녁 적)",
+      "description": "이루려고 하는 것",
+      "examples": [
+        "이 글의 목적은 안전한 등굣길을 알리는 것이다.",
+        "발표 목적에 맞게 자료를 준비했다."
+      ],
+      "synonyms": [
+        "목표",
+        "의도"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "글의 목적",
+        "의도",
+        "대상"
+      ],
+      "wrong_concepts": [
+        "목적과 제목을 혼동하기 쉬움"
+      ],
+      "learning_tip": "목적은 글이나 말로 이루려는 것이에요.",
+      "keywords": [
+        "목적",
+        "글의 목적",
+        "의도",
+        "대상"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "목적은(는) 이루려고 하는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'목적'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "이루려고 하는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 51,
+      "local_id": 51,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "내용",
+      "hanja": "內(안 내) 容(담을 용)",
+      "description": "글이나 말에 담긴 뜻",
+      "examples": [
+        "글의 내용을 떠올리며 질문에 답했다.",
+        "친구의 말 내용을 잘 듣고 알맞게 대답했다."
+      ],
+      "synonyms": [
+        "뜻",
+        "정보"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "글",
+        "말",
+        "이해"
+      ],
+      "wrong_concepts": [
+        "내용을 제목만 보고 다 안다고 생각하기 쉬움"
+      ],
+      "learning_tip": "내용은 글이나 말 속에 실제로 담긴 뜻이에요.",
+      "keywords": [
+        "내용",
+        "글",
+        "말",
+        "이해"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "내용은(는) 글이나 말에 담긴 뜻",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'내용'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "글이나 말에 담긴 뜻",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 52,
+      "local_id": 52,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "단락",
+      "hanja": "段(구분 단) 落(떨어질 락)",
+      "description": "하나의 중심 생각을 담은 글의 부분",
+      "examples": [
+        "새로운 생각이 시작되어 단락을 바꾸었다.",
+        "각 단락의 중심 문장을 찾아보았다."
+      ],
+      "synonyms": [
+        "문단"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "문단",
+        "중심 생각",
+        "글"
+      ],
+      "wrong_concepts": [
+        "단락과 문장을 혼동하기 쉬움"
+      ],
+      "learning_tip": "단락은 문단과 비슷한 말로, 여러 문장이 모인 글의 부분이에요.",
+      "keywords": [
+        "단락",
+        "문단",
+        "중심 생각",
+        "글"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "단락은(는) 하나의 중심 생각을 담은 글의 부분",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'단락'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "하나의 중심 생각을 담은 글의 부분",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 53,
+      "local_id": 53,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "인용",
+      "hanja": "引(끌 인) 用(쓸 용)",
+      "description": "다른 사람의 말이나 글을 가져와 쓰는 것",
+      "examples": [
+        "책에서 찾은 문장을 인용할 때에는 출처를 밝혔다.",
+        "발표문에 전문가의 말을 인용해 근거를 보탰다."
+      ],
+      "synonyms": [
+        "따옴",
+        "끌어 씀"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "출처",
+        "자료",
+        "글쓰기"
+      ],
+      "wrong_concepts": [
+        "인용할 때 출처를 쓰지 않아도 된다고 생각하기 쉬움"
+      ],
+      "learning_tip": "인용할 때에는 어디에서 가져왔는지 밝히는 것이 좋아요.",
+      "keywords": [
+        "인용",
+        "출처",
+        "자료",
+        "글쓰기"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "인용은(는) 다른 사람의 말이나 글을 가져와 쓰는 것",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'인용'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "다른 사람의 말이나 글을 가져와 쓰는 것",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 54,
+      "local_id": 54,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "속담",
+      "hanja": "俗(풍속 속) 談(말씀 담)",
+      "description": "오랫동안 전해 내려온 짧은 말",
+      "examples": [
+        "‘가는 말이 고와야 오는 말이 곱다’라는 속담을 배웠다.",
+        "상황에 어울리는 속담을 사용하니 뜻이 더 잘 전달되었다."
+      ],
+      "synonyms": [
+        "옛말",
+        "격언"
+      ],
+      "antonyms": [],
+      "proverb": "낮말은 새가 듣고 밤말은 쥐가 듣는다: 말을 조심해야 한다는 뜻이다.",
+      "related_words": [
+        "관용 표현",
+        "교훈",
+        "표현"
+      ],
+      "wrong_concepts": [
+        "속담을 실제 뜻 그대로만 이해하기 쉬움"
+      ],
+      "learning_tip": "속담은 겉뜻보다 담긴 뜻을 생각해야 해요.",
+      "keywords": [
+        "속담",
+        "관용 표현",
+        "교훈",
+        "표현"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "속담은(는) 오랫동안 전해 내려온 짧은 말",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'속담'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오랫동안 전해 내려온 짧은 말",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 55,
+      "local_id": 55,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "관용 표현",
+      "hanja": "慣(익숙할 관) 用(쓸 용) 表(겉 표) 現(나타날 현)",
+      "description": "낱말들이 모여 특별한 뜻으로 쓰이는 표현",
+      "examples": [
+        "‘손이 크다’는 관용 표현은 씀씀이가 넉넉하다는 뜻이다.",
+        "관용 표현을 알면 글의 뜻을 더 재미있게 이해할 수 있다."
+      ],
+      "synonyms": [
+        "익은말",
+        "숙어"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "속담",
+        "문맥",
+        "표현"
+      ],
+      "wrong_concepts": [
+        "관용 표현을 낱말 뜻 그대로 해석하기 쉬움"
+      ],
+      "learning_tip": "관용 표현은 문맥 속에서 특별한 뜻으로 이해해야 해요.",
+      "keywords": [
+        "관용 표현",
+        "속담",
+        "문맥",
+        "표현"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "관용 표현은(는) 낱말들이 모여 특별한 뜻으로 쓰이는 표현",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'관용 표현'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "낱말들이 모여 특별한 뜻으로 쓰이는 표현",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 56,
+      "local_id": 56,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "비유",
+      "hanja": "比(견줄 비) 喩(깨우칠 유)",
+      "description": "다른 것에 빗대어 표현하는 방법",
+      "examples": [
+        "동생의 웃음을 햇살에 비유해 표현했다.",
+        "비유를 사용하면 글이 더 생생해진다."
+      ],
+      "synonyms": [
+        "빗대기"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "표현",
+        "시",
+        "상상"
+      ],
+      "wrong_concepts": [
+        "비유를 거짓말로 생각하기 쉬움"
+      ],
+      "learning_tip": "비유는 대상을 더 잘 느끼게 하려고 빗대어 표현하는 방법이에요.",
+      "keywords": [
+        "비유",
+        "표현",
+        "시",
+        "상상"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "비유은(는) 다른 것에 빗대어 표현하는 방법",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'비유'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "다른 것에 빗대어 표현하는 방법",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 57,
+      "local_id": 57,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "의성어",
+      "hanja": "擬(흉내낼 의) 聲(소리 성) 語(말씀 어)",
+      "description": "소리를 흉내 낸 말",
+      "examples": [
+        "‘멍멍’은 강아지 소리를 나타내는 의성어이다.",
+        "동시에 의성어를 넣으니 장면이 더 실감 났다."
+      ],
+      "synonyms": [
+        "소리 흉내말"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "의태어",
+        "소리",
+        "표현"
+      ],
+      "wrong_concepts": [
+        "의성어와 의태어를 혼동하기 쉬움"
+      ],
+      "learning_tip": "의성어는 소리, 의태어는 모양이나 움직임을 흉내 낸 말이에요.",
+      "keywords": [
+        "의성어",
+        "의태어",
+        "소리",
+        "표현"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "의성어은(는) 소리를 흉내 낸 말",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'의성어'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "소리를 흉내 낸 말",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 58,
+      "local_id": 58,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "의태어",
+      "hanja": "擬(흉내낼 의) 態(모양 태) 語(말씀 어)",
+      "description": "모양이나 움직임을 흉내 낸 말",
+      "examples": [
+        "‘살금살금’은 움직임을 나타내는 의태어이다.",
+        "의태어를 넣어 고양이의 움직임을 생생하게 표현했다."
+      ],
+      "synonyms": [
+        "모양 흉내말"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "의성어",
+        "움직임",
+        "표현"
+      ],
+      "wrong_concepts": [
+        "의태어와 의성어를 혼동하기 쉬움"
+      ],
+      "learning_tip": "의태어는 모양이나 움직임을 흉내 낸 말이에요.",
+      "keywords": [
+        "의태어",
+        "의성어",
+        "움직임",
+        "표현"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "의태어은(는) 모양이나 움직임을 흉내 낸 말",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'의태어'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "모양이나 움직임을 흉내 낸 말",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 59,
+      "local_id": 59,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "시",
+      "hanja": "詩(시 시)",
+      "description": "생각이나 느낌을 짧고 리듬 있게 표현한 글",
+      "examples": [
+        "봄비를 주제로 짧은 시를 썼다.",
+        "시를 읽으며 반복되는 말의 느낌을 살펴보았다."
+      ],
+      "synonyms": [
+        "운문"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "동시",
+        "운율",
+        "감상"
+      ],
+      "wrong_concepts": [
+        "시는 반드시 어려운 말로 써야 한다고 생각하기 쉬움"
+      ],
+      "learning_tip": "시는 짧은 말로도 생각과 느낌을 잘 표현할 수 있어요.",
+      "keywords": [
+        "시",
+        "동시",
+        "운율",
+        "감상"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "시은(는) 생각이나 느낌을 짧고 리듬 있게 표현한 글",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'시'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "생각이나 느낌을 짧고 리듬 있게 표현한 글",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    },
+    {
+      "id": 60,
+      "local_id": 60,
+      "grade": 3,
+      "subject": "국어",
+      "semester": 2,
+      "unit": "2학기 국어 핵심",
+      "term": "동시",
+      "hanja": "童(아이 동) 詩(시 시)",
+      "description": "어린이의 생활이나 마음을 담아 쓴 시",
+      "examples": [
+        "친구와 놀았던 일을 떠올리며 동시를 썼다.",
+        "동시에는 어린이의 마음이 잘 드러난다."
+      ],
+      "synonyms": [
+        "어린이 시"
+      ],
+      "antonyms": [],
+      "proverb": null,
+      "related_words": [
+        "시",
+        "운율",
+        "표현"
+      ],
+      "wrong_concepts": [
+        "동시와 동화를 혼동하기 쉬움"
+      ],
+      "learning_tip": "동시는 시이고, 동화는 이야기 형식의 글이에요.",
+      "keywords": [
+        "동시",
+        "시",
+        "운율",
+        "표현"
+      ],
+      "difficulty": 2,
+      "quiz": {
+        "ox": {
+          "question": "동시은(는) 어린이의 생활이나 마음을 담아 쓴 시",
+          "answer": true
+        },
+        "multiple": {
+          "question": "'동시'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어린이의 생활이나 마음을 담아 쓴 시",
+            "글의 이름만을 뜻하는 말",
+            "상대에게 명령하는 말",
+            "아무 뜻 없이 반복되는 소리"
+          ],
+          "answer": 1
+        }
+      }
+    }
+  ]
+}

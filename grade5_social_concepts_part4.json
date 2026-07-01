@@ -1,0 +1,359 @@
+{
+  "subject": "사회",
+  "grade": 5,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 4,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g5_soc_061",
+      "term": "민주주의",
+      "hanja": {
+        "word": "民主主義",
+        "breakdown": "백성 민, 주인 주, 주인 주, 옳을 의"
+      },
+      "meaning": "국민이 나라의 주인이 되어 정치에 참여하는 제도와 생각",
+      "easy_explanation": "국민이 의견을 내고 대표를 뽑아 나라의 일을 결정하는 방식이에요.",
+      "example_sentence": "민주주의 사회에서는 국민의 참여와 책임이 중요합니다.",
+      "related_terms": [
+        "국민",
+        "선거",
+        "대표",
+        "권리"
+      ]
+    },
+    {
+      "id": "g5_soc_062",
+      "term": "국민",
+      "hanja": {
+        "word": "國民",
+        "breakdown": "나라 국, 백성 민"
+      },
+      "meaning": "한 나라에 속한 사람",
+      "easy_explanation": "우리나라의 구성원으로 권리와 의무를 가진 사람들이에요.",
+      "example_sentence": "국민은 선거를 통해 정치에 참여할 수 있습니다.",
+      "related_terms": [
+        "민주주의",
+        "권리",
+        "의무",
+        "주권"
+      ]
+    },
+    {
+      "id": "g5_soc_063",
+      "term": "주권",
+      "hanja": {
+        "word": "主權",
+        "breakdown": "주인 주, 권세 권"
+      },
+      "meaning": "나라의 중요한 일을 스스로 결정할 수 있는 최고 권한",
+      "easy_explanation": "나라의 주인이 누구인지, 나라 일을 결정할 힘을 말해요.",
+      "example_sentence": "민주주의 국가에서는 주권이 국민에게 있습니다.",
+      "related_terms": [
+        "국민",
+        "민주주의",
+        "국가",
+        "정치"
+      ]
+    },
+    {
+      "id": "g5_soc_064",
+      "term": "선거",
+      "hanja": {
+        "word": "選擧",
+        "breakdown": "가릴 선, 들 거"
+      },
+      "meaning": "여러 후보 중 대표나 일꾼을 투표로 뽑는 일",
+      "easy_explanation": "사람들이 표를 던져 대표를 고르는 일이에요.",
+      "example_sentence": "선거를 통해 학급 회장을 뽑았습니다.",
+      "related_terms": [
+        "투표",
+        "후보",
+        "대표",
+        "민주주의"
+      ]
+    },
+    {
+      "id": "g5_soc_065",
+      "term": "투표",
+      "hanja": {
+        "word": "投票",
+        "breakdown": "던질 투, 표 표"
+      },
+      "meaning": "선거에서 자신의 의견이나 선택을 표로 나타내는 일",
+      "easy_explanation": "내가 원하는 후보나 의견을 선택해 표시하는 일이에요.",
+      "example_sentence": "학생들은 투표로 학급 규칙을 정했습니다.",
+      "related_terms": [
+        "선거",
+        "의견",
+        "후보",
+        "다수결"
+      ]
+    },
+    {
+      "id": "g5_soc_066",
+      "term": "대표",
+      "hanja": {
+        "word": "代表",
+        "breakdown": "대신할 대, 겉 표"
+      },
+      "meaning": "여러 사람을 대신하여 의견을 전하거나 일을 맡는 사람",
+      "easy_explanation": "친구들의 의견을 모아 대신 말하고 행동하는 사람이에요.",
+      "example_sentence": "학급 대표는 친구들의 의견을 모아 회의에서 발표했습니다.",
+      "related_terms": [
+        "선거",
+        "의견",
+        "책임",
+        "민주주의"
+      ]
+    },
+    {
+      "id": "g5_soc_067",
+      "term": "다수결",
+      "hanja": {
+        "word": "多數決",
+        "breakdown": "많을 다, 셈 수, 결정할 결"
+      },
+      "meaning": "더 많은 사람이 선택한 의견을 따르는 결정 방법",
+      "easy_explanation": "여러 의견 중 가장 많은 표를 받은 쪽으로 정하는 방법이에요.",
+      "example_sentence": "학급 회의에서 다수결로 체험학습 장소를 정했습니다.",
+      "related_terms": [
+        "투표",
+        "의견",
+        "민주주의",
+        "소수 의견"
+      ]
+    },
+    {
+      "id": "g5_soc_068",
+      "term": "소수 의견",
+      "hanja": {
+        "word": "少數意見",
+        "breakdown": "적을 소, 셈 수, 뜻 의, 볼 견"
+      },
+      "meaning": "적은 수의 사람들이 가진 의견",
+      "easy_explanation": "많은 사람이 선택하지 않았지만 존중해야 하는 의견이에요.",
+      "example_sentence": "다수결로 결정하더라도 소수 의견을 존중해야 합니다.",
+      "related_terms": [
+        "다수결",
+        "의견",
+        "존중",
+        "민주주의"
+      ]
+    },
+    {
+      "id": "g5_soc_069",
+      "term": "권리",
+      "hanja": {
+        "word": "權利",
+        "breakdown": "권세 권, 이로울 리"
+      },
+      "meaning": "사람으로서 누리거나 주장할 수 있는 정당한 힘",
+      "easy_explanation": "내가 사람답게 살기 위해 보장받아야 하는 것이에요.",
+      "example_sentence": "학생에게는 안전하게 배울 권리가 있습니다.",
+      "related_terms": [
+        "의무",
+        "인권",
+        "국민",
+        "헌법"
+      ]
+    },
+    {
+      "id": "g5_soc_070",
+      "term": "의무",
+      "hanja": {
+        "word": "義務",
+        "breakdown": "옳을 의, 힘쓸 무"
+      },
+      "meaning": "마땅히 해야 할 일",
+      "easy_explanation": "공동체의 구성원으로서 책임지고 해야 하는 일이에요.",
+      "example_sentence": "권리가 있는 만큼 지켜야 할 의무도 있습니다.",
+      "related_terms": [
+        "권리",
+        "책임",
+        "국민",
+        "공동체"
+      ]
+    },
+    {
+      "id": "g5_soc_071",
+      "term": "인권",
+      "hanja": {
+        "word": "人權",
+        "breakdown": "사람 인, 권세 권"
+      },
+      "meaning": "모든 사람이 태어나면서부터 가지는 기본적인 권리",
+      "easy_explanation": "누구나 소중한 사람으로 존중받아야 하는 권리예요.",
+      "example_sentence": "인권은 나이, 성별, 장애, 국적과 관계없이 존중되어야 합니다.",
+      "related_terms": [
+        "권리",
+        "존중",
+        "평등",
+        "차별"
+      ]
+    },
+    {
+      "id": "g5_soc_072",
+      "term": "헌법",
+      "hanja": {
+        "word": "憲法",
+        "breakdown": "법 헌, 법 법"
+      },
+      "meaning": "국가의 기본 원리와 국민의 권리, 의무를 정한 가장 높은 법",
+      "easy_explanation": "나라의 기본 규칙을 담은 가장 중요한 법이에요.",
+      "example_sentence": "헌법에는 국민의 기본권과 의무가 담겨 있습니다.",
+      "related_terms": [
+        "법",
+        "권리",
+        "의무",
+        "국가"
+      ]
+    },
+    {
+      "id": "g5_soc_073",
+      "term": "경제",
+      "hanja": {
+        "word": "經濟",
+        "breakdown": "지날 경, 건널 제"
+      },
+      "meaning": "사람들이 물건과 서비스를 만들고 사고파는 활동",
+      "easy_explanation": "돈, 물건, 일, 소비와 관련된 생활 활동이에요.",
+      "example_sentence": "가정과 기업, 정부는 경제 활동에 참여합니다.",
+      "related_terms": [
+        "생산",
+        "소비",
+        "시장",
+        "기업"
+      ]
+    },
+    {
+      "id": "g5_soc_074",
+      "term": "생산",
+      "hanja": {
+        "word": "生産",
+        "breakdown": "날 생, 낳을 산"
+      },
+      "meaning": "생활에 필요한 물건이나 서비스를 만들어 내는 일",
+      "easy_explanation": "사람들이 필요한 물건을 만들거나 도움을 제공하는 활동이에요.",
+      "example_sentence": "농부는 쌀과 채소를 생산합니다.",
+      "related_terms": [
+        "소비",
+        "경제",
+        "기업",
+        "산업"
+      ]
+    },
+    {
+      "id": "g5_soc_075",
+      "term": "소비",
+      "hanja": {
+        "word": "消費",
+        "breakdown": "사라질 소, 쓸 비"
+      },
+      "meaning": "필요한 물건이나 서비스를 사서 사용하는 일",
+      "easy_explanation": "돈을 내고 물건을 사거나 서비스를 이용하는 활동이에요.",
+      "example_sentence": "우리는 필요한 물건을 계획적으로 소비해야 합니다.",
+      "related_terms": [
+        "생산",
+        "경제",
+        "소득",
+        "시장"
+      ]
+    },
+    {
+      "id": "g5_soc_076",
+      "term": "시장",
+      "hanja": {
+        "word": "市場",
+        "breakdown": "저자 시, 마당 장"
+      },
+      "meaning": "물건이나 서비스가 사고팔리는 곳 또는 관계",
+      "easy_explanation": "사람들이 필요한 것을 사고파는 장소나 과정을 말해요.",
+      "example_sentence": "전통시장에서는 여러 가지 물건을 살 수 있습니다.",
+      "related_terms": [
+        "경제",
+        "생산",
+        "소비",
+        "가격"
+      ]
+    },
+    {
+      "id": "g5_soc_077",
+      "term": "가격",
+      "hanja": {
+        "word": "價格",
+        "breakdown": "값 가, 격식 격"
+      },
+      "meaning": "물건이나 서비스의 값을 돈으로 나타낸 것",
+      "easy_explanation": "물건을 사기 위해 내야 하는 돈의 양이에요.",
+      "example_sentence": "물건의 가격은 수요와 공급에 따라 달라질 수 있습니다.",
+      "related_terms": [
+        "시장",
+        "경제",
+        "소비",
+        "수요"
+      ]
+    },
+    {
+      "id": "g5_soc_078",
+      "term": "무역",
+      "hanja": {
+        "word": "貿易",
+        "breakdown": "무역할 무, 바꿀 역"
+      },
+      "meaning": "나라와 나라 사이에 물건이나 서비스를 사고파는 일",
+      "easy_explanation": "다른 나라와 필요한 물건을 주고받는 경제 활동이에요.",
+      "example_sentence": "우리나라는 여러 나라와 무역을 하며 필요한 자원을 얻습니다.",
+      "related_terms": [
+        "수출",
+        "수입",
+        "세계",
+        "경제"
+      ]
+    },
+    {
+      "id": "g5_soc_079",
+      "term": "수출",
+      "hanja": {
+        "word": "輸出",
+        "breakdown": "나를 수, 날 출"
+      },
+      "meaning": "우리나라의 물건이나 서비스를 다른 나라에 파는 일",
+      "easy_explanation": "우리나라에서 만든 것을 외국에 파는 일이에요.",
+      "example_sentence": "자동차와 반도체는 우리나라의 대표적인 수출품입니다.",
+      "related_terms": [
+        "무역",
+        "수입",
+        "경제",
+        "상품"
+      ]
+    },
+    {
+      "id": "g5_soc_080",
+      "term": "수입",
+      "hanja": {
+        "word": "輸入",
+        "breakdown": "나를 수, 들 입"
+      },
+      "meaning": "다른 나라의 물건이나 서비스를 우리나라에 사 오는 일",
+      "easy_explanation": "외국에서 만든 물건을 우리나라로 들여오는 일이에요.",
+      "example_sentence": "우리나라는 석유와 천연가스 같은 자원을 수입합니다.",
+      "related_terms": [
+        "무역",
+        "수출",
+        "경제",
+        "자원"
+      ]
+    }
+  ]
+}

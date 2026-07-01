@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" role="img" aria-label="Study cards">
+  <rect width="220" height="150" rx="18" fill="#edf5ff"/>
+  <rect x="45" y="43" width="76" height="74" rx="10" fill="#fffdf8" stroke="#151515" stroke-width="6" transform="rotate(-7 83 80)"/>
+  <rect x="99" y="31" width="78" height="86" rx="10" fill="#ffffff" stroke="#151515" stroke-width="6" transform="rotate(7 138 74)"/>
+  <path d="M69 70h29M68 91h34M123 62h30M121 84h38" stroke="#2d91c6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="145" cy="104" r="13" fill="#fff04a" stroke="#151515" stroke-width="5"/>
+  <path d="M64 31l-8-12M82 27l2-14M98 33l11-10" stroke="#20b977" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,342 @@
+{
+  "subject": "과학",
+  "grade": 4,
+  "total_count": 80,
+  "created_at": "2026-07-01",
+  "quality": "high",
+  "structure": {
+    "id": "고유 번호",
+    "term": "개념어",
+    "hanja": "한자어인 경우 한자와 음훈 풀이, 순우리말/외래어는 null",
+    "meaning": "교과 개념 정의",
+    "easy_explanation": "초등학생용 쉬운 설명",
+    "example_sentence": "예문",
+    "related_terms": "관련 개념어 목록"
+  },
+  "part": 4,
+  "count": 20,
+  "concepts": [
+    {
+      "id": "g4_sci_061",
+      "term": "전기",
+      "hanja": {
+        "word": "電氣",
+        "breakdown": "번개 전, 기운 기"
+      },
+      "meaning": "전하의 작용으로 나타나는 에너지의 한 형태",
+      "easy_explanation": "전구를 켜고 기계를 움직이게 하는 에너지예요.",
+      "example_sentence": "전기는 우리 생활에서 편리하게 이용됩니다.",
+      "related_terms": [
+        "전류",
+        "전지",
+        "전기 회로",
+        "전구"
+      ]
+    },
+    {
+      "id": "g4_sci_062",
+      "term": "전기 회로",
+      "hanja": {
+        "word": "電氣回路",
+        "breakdown": "번개 전, 기운 기, 돌아올 회, 길 로"
+      },
+      "meaning": "전류가 흐를 수 있도록 전기 부품을 연결한 길",
+      "easy_explanation": "전지, 전선, 전구, 스위치를 이어 전기가 흐르게 만든 길이에요.",
+      "example_sentence": "전기 회로가 끊어지면 전구에 불이 켜지지 않습니다.",
+      "related_terms": [
+        "전류",
+        "전지",
+        "전구",
+        "스위치"
+      ]
+    },
+    {
+      "id": "g4_sci_063",
+      "term": "전류",
+      "hanja": {
+        "word": "電流",
+        "breakdown": "번개 전, 흐를 류"
+      },
+      "meaning": "전기가 회로를 따라 흐르는 것",
+      "easy_explanation": "전선 속을 전기가 흐르는 현상이에요.",
+      "example_sentence": "스위치를 닫으면 전류가 흘러 전구가 켜집니다.",
+      "related_terms": [
+        "전기",
+        "전기 회로",
+        "도체",
+        "전선"
+      ]
+    },
+    {
+      "id": "g4_sci_064",
+      "term": "전지",
+      "hanja": {
+        "word": "電池",
+        "breakdown": "번개 전, 못 지"
+      },
+      "meaning": "전기 회로에 전류가 흐르도록 전기를 공급하는 장치",
+      "easy_explanation": "장난감이나 손전등에 전기를 넣어 주는 물건이에요.",
+      "example_sentence": "전지의 양쪽 끝을 바르게 연결해야 전구가 켜집니다.",
+      "related_terms": [
+        "전기",
+        "전류",
+        "전기 회로",
+        "전구"
+      ]
+    },
+    {
+      "id": "g4_sci_065",
+      "term": "전구",
+      "hanja": {
+        "word": "電球",
+        "breakdown": "번개 전, 공 구"
+      },
+      "meaning": "전류가 흐르면 빛을 내는 전기 부품",
+      "easy_explanation": "전기가 흐를 때 불이 켜지는 작은 조명 장치예요.",
+      "example_sentence": "전구의 밝기를 비교하며 전기 회로를 관찰했습니다.",
+      "related_terms": [
+        "전류",
+        "전기 회로",
+        "빛",
+        "전지"
+      ]
+    },
+    {
+      "id": "g4_sci_066",
+      "term": "스위치",
+      "hanja": null,
+      "meaning": "전기 회로를 연결하거나 끊어 전류의 흐름을 조절하는 장치",
+      "easy_explanation": "전등을 켜고 끄는 단추처럼 전기의 길을 열고 닫는 장치예요.",
+      "example_sentence": "스위치를 열면 전구가 꺼집니다.",
+      "related_terms": [
+        "전기 회로",
+        "전류",
+        "전구",
+        "전선"
+      ]
+    },
+    {
+      "id": "g4_sci_067",
+      "term": "도체",
+      "hanja": {
+        "word": "導體",
+        "breakdown": "이끌 도, 몸 체"
+      },
+      "meaning": "전류가 잘 흐르는 물질",
+      "easy_explanation": "금속처럼 전기가 잘 통하는 물질이에요.",
+      "example_sentence": "구리선은 전류가 잘 흐르는 도체입니다.",
+      "related_terms": [
+        "부도체",
+        "전류",
+        "금속",
+        "전기"
+      ]
+    },
+    {
+      "id": "g4_sci_068",
+      "term": "부도체",
+      "hanja": {
+        "word": "不導體",
+        "breakdown": "아닐 부, 이끌 도, 몸 체"
+      },
+      "meaning": "전류가 잘 흐르지 않는 물질",
+      "easy_explanation": "고무나 플라스틱처럼 전기가 잘 통하지 않는 물질이에요.",
+      "example_sentence": "전선의 겉은 부도체로 감싸져 있어 안전합니다.",
+      "related_terms": [
+        "도체",
+        "전류",
+        "전기 안전",
+        "플라스틱"
+      ]
+    },
+    {
+      "id": "g4_sci_069",
+      "term": "자석",
+      "hanja": {
+        "word": "磁石",
+        "breakdown": "자석 자, 돌 석"
+      },
+      "meaning": "철로 된 물체를 끌어당기고 N극과 S극을 가진 물체",
+      "easy_explanation": "철 클립을 끌어당기는 힘을 가진 물체예요.",
+      "example_sentence": "자석은 철로 된 물체를 끌어당깁니다.",
+      "related_terms": [
+        "자기력",
+        "극",
+        "나침반",
+        "철"
+      ]
+    },
+    {
+      "id": "g4_sci_070",
+      "term": "자기력",
+      "hanja": {
+        "word": "磁氣力",
+        "breakdown": "자석 자, 기운 기, 힘 력"
+      },
+      "meaning": "자석이 철이나 다른 자석에 작용하는 힘",
+      "easy_explanation": "자석이 물체를 끌어당기거나 밀어내는 힘이에요.",
+      "example_sentence": "같은 극끼리는 자기력 때문에 서로 밀어냅니다.",
+      "related_terms": [
+        "자석",
+        "극",
+        "N극",
+        "S극"
+      ]
+    },
+    {
+      "id": "g4_sci_071",
+      "term": "극",
+      "hanja": {
+        "word": "極",
+        "breakdown": "다할 극"
+      },
+      "meaning": "자석에서 자기력이 가장 강한 부분",
+      "easy_explanation": "자석의 양쪽 끝부분으로 N극과 S극이 있어요.",
+      "example_sentence": "클립은 자석의 극 부분에 가장 많이 붙었습니다.",
+      "related_terms": [
+        "자석",
+        "자기력",
+        "N극",
+        "S극"
+      ]
+    },
+    {
+      "id": "g4_sci_072",
+      "term": "나침반",
+      "hanja": {
+        "word": "羅針盤",
+        "breakdown": "벌일 나, 바늘 침, 소반 반"
+      },
+      "meaning": "자석의 성질을 이용해 방향을 알려 주는 도구",
+      "easy_explanation": "바늘이 남북 방향을 가리켜 길을 찾게 도와주는 도구예요.",
+      "example_sentence": "나침반을 이용해 북쪽을 찾았습니다.",
+      "related_terms": [
+        "자석",
+        "방향",
+        "N극",
+        "자기력"
+      ]
+    },
+    {
+      "id": "g4_sci_073",
+      "term": "소리",
+      "hanja": null,
+      "meaning": "물체의 진동이 공기 등을 통해 귀에 전달되어 느껴지는 것",
+      "easy_explanation": "물체가 떨리면서 생겨 우리 귀로 들리는 것이에요.",
+      "example_sentence": "북을 치면 북면이 진동하여 소리가 납니다.",
+      "related_terms": [
+        "진동",
+        "높낮이",
+        "세기",
+        "전달"
+      ]
+    },
+    {
+      "id": "g4_sci_074",
+      "term": "진동",
+      "hanja": {
+        "word": "振動",
+        "breakdown": "떨칠 진, 움직일 동"
+      },
+      "meaning": "물체가 빠르게 떨리는 움직임",
+      "easy_explanation": "줄이나 북면이 떨리는 움직임이에요.",
+      "example_sentence": "소리는 물체가 진동할 때 생깁니다.",
+      "related_terms": [
+        "소리",
+        "높낮이",
+        "세기",
+        "악기"
+      ]
+    },
+    {
+      "id": "g4_sci_075",
+      "term": "소리의 높낮이",
+      "hanja": null,
+      "meaning": "소리가 높게 또는 낮게 들리는 정도",
+      "easy_explanation": "피리 소리가 높거나 북소리가 낮게 들리는 차이를 말해요.",
+      "example_sentence": "줄이 짧고 팽팽할수록 높은 소리가 날 수 있습니다.",
+      "related_terms": [
+        "소리",
+        "진동",
+        "소리의 세기",
+        "악기"
+      ]
+    },
+    {
+      "id": "g4_sci_076",
+      "term": "소리의 세기",
+      "hanja": null,
+      "meaning": "소리가 크게 또는 작게 들리는 정도",
+      "easy_explanation": "소리가 얼마나 큰지 작은지를 나타내요.",
+      "example_sentence": "북을 세게 치면 더 큰 소리가 납니다.",
+      "related_terms": [
+        "소리",
+        "진동",
+        "높낮이",
+        "악기"
+      ]
+    },
+    {
+      "id": "g4_sci_077",
+      "term": "빛",
+      "hanja": null,
+      "meaning": "물체를 볼 수 있게 해 주는 에너지",
+      "easy_explanation": "눈으로 물체를 볼 수 있게 해 주는 것이에요.",
+      "example_sentence": "빛이 없으면 물체를 보기 어렵습니다.",
+      "related_terms": [
+        "반사",
+        "그림자",
+        "거울",
+        "빛의 직진"
+      ]
+    },
+    {
+      "id": "g4_sci_078",
+      "term": "반사",
+      "hanja": {
+        "word": "反射",
+        "breakdown": "돌이킬 반, 쏠 사"
+      },
+      "meaning": "빛이 물체의 표면에 부딪쳐 되돌아 나오는 현상",
+      "easy_explanation": "거울에 빛이 닿으면 튕겨 나오는 것처럼 빛이 되돌아오는 일이에요.",
+      "example_sentence": "거울은 빛을 잘 반사합니다.",
+      "related_terms": [
+        "빛",
+        "거울",
+        "반사각",
+        "입사각"
+      ]
+    },
+    {
+      "id": "g4_sci_079",
+      "term": "그림자",
+      "hanja": null,
+      "meaning": "빛이 물체에 가려져 생기는 어두운 부분",
+      "easy_explanation": "빛이 물체를 지나가지 못해서 뒤쪽에 생기는 어두운 모양이에요.",
+      "example_sentence": "손전등 앞에 물체를 놓으면 뒤쪽에 그림자가 생깁니다.",
+      "related_terms": [
+        "빛",
+        "물체",
+        "빛의 직진",
+        "태양"
+      ]
+    },
+    {
+      "id": "g4_sci_080",
+      "term": "실험",
+      "hanja": {
+        "word": "實驗",
+        "breakdown": "열매 실, 시험할 험"
+      },
+      "meaning": "과학적인 문제를 알아보기 위해 조건을 정하고 관찰하거나 측정하는 활동",
+      "easy_explanation": "궁금한 것을 알아보려고 준비물과 방법을 정해 직접 해 보는 활동이에요.",
+      "example_sentence": "전구의 밝기를 비교하는 실험을 했습니다.",
+      "related_terms": [
+        "관찰",
+        "측정",
+        "변인",
+        "탐구"
+      ]
+    }
+  ]
+}
