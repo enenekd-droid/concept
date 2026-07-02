@@ -644,8 +644,16 @@ function renderTestResult() {
   const score = state.answers.filter((item) => item.correct).length;
   const feedback = testFeedback(score, state.testKind);
   const isFinal = state.testKind === "final";
+  const fireworks = Array.from({ length: 18 }, (_, index) => {
+    const left = 8 + ((index * 17) % 84);
+    const top = 8 + ((index * 23) % 48);
+    const hue = (index * 47) % 360;
+    const delay = (index % 6) * 0.12;
+    return `<span class="firework" style="--x:${left}%; --y:${top}%; --hue:${hue}; --delay:${delay}s"></span>`;
+  }).join("");
   renderShell(`
-    <section class="result-window ${feedback.className || "stage-sprout"}">
+    <section class="result-window ${feedback.className || "stage-sprout"} ${isFinal ? "final-celebration" : ""}">
+      ${isFinal ? `<div class="fireworks" aria-hidden="true">${fireworks}</div>` : ""}
       <div class="window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
       <div class="result-window-body">
         ${feedback.icon ? `<div class="stage-icon" aria-hidden="true">${feedback.icon}</div>` : ""}
@@ -717,6 +725,7 @@ function renderStudy() {
             `).join("")}
           </div>
           <button class="btn playground-shortcut" id="studyPlayground" type="button">🛝 개념어 놀이터</button>
+          <button class="btn final-test-shortcut" id="studyFinalTest" type="button">💯 마지막 테스트</button>
         </div>
       </div>
       <div class="concept-note">
@@ -770,6 +779,7 @@ function renderStudy() {
     button.addEventListener("click", () => startStudy(Number(button.dataset.stage)));
   });
   document.querySelector("#studyPlayground").addEventListener("click", openPlayground);
+  document.querySelector("#studyFinalTest").addEventListener("click", () => startTest("final"));
   document.querySelector("#prevConcept").addEventListener("click", () => {
     state.studyIndex = Math.max(0, state.studyIndex - 1);
     render();
@@ -945,7 +955,10 @@ function renderStageComplete() {
         <div class="actions result-actions">
           ${hasNext
             ? `<button class="btn mint" id="nextStage" type="button">${state.studyStage + 2}단계로 가기</button>`
-            : `<button class="btn mint" id="playground" type="button">개념어 놀이터 열기</button>`}
+            : `
+              <button class="btn mint" id="finalTest" type="button">💯 마지막 테스트</button>
+              <button class="btn playground-shortcut" id="playground" type="button">🛝 개념어 놀이터 열기</button>
+            `}
           <button class="btn secondary" id="reviewStage" type="button">이번 단계 다시 보기</button>
           <button class="btn secondary" id="dashboard" type="button">처음 선택</button>
         </div>
@@ -955,6 +968,7 @@ function renderStageComplete() {
   if (hasNext) {
     document.querySelector("#nextStage").addEventListener("click", () => startStudy(state.studyStage + 1));
   } else {
+    document.querySelector("#finalTest").addEventListener("click", () => startTest("final"));
     document.querySelector("#playground").addEventListener("click", openPlayground);
   }
   document.querySelector("#reviewStage").addEventListener("click", () => startStudy(state.studyStage));

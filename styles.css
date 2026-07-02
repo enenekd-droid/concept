@@ -910,6 +910,17 @@ button {
   box-shadow: 3px 4px 0 rgba(255, 190, 48, 0.55);
 }
 
+.final-test-shortcut {
+  min-height: 44px;
+  padding-inline: 14px;
+  border-color: #ff7a00;
+  background: linear-gradient(180deg, #fff8c7 0%, #ffd56a 100%);
+  color: #744000;
+  white-space: nowrap;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 3px 4px 0 rgba(255, 122, 0, 0.28);
+}
+
 .stage-tab {
   width: 44px;
   height: 44px;
@@ -1161,10 +1172,13 @@ button {
   background: var(--panel);
   box-shadow: var(--shadow);
   text-align: center;
+  position: relative;
 }
 
 .result-window-body {
   padding: clamp(24px, 5vw, 46px);
+  position: relative;
+  z-index: 1;
 }
 
 .result-window h2 {
@@ -1235,6 +1249,75 @@ button {
   color: var(--ink);
   font-size: 18px;
   box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.fireworks {
+  position: absolute;
+  inset: 42px 0 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.firework {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: hsl(var(--hue), 90%, 58%);
+  box-shadow:
+    0 -22px 0 hsl(var(--hue), 90%, 58%),
+    16px -16px 0 hsl(calc(var(--hue) + 40), 90%, 62%),
+    22px 0 0 hsl(calc(var(--hue) + 80), 90%, 56%),
+    16px 16px 0 hsl(calc(var(--hue) + 120), 90%, 60%),
+    0 22px 0 hsl(calc(var(--hue) + 160), 90%, 58%),
+    -16px 16px 0 hsl(calc(var(--hue) + 200), 90%, 62%),
+    -22px 0 0 hsl(calc(var(--hue) + 240), 90%, 56%),
+    -16px -16px 0 hsl(calc(var(--hue) + 280), 90%, 60%);
+  opacity: 0;
+  transform: scale(0.2);
+  animation: fireworkPop 1.35s ease-out var(--delay) 2 both;
+}
+
+.final-celebration .stage-icon,
+.final-celebration .score-line strong {
+  animation: celebrationBounce 0.75s ease-out both;
+}
+
+@keyframes fireworkPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.15);
+  }
+
+  18% {
+    opacity: 1;
+  }
+
+  72% {
+    opacity: 0.85;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.45);
+  }
+}
+
+@keyframes celebrationBounce {
+  0% {
+    transform: scale(0.86);
+  }
+
+  55% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .stage-sprout .window-bar {
