@@ -73,7 +73,25 @@ const state = {
   current: 0,
   answers: [],
   missed: [],
+  game: {
+    type: "",
+    items: [],
+    cards: [],
+    selected: [],
+    matched: [],
+    message: "",
+    current: 0,
+    score: 0,
+    total: 0,
+    timeLeft: 5,
+    timeouts: 0,
+    exploding: false,
+    questions: [],
+  },
 };
+
+let oxSpeedTimerId = null;
+let oxSpeedExplosionTimerId = null;
 
 function escapeHtml(value = "") {
   return String(value)
@@ -222,6 +240,159 @@ function startTest(kind) {
   render();
 }
 
+function resetGame() {
+  clearOxSpeedTimer();
+  clearOxSpeedExplosionTimer();
+  state.game = {
+    type: "",
+    items: [],
+    cards: [],
+    selected: [],
+    matched: [],
+    message: "",
+    current: 0,
+    score: 0,
+    total: 0,
+    timeLeft: 5,
+    timeouts: 0,
+    exploding: false,
+    questions: [],
+  };
+}
+
+function clearOxSpeedTimer() {
+  if (!oxSpeedTimerId) return;
+  clearInterval(oxSpeedTimerId);
+  oxSpeedTimerId = null;
+}
+
+function clearOxSpeedExplosionTimer() {
+  if (!oxSpeedExplosionTimerId) return;
+  clearTimeout(oxSpeedExplosionTimerId);
+  oxSpeedExplosionTimerId = null;
+}
+
+function updateOxSpeedTimerDisplay() {
+  const timer = document.querySelector("#oxSpeedTimer");
+  if (timer) timer.textContent = state.game.timeLeft;
+  const fuse = document.querySelector("#oxFuse");
+  if (fuse) fuse.style.width = `${Math.max(0, state.game.timeLeft / 5) * 100}%`;
+  const bombTimer = document.querySelector("#oxBombTimer");
+  if (bombTimer) bombTimer.classList.toggle("exploded", state.game.exploding);
+}
+
+function startOxSpeedTimer() {
+  clearOxSpeedTimer();
+  clearOxSpeedExplosionTimer();
+  state.game.timeLeft = 5;
+  state.game.exploding = false;
+  updateOxSpeedTimerDisplay();
+  oxSpeedTimerId = setInterval(() => {
+    state.game.timeLeft = Math.max(0, state.game.timeLeft - 1);
+    updateOxSpeedTimerDisplay();
+    if (state.game.timeLeft === 0) {
+      triggerOxSpeedTimeout();
+    }
+  }, 1000);
+}
+
+function triggerOxSpeedTimeout() {
+  clearOxSpeedTimer();
+  state.game.exploding = true;
+  state.game.timeouts += 1;
+  updateOxSpeedTimerDisplay();
+  document.querySelectorAll(".speed-answer").forEach((button) => {
+    button.disabled = true;
+  });
+  oxSpeedExplosionTimerId = setTimeout(() => {
+    oxSpeedExplosionTimerId = null;
+    answerOxSpeed(null, true);
+  }, 650);
+}
+
+function openPlayground() {
+  resetGame();
+  setMode("playground");
+}
+
+function startMatchGame() {
+  const items = shuffle(getPool()).slice(0, 6);
+  const cards = shuffle(items.flatMap((item) => [
+    { id: `${item.id}-term`, pairId: item.id, kind: "term", text: item.term },
+    { id: `${item.id}-definition`, pairId: item.id, kind: "definition", text: item.definition },
+  ]));
+  state.game = {
+    ...state.game,
+    type: "match",
+    items,
+    cards,
+    selected: [],
+    matched: [],
+    message: "",
+  };
+  setMode("matchGame");
+}
+
+function selectMatchCard(cardId) {
+  const game = state.game;
+  const card = game.cards.find((item) => item.id === cardId);
+  if (!card || game.matched.includes(card.pairId)) return;
+  if (game.selected.length === 2) {
+    game.selected = [];
+    game.message = "";
+  }
+  if (game.selected.includes(cardId)) return;
+
+  game.selected = [...game.selected, cardId];
+  if (game.selected.length === 2) {
+    const selectedCards = game.selected.map((id) => game.cards.find((item) => item.id === id));
+    const isMatch = selectedCards[0]?.pairId === selectedCards[1]?.pairId;
+    if (isMatch) {
+      game.matched = [...game.matched, selectedCards[0].pairId];
+      game.selected = [];
+      game.message = "짝을 찾았어요!";
+    } else {
+      game.message = "조금 달라요. 다시 골라 봐요.";
+    }
+  }
+  render();
+}
+
+function startOxSpeedGame() {
+  clearOxSpeedTimer();
+  clearOxSpeedExplosionTimer();
+  const source = getPool();
+  const questions = shuffle(source).slice(0, 10).map((concept, index) => makeOxQuestion(concept, index, source));
+  state.game = {
+    ...state.game,
+    type: "oxSpeed",
+    questions,
+    current: 0,
+    score: 0,
+    total: questions.length,
+    timeLeft: 5,
+    timeouts: 0,
+    exploding: false,
+    message: "",
+  };
+  setMode("oxSpeedGame");
+}
+
+function answerOxSpeed(answer, timedOut = false) {
+  clearOxSpeedTimer();
+  clearOxSpeedExplosionTimer();
+  const current = state.game.questions[state.game.current];
+  if (!current) return;
+  state.game.exploding = false;
+  if (answer === current.quizAnswer) state.game.score += 1;
+  if (state.game.current < state.game.questions.length - 1) {
+    state.game.current += 1;
+    render();
+    return;
+  }
+  setMode("gameResult");
+}
+
 function answerTest(answer) {
   const current = state.quiz[state.current];
   const correct = answer === current.quizAnswer;
@@ -270,6 +441,10 @@ function testFeedback(score, kind) {
 }
 
 function setMode(mode) {
+  if (mode !== "oxSpeedGame") {
+    clearOxSpeedTimer();
+    clearOxSpeedExplosionTimer();
+  }
   state.mode = mode;
   render();
 }
@@ -533,12 +708,15 @@ function renderStudy() {
           <h2>${state.studyStage + 1}단계 개념어 학습</h2>
           <p>${state.studyIndex + 1}/${stageItems.length} · ${escapeHtml(current.unit)}</p>
         </div>
-        <div class="stage-tabs" aria-label="단계 이동">
-          ${Array.from({ length: 4 }, (_, index) => `
-            <button class="stage-tab ${index === state.studyStage ? "active" : ""}" data-stage="${index}" ${stages[index]?.length ? "" : "disabled"} type="button">
-              ${index + 1}
-            </button>
-          `).join("")}
+        <div class="study-header-actions">
+          <div class="stage-tabs" aria-label="단계 이동">
+            ${Array.from({ length: 4 }, (_, index) => `
+              <button class="stage-tab ${index === state.studyStage ? "active" : ""}" data-stage="${index}" ${stages[index]?.length ? "" : "disabled"} type="button">
+                ${index + 1}
+              </button>
+            `).join("")}
+          </div>
+          <button class="btn playground-shortcut" id="studyPlayground" type="button">개념어 놀이터</button>
         </div>
       </div>
       <div class="concept-note">
@@ -591,6 +769,7 @@ function renderStudy() {
   document.querySelectorAll(".stage-tab").forEach((button) => {
     button.addEventListener("click", () => startStudy(Number(button.dataset.stage)));
   });
+  document.querySelector("#studyPlayground").addEventListener("click", openPlayground);
   document.querySelector("#prevConcept").addEventListener("click", () => {
     state.studyIndex = Math.max(0, state.studyIndex - 1);
     render();
@@ -604,6 +783,142 @@ function renderStudy() {
     setMode("stageComplete");
   });
   document.querySelector("#dashboard").addEventListener("click", () => setMode("dashboard"));
+}
+
+function renderPlayground() {
+  renderShell(`
+    <section class="panel choice-panel playground-panel">
+      <h2>개념어 놀이터</h2>
+      <p>4단계까지 익힌 개념어를 게임으로 한 번 더 만나 봐요. 게임을 끝낸 뒤 마지막 확인 테스트로 갈 수 있어요.</p>
+      <div class="learning-choice-grid playground-grid">
+        <button class="grade-card learning-choice-card mint" id="matchGame" type="button">
+          <div class="game-icon" aria-hidden="true">짝</div>
+          <strong>카드 매칭</strong>
+          <span>개념어와 뜻을 짝지어요</span>
+        </button>
+        <button class="grade-card learning-choice-card blue" id="oxSpeedGame" type="button">
+          <div class="game-icon" aria-hidden="true">OX</div>
+          <strong>OX 스피드</strong>
+          <span>빠르게 맞고 틀림을 골라요</span>
+        </button>
+      </div>
+      <div class="actions result-actions">
+        <button class="btn mint" id="finalTest" type="button">마지막 확인 테스트</button>
+        <button class="btn secondary" id="reviewStage" type="button">4단계 다시 보기</button>
+      </div>
+    </section>
+  `);
+  document.querySelector("#matchGame").addEventListener("click", startMatchGame);
+  document.querySelector("#oxSpeedGame").addEventListener("click", startOxSpeedGame);
+  document.querySelector("#finalTest").addEventListener("click", () => startTest("final"));
+  document.querySelector("#reviewStage").addEventListener("click", () => startStudy(3));
+}
+
+function renderMatchGame() {
+  const game = state.game;
+  const done = game.matched.length === game.items.length;
+  renderShell(`
+    <section class="panel game-panel">
+      <div class="study-header">
+        <div>
+          <h2>카드 매칭</h2>
+          <p>${game.matched.length}/${game.items.length}쌍 완료</p>
+        </div>
+        <button class="btn secondary" id="playground" type="button">놀이터로</button>
+      </div>
+      <div class="match-grid">
+        ${game.cards.map((card) => {
+          const isMatched = game.matched.includes(card.pairId);
+          const isSelected = game.selected.includes(card.id);
+          return `
+            <button class="match-card ${card.kind} ${isSelected ? "selected" : ""} ${isMatched ? "matched" : ""}" data-card="${escapeHtml(card.id)}" ${isMatched ? "disabled" : ""} type="button">
+              <span>${card.kind === "term" ? "개념어" : "뜻"}</span>
+              <strong>${escapeHtml(card.text)}</strong>
+            </button>
+          `;
+        }).join("")}
+      </div>
+      <div class="game-message ${done ? "complete" : ""}">
+        ${done ? "모든 짝을 찾았어요!" : escapeHtml(game.message || "개념어 카드와 뜻 카드를 하나씩 골라 보세요.")}
+      </div>
+      <div class="actions result-actions">
+        ${done ? `<button class="btn mint" id="finalTest" type="button">마지막 확인 테스트</button>` : ""}
+        <button class="btn secondary" id="retryGame" type="button">다시 섞기</button>
+      </div>
+    </section>
+  `);
+  document.querySelectorAll(".match-card").forEach((button) => {
+    button.addEventListener("click", () => selectMatchCard(button.dataset.card));
+  });
+  document.querySelector("#playground").addEventListener("click", openPlayground);
+  document.querySelector("#retryGame").addEventListener("click", startMatchGame);
+  document.querySelector("#finalTest")?.addEventListener("click", () => startTest("final"));
+}
+
+function renderOxSpeedGame() {
+  const game = state.game;
+  const current = game.questions[game.current];
+  if (!current) {
+    openPlayground();
+    return;
+  }
+  renderShell(`
+    <section class="question ox-speed-panel">
+      <div class="meta">OX 스피드 · ${game.current + 1}/${game.total}</div>
+      <div class="speed-status">
+        <div class="speed-timer-card" id="oxBombTimer">
+          <div class="bomb-wrap" aria-hidden="true">
+            <div class="bomb-spark"></div>
+            <div class="bomb-fuse"></div>
+            <div class="bomb-body"></div>
+          </div>
+          <div class="fuse-track" aria-hidden="true"><span id="oxFuse" style="width: ${Math.max(0, game.timeLeft / 5) * 100}%"></span></div>
+          <div class="timer-number">남은 시간 <strong id="oxSpeedTimer">${game.timeLeft}</strong><span>초</span></div>
+        </div>
+        <div class="speed-score">현재 점수 <strong>${game.score}</strong></div>
+      </div>
+      <h2>${escapeHtml(current.quizQuestion)}</h2>
+      <div class="answer-grid">
+        <button class="answer speed-answer" data-answer="true" type="button">O 맞아요</button>
+        <button class="answer speed-answer" data-answer="false" type="button">X 아니에요</button>
+      </div>
+      <div class="actions study-actions">
+        <button class="btn secondary" id="playground" type="button">놀이터로</button>
+      </div>
+    </section>
+  `);
+  document.querySelectorAll(".speed-answer").forEach((button) => {
+    button.addEventListener("click", () => answerOxSpeed(button.dataset.answer === "true"));
+  });
+  document.querySelector("#playground").addEventListener("click", openPlayground);
+  startOxSpeedTimer();
+}
+
+function renderGameResult() {
+  const score = state.game.score;
+  const total = state.game.total;
+  const timeouts = state.game.timeouts;
+  renderShell(`
+    <section class="result-window stage-fruit">
+      <div class="window-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="result-window-body">
+        <div class="stage-icon" aria-hidden="true">OX</div>
+        <h2>OX 스피드 완료</h2>
+        <div class="score-line"><strong>${score}</strong><span>/${total}개 정답</span></div>
+        ${timeouts ? `<p class="result-line">시간 안에 풀지 못한 문제: ${timeouts}개</p>` : ""}
+        <div class="stage-badge">${score >= 8 ? "빠르고 정확해요!" : "한 번 더 하면 더 좋아져요!"}</div>
+        <p>게임으로 개념어를 다시 확인했어요. 이제 마지막 확인 테스트로 실력을 점검해 볼 수 있어요.</p>
+        <div class="actions result-actions">
+          <button class="btn mint" id="finalTest" type="button">마지막 확인 테스트</button>
+          <button class="btn secondary" id="retryGame" type="button">OX 스피드 다시</button>
+          <button class="btn secondary" id="playground" type="button">놀이터로</button>
+        </div>
+      </div>
+    </section>
+  `);
+  document.querySelector("#finalTest").addEventListener("click", () => startTest("final"));
+  document.querySelector("#retryGame").addEventListener("click", startOxSpeedGame);
+  document.querySelector("#playground").addEventListener("click", openPlayground);
 }
 
 function renderStageComplete() {
@@ -622,7 +937,7 @@ function renderStageComplete() {
         <div class="actions result-actions">
           ${hasNext
             ? `<button class="btn mint" id="nextStage" type="button">${state.studyStage + 2}단계로 가기</button>`
-            : `<button class="btn mint" id="finalTest" type="button">마지막 확인 테스트</button>`}
+            : `<button class="btn mint" id="playground" type="button">개념어 놀이터 열기</button>`}
           <button class="btn secondary" id="reviewStage" type="button">이번 단계 다시 보기</button>
           <button class="btn secondary" id="dashboard" type="button">처음 선택</button>
         </div>
@@ -632,7 +947,7 @@ function renderStageComplete() {
   if (hasNext) {
     document.querySelector("#nextStage").addEventListener("click", () => startStudy(state.studyStage + 1));
   } else {
-    document.querySelector("#finalTest").addEventListener("click", () => startTest("final"));
+    document.querySelector("#playground").addEventListener("click", openPlayground);
   }
   document.querySelector("#reviewStage").addEventListener("click", () => startStudy(state.studyStage));
   document.querySelector("#dashboard").addEventListener("click", () => setMode("dashboard"));
@@ -663,6 +978,10 @@ function render() {
   if (state.mode === "testResult") renderTestResult();
   if (state.mode === "study") renderStudy();
   if (state.mode === "stageComplete") renderStageComplete();
+  if (state.mode === "playground") renderPlayground();
+  if (state.mode === "matchGame") renderMatchGame();
+  if (state.mode === "oxSpeedGame") renderOxSpeedGame();
+  if (state.mode === "gameResult") renderGameResult();
 }
 
 async function boot() {
