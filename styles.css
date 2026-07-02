@@ -527,9 +527,10 @@ button {
 
 .match-card {
   min-height: 132px;
-  padding: 12px;
+  padding: 0;
   border: 3px solid var(--line);
   border-radius: 8px;
+  perspective: 900px;
   background: #fffdf8;
   color: var(--ink);
   box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.12);
@@ -544,12 +545,57 @@ button {
   background: #f0edff;
 }
 
-.match-card span,
-.match-card strong {
+.match-card-inner {
+  min-height: 126px;
+  display: block;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.62s cubic-bezier(.2, .78, .24, 1);
+}
+
+.match-card-face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  padding: 12px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.match-card-front {
+  background: #fffdf8;
+}
+
+.match-card.term .match-card-front {
+  background: #fff3c9;
+}
+
+.match-card.definition .match-card-front {
+  background: #f0edff;
+}
+
+.match-card-back {
+  gap: 4px;
+  background: #fff04a;
+  transform: rotateY(180deg);
+}
+
+.match-card-back img {
+  width: min(74px, 70%);
+  aspect-ratio: 1;
   display: block;
 }
 
-.match-card span {
+.match-card-back span {
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.match-card-label {
+  display: block;
   margin-bottom: 8px;
   color: var(--muted);
   font-size: 14px;
@@ -575,9 +621,13 @@ button {
 
 .match-card.matched {
   border-color: var(--mint-dark);
-  background: #dff7c9;
+  background: #fff04a;
   color: #24483b;
   cursor: default;
+}
+
+.match-card.matched .match-card-inner {
+  transform: rotateY(180deg);
 }
 
 .game-message {
@@ -852,9 +902,12 @@ button {
 .playground-shortcut {
   min-height: 44px;
   padding-inline: 14px;
-  background: #fff04a;
-  color: var(--ink);
+  border-color: #2d91c6;
+  background: linear-gradient(180deg, #e6fbff 0%, #9eeaff 100%);
+  color: #124c70;
   white-space: nowrap;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.65);
+  box-shadow: 3px 4px 0 rgba(255, 190, 48, 0.55);
 }
 
 .stage-tab {

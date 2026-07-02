@@ -716,7 +716,7 @@ function renderStudy() {
               </button>
             `).join("")}
           </div>
-          <button class="btn playground-shortcut" id="studyPlayground" type="button">개념어 놀이터</button>
+          <button class="btn playground-shortcut" id="studyPlayground" type="button">🛝 개념어 놀이터</button>
         </div>
       </div>
       <div class="concept-note">
@@ -832,8 +832,16 @@ function renderMatchGame() {
           const isSelected = game.selected.includes(card.id);
           return `
             <button class="match-card ${card.kind} ${isSelected ? "selected" : ""} ${isMatched ? "matched" : ""}" data-card="${escapeHtml(card.id)}" ${isMatched ? "disabled" : ""} type="button">
-              <span>${card.kind === "term" ? "개념어" : "뜻"}</span>
-              <strong>${escapeHtml(card.text)}</strong>
+              <span class="match-card-inner">
+                <span class="match-card-face match-card-front">
+                  <span class="match-card-label">${card.kind === "term" ? "개념어" : "뜻"}</span>
+                  <strong>${escapeHtml(card.text)}</strong>
+                </span>
+                <span class="match-card-face match-card-back">
+                  <img src="assets/match-card-character.svg" alt="" aria-hidden="true" />
+                  <span>짝 찾기 성공!</span>
+                </span>
+              </span>
             </button>
           `;
         }).join("")}
